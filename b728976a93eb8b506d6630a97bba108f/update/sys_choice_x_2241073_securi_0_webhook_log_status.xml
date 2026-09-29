@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true" field="status" table="x_2241073_securi_0_webhook_log" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>e4aa6d0063064e0d91a73e164ee72423</sys_id>
+      <element>status</element>
+      <sys_update_name>sys_choice_x_2241073_securi_0_webhook_log_status</sys_update_name>
+      <name>x_2241073_securi_0_webhook_log</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+      <sys_package display_value="x_2241073_securi_0" source="b728976a93eb8b506d6630a97bba108f">b728976a93eb8b506d6630a97bba108f</sys_package>
+      <sys_name>status</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>1aa6d2748c2d402abfb57ab20605a4ab</sys_id>
+      <name>x_2241073_securi_0_webhook_log</name>
+      <element>status</element>
+      <label>Success</label>
+      <value>success</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>fb16e54ff376437898728a9f498a2f4f</sys_id>
+      <name>x_2241073_securi_0_webhook_log</name>
+      <element>status</element>
+      <label>Failure</label>
+      <value>failure</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>58eab525881047c58d385b1a5614eb7a</sys_id>
+      <name>x_2241073_securi_0_webhook_log</name>
+      <element>status</element>
+      <label>Pending</label>
+      <value>pending</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>

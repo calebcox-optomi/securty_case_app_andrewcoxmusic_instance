@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_list parent="" relationship="" sys_domain="global" table="x_2241073_securi_0_webhook_log" view="">
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>b58c6384b92b44d399772fdc78e0fad8</sys_id>
+      <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">98b45eff321e44a48da10d7f7b420656</list_id>
+      <element>case_id</element>
+      <position>0</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>d269fd7da55d4edbbb04b8715823af7d</sys_id>
+      <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">98b45eff321e44a48da10d7f7b420656</list_id>
+      <element>direction</element>
+      <position>1</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>5b7dfe89956b4d0d958efbd384050fef</sys_id>
+      <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">98b45eff321e44a48da10d7f7b420656</list_id>
+      <element>http_method</element>
+      <position>2</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>34bd29fa1ec441eaae79110bdaeb7202</sys_id>
+      <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">98b45eff321e44a48da10d7f7b420656</list_id>
+      <element>http_status</element>
+      <position>3</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>dc9e9412d11d4679b2f69fa846151ecf</sys_id>
+      <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">98b45eff321e44a48da10d7f7b420656</list_id>
+      <element>status</element>
+      <position>4</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>b8678c9f403945faa2df7c08dc491a3b</sys_id>
+      <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">98b45eff321e44a48da10d7f7b420656</list_id>
+      <element>sent_at</element>
+      <position>5</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>42ce8e984692445ca81f9fa4cfa39f60</sys_id>
+      <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">98b45eff321e44a48da10d7f7b420656</list_id>
+      <element>duration_ms</element>
+      <position>6</position>
+    </sys_ui_list_element>
+    <sys_ui_list action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>98b45eff321e44a48da10d7f7b420656</sys_id>
+      <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+      <view name="NULL">Default view</view>
+      <name>x_2241073_securi_0_webhook_log</name>
+      <sys_domain>global</sys_domain>
+    </sys_ui_list>
+  </sys_ui_list>
+</record_update>

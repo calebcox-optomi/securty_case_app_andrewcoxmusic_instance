@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+  <sys_ui_policy_action action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>220ed63f5f6342929c0c1534caed25d6</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_ui_policy_action_220ed63f5f6342929c0c1534caed25d6</sys_update_name>
+    <cleared>false</cleared>
+    <disabled>ignore</disabled>
+    <field>lessons_learned</field>
+    <field_message/>
+    <field_message_type>none</field_message_type>
+    <mandatory>true</mandatory>
+    <table>x_2241073_securi_0_sec_case</table>
+    <ui_policy short_description="Require Root Cause and Lessons Learned when closing" table="x_2241073_securi_0_sec_case">c21175284d2743dbb1daa13824781a16</ui_policy>
+    <value/>
+    <value_action>ignore</value_action>
+    <visible>ignore</visible>
+  </sys_ui_policy_action>
+</record_update>

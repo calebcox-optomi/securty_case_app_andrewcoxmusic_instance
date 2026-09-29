@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+  <sys_atf_test action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>5cb1d9f4bad5430ab32418d20e4a72ca</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_test_5cb1d9f4bad5430ab32418d20e4a72ca</sys_update_name>
+    <active>true</active>
+    <description>Inserts a Security Case with default state (New=1) and validates active is true. The Set Active Flag business rule sets active=true for states not in 6,7,8.</description>
+    <fail_on_server_error>true</fail_on_server_error>
+    <name>Active Flag Set on Insert</name>
+  </sys_atf_test>
+</record_update>

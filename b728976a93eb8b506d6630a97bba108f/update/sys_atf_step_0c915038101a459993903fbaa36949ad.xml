@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>0c915038101a459993903fbaa36949ad</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Record Validation</display_name>
+    <notes/>
+    <order>3</order>
+    <step_config>1f39a288df60220062fe6c7a4df2639d</step_config>
+    <table>x_2241073_securi_0_sec_case</table>
+    <test>e06266db1b1a4d819bd7674c05a08b89</test>
+    <timeout>1970-01-01 00:00:05</timeout>
+    <warning_message/>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_step_0c915038101a459993903fbaa36949ad</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=0c915038101a459993903fbaa36949ad"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>08fb30ed79434946a77d947e49532858</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>0c915038101a459993903fbaa36949ad</document_key>
+    <value>{{step['d779e58e3f234a09b0e79087b4e48c4c'].record_id}}</value>
+    <variable>52ed1e5b5360220002c6435723dc3421</variable>
+    <order>200</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_08fb30ed79434946a77d947e49532858</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>0d0cf3fc763b43fea14db6e3cec35ef5</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>0c915038101a459993903fbaa36949ad</document_key>
+    <value>record_validated</value>
+    <variable>67400008676003007ba405225685efa4</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_0d0cf3fc763b43fea14db6e3cec35ef5</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>4bbdc0c3a8974cc78d126a252e7008d5</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>0c915038101a459993903fbaa36949ad</document_key>
+    <value>x_2241073_securi_0_sec_case</value>
+    <variable>6aad5a575360220002c6435723dc34b0</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_4bbdc0c3a8974cc78d126a252e7008d5</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>4b9b1543a7dc4d9a9624cc6d817b67b5</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>0c915038101a459993903fbaa36949ad</document_key>
+    <value>1</value>
+    <variable>cbddfa135320220002c6435723dc3415</variable>
+    <order>10</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_4b9b1543a7dc4d9a9624cc6d817b67b5</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>923af6d1cd0a4158a582de1a85f0efdd</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>0c915038101a459993903fbaa36949ad</document_key>
+    <value>case_type=Employee Report</value>
+    <variable>ff6e125353a0220002c6435723dc3442</variable>
+    <order>300</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_923af6d1cd0a4158a582de1a85f0efdd</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="delete_multiple" query="id=0c915038101a459993903fbaa36949ad"/>
+  <sys_element_mapping action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>fd8a7ace67274340910f2971fdaeaf1f</sys_id>
+    <field>record_id</field>
+    <id>0c915038101a459993903fbaa36949ad</id>
+    <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+    <value>{{step['d779e58e3f234a09b0e79087b4e48c4c'].record_id}}</value>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_element_mapping_fd8a7ace67274340910f2971fdaeaf1f</sys_update_name>
+  </sys_element_mapping>
+</record_update>

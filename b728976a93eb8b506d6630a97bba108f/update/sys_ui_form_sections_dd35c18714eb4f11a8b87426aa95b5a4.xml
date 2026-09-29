@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="dd35c18714eb4f11a8b87426aa95b5a4" sys_domain="global" table="x_2241073_securi_0_sec_case">
+    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <position>0</position>
+      <sys_id>8d427ef2d92f4a66a699812c4bc80239</sys_id>
+      <sys_ui_form display_value="x_2241073_securi_0_sec_case" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">dd35c18714eb4f11a8b87426aa95b5a4</sys_ui_form>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <position>1</position>
+      <sys_id>e54a80b038bb4ea98c088371e8bf2eb3</sys_id>
+      <sys_ui_form display_value="x_2241073_securi_0_sec_case" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">dd35c18714eb4f11a8b87426aa95b5a4</sys_ui_form>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <position>2</position>
+      <sys_id>5274803ad70b49ae8f0c896c56cd0b46</sys_id>
+      <sys_ui_form display_value="x_2241073_securi_0_sec_case" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">dd35c18714eb4f11a8b87426aa95b5a4</sys_ui_form>
+      <sys_ui_section caption="Scope" display_value="Scope" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <position>3</position>
+      <sys_id>57327e13482645e69f8b79ea76f3a315</sys_id>
+      <sys_ui_form display_value="x_2241073_securi_0_sec_case" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">dd35c18714eb4f11a8b87426aa95b5a4</sys_ui_form>
+      <sys_ui_section caption="Investigation" display_value="Investigation" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">74a7b43e4929459a9d11f440cd8aabea</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <position>4</position>
+      <sys_id>a5cc4cc78a564b919e832b48adb59bb9</sys_id>
+      <sys_ui_form display_value="x_2241073_securi_0_sec_case" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">dd35c18714eb4f11a8b87426aa95b5a4</sys_ui_form>
+      <sys_ui_section caption="Resolution" display_value="Resolution" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">7ad86c7d18c34f4a99db1d9fba17f715</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <position>5</position>
+      <sys_id>49438effb8fd464fbec68c84fddbe170</sys_id>
+      <sys_ui_form display_value="x_2241073_securi_0_sec_case" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">dd35c18714eb4f11a8b87426aa95b5a4</sys_ui_form>
+      <sys_ui_section caption="Activity" display_value="Activity" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">53f26270d9644cb2a17b83ee35633997</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE" apply_defaults="true">
+      <name>x_2241073_securi_0_sec_case</name>
+      <roles/>
+      <sys_id>dd35c18714eb4f11a8b87426aa95b5a4</sys_id>
+      <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+      <sys_user/>
+      <view display_value="Default view" name="NULL">Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Overview" section_id="67bd2945e60246fd889e3be84795aff0" sys_domain="global" table="x_2241073_securi_0_sec_case" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>641881c8bc1943f49266b84392cc6c7a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>number</element>
+      <position>1</position>
+      <sys_id>3a43648f4cf1445c846651dd813901f6</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>state</element>
+      <position>2</position>
+      <sys_id>d244015f4d6e4ac8947971bf8cebcf35</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>severity</element>
+      <position>3</position>
+      <sys_id>951685323295498ba6bd814b55438278</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>category</element>
+      <position>4</position>
+      <sys_id>f5345a2ba3464994a5c250a1522f3006</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>subcategory</element>
+      <position>5</position>
+      <sys_id>dabe3d31f10d4510b9f14fa0a6605fea</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>case_type</element>
+      <position>6</position>
+      <sys_id>b09d488e96224cfbbb141d466e9d3aa3</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>7</position>
+      <sys_id>334b5500c28a4e2eb1863fd80486e352</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>opened_by</element>
+      <position>8</position>
+      <sys_id>39191309c51044fb95d026eaa452529e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>caller_id</element>
+      <position>9</position>
+      <sys_id>d34287258685457aa35abf14e1928f3a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>priority</element>
+      <position>10</position>
+      <sys_id>8c0ced94f4b6465d91b5d9b404df777b</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>assigned_to</element>
+      <position>11</position>
+      <sys_id>49820a83f59041638ecf0e1e7039479c</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>assignment_group</element>
+      <position>12</position>
+      <sys_id>532de357bf1f41af8b76e7e7c89a2684</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>case_source</element>
+      <position>13</position>
+      <sys_id>efe82f4b0dcf4b688050613e3a43dade</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>14</position>
+      <sys_id>8de9ea9fb3d24988973268a6e56f3989</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>short_description</element>
+      <position>15</position>
+      <sys_id>907d842d5e7b4ff3b3d6314d9168869a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>description</element>
+      <position>16</position>
+      <sys_id>7c36f00b8d384c66849bf29b84ac3ee8</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Overview" display_value="Overview" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">67bd2945e60246fd889e3be84795aff0</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <caption>Overview</caption>
+      <header>false</header>
+      <name>x_2241073_securi_0_sec_case</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>67bd2945e60246fd889e3be84795aff0</sys_id>
+      <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

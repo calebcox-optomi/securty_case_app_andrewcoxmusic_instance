@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+  <sys_number action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>fc34a537e3a74c7984e5016322c058d1</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_number_fc34a537e3a74c7984e5016322c058d1</sys_update_name>
+    <category>x_2241073_securi_0_sec_case</category>
+    <maximum_digits>7</maximum_digits>
+    <number>1000</number>
+    <prefix>CASE</prefix>
+  </sys_number>
+</record_update>

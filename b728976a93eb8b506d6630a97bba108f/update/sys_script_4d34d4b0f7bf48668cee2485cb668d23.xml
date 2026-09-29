@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script">
+  <sys_script action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>4d34d4b0f7bf48668cee2485cb668d23</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_script_4d34d4b0f7bf48668cee2485cb668d23</sys_update_name>
+    <abort_action>false</abort_action>
+    <access>package_private</access>
+    <action_delete>false</action_delete>
+    <action_insert>true</action_insert>
+    <action_query>false</action_query>
+    <action_update>false</action_update>
+    <active>true</active>
+    <add_message>false</add_message>
+    <advanced>true</advanced>
+    <change_fields>false</change_fields>
+    <client_callable>false</client_callable>
+    <collection>x_2241073_securi_0_sec_case</collection>
+    <condition/>
+    <description/>
+    <execute_function>false</execute_function>
+    <filter_condition/>
+    <is_rest>false</is_rest>
+    <message/>
+    <name>Set Torq Case Source</name>
+    <order>100</order>
+    <priority>100</priority>
+    <rest_method/>
+    <rest_method_text/>
+    <rest_service/>
+    <rest_service_text/>
+    <rest_variables/>
+    <role_conditions/>
+    <script><![CDATA[// BR8: Torq Case Source Auto-Set
+(function () {
+    if (gs.hasRole('x_2241073_securi_0.torq_integration')) {
+        current.setValue('case_source', 'torq');
+    }
+})();
+]]></script>
+    <sys_name>Set Torq Case Source</sys_name>
+    <sys_policy/>
+    <template/>
+    <when>before</when>
+  </sys_script>
+</record_update>

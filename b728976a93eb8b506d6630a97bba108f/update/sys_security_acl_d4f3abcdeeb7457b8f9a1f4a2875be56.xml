@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+  <sys_security_acl action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>d4f3abcdeeb7457b8f9a1f4a2875be56</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_security_acl_d4f3abcdeeb7457b8f9a1f4a2875be56</sys_update_name>
+    <active>true</active>
+    <admin_overrides>true</admin_overrides>
+    <advanced>true</advanced>
+    <applies_to/>
+    <condition/>
+    <decision_type>allow</decision_type>
+    <description/>
+    <name>x_2241073_securi_0_sec_case</name>
+    <operation display_value="read">read</operation>
+    <script><![CDATA[
+        var userId = gs.getUserID();
+        answer = (current.opened_by == userId || current.caller_id == userId);
+    ]]></script>
+    <security_attribute/>
+    <sys_name>x_2241073_securi_0_sec_case</sys_name>
+    <type>record</type>
+  </sys_security_acl>
+</record_update>

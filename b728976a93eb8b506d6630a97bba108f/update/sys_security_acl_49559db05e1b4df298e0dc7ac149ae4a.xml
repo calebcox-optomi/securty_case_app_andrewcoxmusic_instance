@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+  <sys_security_acl action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>49559db05e1b4df298e0dc7ac149ae4a</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_security_acl_49559db05e1b4df298e0dc7ac149ae4a</sys_update_name>
+    <active>true</active>
+    <admin_overrides>true</admin_overrides>
+    <advanced>true</advanced>
+    <applies_to/>
+    <condition/>
+    <decision_type>allow</decision_type>
+    <description/>
+    <name>x_2241073_securi_0_sec_case</name>
+    <operation display_value="write">write</operation>
+    <script><![CDATA[
+        var userId = gs.getUserID();
+        var ct = new GlideRecord('x_2241073_securi_0_case_team');
+        ct.addQuery('case_id', current.getUniqueValue());
+        ct.addQuery('user_id', userId);
+        ct.query();
+        answer = ct.hasNext();
+    ]]></script>
+    <security_attribute/>
+    <sys_name>x_2241073_securi_0_sec_case</sys_name>
+    <type>record</type>
+  </sys_security_acl>
+</record_update>

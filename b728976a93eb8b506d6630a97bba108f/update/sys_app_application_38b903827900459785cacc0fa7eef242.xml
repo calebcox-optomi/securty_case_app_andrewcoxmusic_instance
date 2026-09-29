@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_application">
+  <sys_app_application action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>38b903827900459785cacc0fa7eef242</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_app_application_38b903827900459785cacc0fa7eef242</sys_update_name>
+    <active>true</active>
+    <category/>
+    <description/>
+    <device_type>browser</device_type>
+    <hint>Security incident tracking and investigation</hint>
+    <name/>
+    <order>100</order>
+    <roles/>
+    <title>Security Case Management</title>
+  </sys_app_application>
+</record_update>

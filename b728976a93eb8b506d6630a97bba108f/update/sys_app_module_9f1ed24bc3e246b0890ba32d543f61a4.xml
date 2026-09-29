@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>9f1ed24bc3e246b0890ba32d543f61a4</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_app_module_9f1ed24bc3e246b0890ba32d543f61a4</sys_update_name>
+    <active>true</active>
+    <application>38b903827900459785cacc0fa7eef242</application>
+    <link_type>SEPARATOR</link_type>
+    <order>400</order>
+    <title>Related Tables</title>
+  </sys_app_module>
+</record_update>

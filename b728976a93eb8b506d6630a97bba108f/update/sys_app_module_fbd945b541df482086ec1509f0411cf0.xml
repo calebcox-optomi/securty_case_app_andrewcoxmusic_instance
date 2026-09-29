@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>fbd945b541df482086ec1509f0411cf0</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_app_module_fbd945b541df482086ec1509f0411cf0</sys_update_name>
+    <active>true</active>
+    <application>38b903827900459785cacc0fa7eef242</application>
+    <link_type>NEW</link_type>
+    <name>x_2241073_securi_0_sec_case</name>
+    <order>100</order>
+    <title>Create New Case</title>
+  </sys_app_module>
+</record_update>

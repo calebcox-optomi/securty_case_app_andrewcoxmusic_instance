@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script">
+  <sys_script action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>f282ecaaf54b49f4aa04b14a3737609f</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_script_f282ecaaf54b49f4aa04b14a3737609f</sys_update_name>
+    <abort_action>false</abort_action>
+    <access>package_private</access>
+    <action_delete>false</action_delete>
+    <action_insert>false</action_insert>
+    <action_query>false</action_query>
+    <action_update>true</action_update>
+    <active>true</active>
+    <add_message>false</add_message>
+    <advanced>true</advanced>
+    <change_fields>false</change_fields>
+    <client_callable>false</client_callable>
+    <collection>x_2241073_securi_0_sec_case</collection>
+    <condition/>
+    <description/>
+    <execute_function>false</execute_function>
+    <filter_condition/>
+    <is_rest>false</is_rest>
+    <message/>
+    <name>Manager Limited Write</name>
+    <order>300</order>
+    <priority>100</priority>
+    <rest_method/>
+    <rest_method_text/>
+    <rest_service/>
+    <rest_service_text/>
+    <rest_variables/>
+    <role_conditions/>
+    <script><![CDATA[// BR9: Manager Limited Write
+// Managers NOT working a case can only modify assigned_to, assignment_group, state.
+(function () {
+    // Only applies to users with manager role
+    if (!gs.hasRole('x_2241073_securi_0.manager')) return;
+    // Skip if user is admin
+    if (gs.hasRole('admin')) return;
+
+    // Check if manager is "working" the case
+    var userId = gs.getUserID();
+    if (current.getValue('assigned_to') == userId) return;
+    if (current.getValue('opened_by') == userId) return;
+
+    // Check assignment_group membership
+    var grpId = current.getValue('assignment_group');
+    if (grpId) {
+        var grp = new GlideRecord('sys_user_grmember');
+        grp.addQuery('group', grpId);
+        grp.addQuery('user', userId);
+        grp.query();
+        if (grp.hasNext()) return;
+    }
+
+    // Check Case Team membership
+    var ct = new GlideRecord('x_2241073_securi_0_case_team');
+    ct.addQuery('case_id', current.getUniqueValue());
+    ct.addQuery('user_id', userId);
+    ct.query();
+    if (ct.hasNext()) return;
+
+    // Manager is NOT working the case — revert changes to restricted fields
+    var restrictedFields = [
+        'category', 'subcategory', 'torq_incident_id', 'torq_incident_url',
+        'case_type', 'case_source', 'detection_source', 'severity',
+        'affected_systems', 'affected_users', 'investigation_summary',
+        'containment_actions', 'remediation_actions', 'root_cause',
+        'lessons_learned', 'caller_id', 'short_description', 'description', 'priority'
+    ];
+
+    for (var i = 0; i < restrictedFields.length; i++) {
+        var field = restrictedFields[i];
+        if (current.getValue(field) != previous.getValue(field)) {
+            current.setValue(field, previous.getValue(field));
+        }
+    }
+})();
+]]></script>
+    <sys_name>Manager Limited Write</sys_name>
+    <sys_policy/>
+    <template/>
+    <when>before</when>
+  </sys_script>
+</record_update>

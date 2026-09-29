@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>b76fa45dd97f4b2e8fde0deeeb76cd12</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_app_module_b76fa45dd97f4b2e8fde0deeeb76cd12</sys_update_name>
+    <active>true</active>
+    <application>38b903827900459785cacc0fa7eef242</application>
+    <filter>stateIN1,2,3,4</filter>
+    <link_type>FILTER</link_type>
+    <name>x_2241073_securi_0_sec_case</name>
+    <order>300</order>
+    <title>Open Cases</title>
+  </sys_app_module>
+</record_update>

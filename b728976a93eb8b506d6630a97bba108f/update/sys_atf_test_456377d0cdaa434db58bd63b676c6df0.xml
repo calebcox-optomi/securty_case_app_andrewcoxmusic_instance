@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+  <sys_atf_test action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>456377d0cdaa434db58bd63b676c6df0</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_test_456377d0cdaa434db58bd63b676c6df0</sys_update_name>
+    <active>true</active>
+    <description>Updates a Security Case to Resolved (state=6) and validates resolved_at and resolved_by are populated. Tests the Set Resolved Tracking business rule.</description>
+    <fail_on_server_error>true</fail_on_server_error>
+    <name>Resolved At and By Set on Resolution</name>
+  </sys_atf_test>
+</record_update>

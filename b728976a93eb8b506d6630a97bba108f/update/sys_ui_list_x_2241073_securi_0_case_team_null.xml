@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_list parent="" relationship="" sys_domain="global" table="x_2241073_securi_0_case_team" view="">
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>d45cc129e672422e9116fa3da0a82de1</sys_id>
+      <list_id display_value="x_2241073_securi_0_case_team" element="NULL" name="x_2241073_securi_0_case_team" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b8280809e0324def8f5256fd2a8c3029</list_id>
+      <element>case_id</element>
+      <position>0</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>f4ae7bdac2c24df2a9dc4d55d9061e0b</sys_id>
+      <list_id display_value="x_2241073_securi_0_case_team" element="NULL" name="x_2241073_securi_0_case_team" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b8280809e0324def8f5256fd2a8c3029</list_id>
+      <element>user_id</element>
+      <position>1</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>ccca3afdbd884ce3ad684af62ab610ca</sys_id>
+      <list_id display_value="x_2241073_securi_0_case_team" element="NULL" name="x_2241073_securi_0_case_team" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b8280809e0324def8f5256fd2a8c3029</list_id>
+      <element>role</element>
+      <position>2</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>af5fe3c64a4544b5a796e689a6b28c43</sys_id>
+      <list_id display_value="x_2241073_securi_0_case_team" element="NULL" name="x_2241073_securi_0_case_team" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b8280809e0324def8f5256fd2a8c3029</list_id>
+      <element>added_at</element>
+      <position>3</position>
+    </sys_ui_list_element>
+    <sys_ui_list action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>b8280809e0324def8f5256fd2a8c3029</sys_id>
+      <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+      <view name="NULL">Default view</view>
+      <name>x_2241073_securi_0_case_team</name>
+      <sys_domain>global</sys_domain>
+    </sys_ui_list>
+  </sys_ui_list>
+</record_update>

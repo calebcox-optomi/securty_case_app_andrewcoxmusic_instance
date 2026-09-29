@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+  <sys_user_role_contains action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>5a849716348a4ec786fed75280ab0ae1</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_user_role_contains_5a849716348a4ec786fed75280ab0ae1</sys_update_name>
+    <contains name="x_2241073_securi_0.analyst">c8c21a0f3bea42c09c435e29c9ac0c04</contains>
+    <role name="x_2241073_securi_0.ir_team">a1ac5779079c4fc6a6a80e3a371517a0</role>
+  </sys_user_role_contains>
+</record_update>

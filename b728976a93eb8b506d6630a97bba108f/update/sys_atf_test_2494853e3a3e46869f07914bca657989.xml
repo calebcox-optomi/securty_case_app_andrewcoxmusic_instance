@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+  <sys_atf_test action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>2494853e3a3e46869f07914bca657989</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_test_2494853e3a3e46869f07914bca657989</sys_update_name>
+    <active>true</active>
+    <description>Inserts a Security Case, updates assigned_to to a user, and validates assigned_at is populated and state transitions from New to Assigned. Tests the Set Assigned At business rule.</description>
+    <fail_on_server_error>true</fail_on_server_error>
+    <name>Assigned At Timestamp Set on Assignment</name>
+  </sys_atf_test>
+</record_update>

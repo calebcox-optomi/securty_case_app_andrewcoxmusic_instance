@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>67329f879d64499db322ea38d0925827</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Record Insert</display_name>
+    <notes/>
+    <order>1</order>
+    <step_config>14872288df60220062fe6c7a4df26319</step_config>
+    <table>x_2241073_securi_0_sec_case</table>
+    <test>5cb1d9f4bad5430ab32418d20e4a72ca</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_step_67329f879d64499db322ea38d0925827</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=67329f879d64499db322ea38d0925827"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>a2af054caf46433db28d1e92d1a53e8c</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>67329f879d64499db322ea38d0925827</document_key>
+    <value>x_2241073_securi_0_sec_case</value>
+    <variable>90144b535320220002c6435723dc3488</variable>
+    <order>200</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_a2af054caf46433db28d1e92d1a53e8c</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>3ed28a81e07f4ba39fc6039f9f2c363f</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>67329f879d64499db322ea38d0925827</document_key>
+    <value>record_successfully_inserted</value>
+    <variable>9024a37f671003007ba405225685efe5</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_3ed28a81e07f4ba39fc6039f9f2c363f</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>141316fb137d47248a8b7f8b481d39ce</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>67329f879d64499db322ea38d0925827</document_key>
+    <value>short_description=ATF Active Flag Test^severity=3^EQ</value>
+    <variable>dd54cf535320220002c6435723dc34fd</variable>
+    <order>400</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_141316fb137d47248a8b7f8b481d39ce</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>7ee4db9d191048548a27eeb6244174f6</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>67329f879d64499db322ea38d0925827</document_key>
+    <value>1</value>
+    <variable>e6e3c7535320220002c6435723dc3496</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_7ee4db9d191048548a27eeb6244174f6</sys_update_name>
+  </sys_variable_value>
+</record_update>

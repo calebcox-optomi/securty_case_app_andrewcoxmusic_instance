@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Webhook Details" section_id="573d3781307c4102b3785d047141d269" sys_domain="global" table="x_2241073_securi_0_webhook_log" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>0fa2ee86f9094fe6b8caf92c14cd033a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>case_id</element>
+      <position>1</position>
+      <sys_id>9a7ad6c7b700403fafec05535e8e45d2</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>direction</element>
+      <position>2</position>
+      <sys_id>dad22accf06045df9dc1b1e4817ca84c</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>endpoint_url</element>
+      <position>3</position>
+      <sys_id>1820184e0fd6495fa0354c6a03d52a32</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>http_method</element>
+      <position>4</position>
+      <sys_id>1575e40c512344369a67d884a4242f47</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>5</position>
+      <sys_id>3429360ac713499986d47a3b780fbf6c</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>http_status</element>
+      <position>6</position>
+      <sys_id>819cc3f30f3b4fa286d7a53918d75261</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>status</element>
+      <position>7</position>
+      <sys_id>e99e9238fd124420b6a02cf0a4876ce5</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>sent_at</element>
+      <position>8</position>
+      <sys_id>7281c930bc2946a88a070b03827223bc</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>duration_ms</element>
+      <position>9</position>
+      <sys_id>3798a26b9dc04892a0adc52bae20a5a6</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>10</position>
+      <sys_id>2e9d344c19e844ac82076397acf02aa2</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>payload</element>
+      <position>11</position>
+      <sys_id>47b0d55a27ae402a84317fea396bcc2a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>response_body</element>
+      <position>12</position>
+      <sys_id>b8b045a42d6b403c81fe9ff64dce9633</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="Default view">573d3781307c4102b3785d047141d269</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <caption>Webhook Details</caption>
+      <header>false</header>
+      <name>x_2241073_securi_0_webhook_log</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>573d3781307c4102b3785d047141d269</sys_id>
+      <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

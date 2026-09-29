@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>4aa5d6d1d50c4c7b8c216078a92ef3df</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Create a User</display_name>
+    <notes/>
+    <order>1</order>
+    <step_config>d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+    <table/>
+    <test>f66c1223feb1473a93b2a128db27796d</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_step_4aa5d6d1d50c4c7b8c216078a92ef3df</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=4aa5d6d1d50c4c7b8c216078a92ef3df"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>e8380895bafb4fdead9b1c429c732e58</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>4aa5d6d1d50c4c7b8c216078a92ef3df</document_key>
+    <value>EQ</value>
+    <variable>1778a7480f20101091d0f00c97767e03</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_e8380895bafb4fdead9b1c429c732e58</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>61436f7e48db4ffdae661c774528593a</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>4aa5d6d1d50c4c7b8c216078a92ef3df</document_key>
+    <value>ATF</value>
+    <variable>1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_61436f7e48db4ffdae661c774528593a</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>936a6aa5273c4af18f1f27147ba92c49</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>4aa5d6d1d50c4c7b8c216078a92ef3df</document_key>
+    <value>Analyst</value>
+    <variable>6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_936a6aa5273c4af18f1f27147ba92c49</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>4dd54dd178fe40449c7b3529113d9902</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>4aa5d6d1d50c4c7b8c216078a92ef3df</document_key>
+    <value>x_2241073_securi_0.analyst</value>
+    <variable>8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_4dd54dd178fe40449c7b3529113d9902</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>1ccea02fecc84b9a8d412737c740a4e8</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>4aa5d6d1d50c4c7b8c216078a92ef3df</document_key>
+    <value>0</value>
+    <variable>98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_1ccea02fecc84b9a8d412737c740a4e8</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>bfa735f968f8425e8e4ae3bd58808030</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>4aa5d6d1d50c4c7b8c216078a92ef3df</document_key>
+    <value/>
+    <variable>b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_bfa735f968f8425e8e4ae3bd58808030</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>4b7bfed4b47647989de9bca037fea128</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>4aa5d6d1d50c4c7b8c216078a92ef3df</document_key>
+    <value>sys_user</value>
+    <variable>ff06ab840f20101091d0f00c97767e6d</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_4b7bfed4b47647989de9bca037fea128</sys_update_name>
+  </sys_variable_value>
+</record_update>

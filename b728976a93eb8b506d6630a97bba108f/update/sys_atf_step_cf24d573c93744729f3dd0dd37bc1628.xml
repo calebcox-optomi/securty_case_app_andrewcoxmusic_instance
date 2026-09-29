@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>cf24d573c93744729f3dd0dd37bc1628</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Impersonate</display_name>
+    <notes/>
+    <order>3</order>
+    <step_config>071ee5b253331200040729cac2dc348d</step_config>
+    <table/>
+    <test>f66c1223feb1473a93b2a128db27796d</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_step_cf24d573c93744729f3dd0dd37bc1628</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=cf24d573c93744729f3dd0dd37bc1628"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>389f4674c95d403392b2b25f0e0b8040</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>cf24d573c93744729f3dd0dd37bc1628</document_key>
+    <value>{{step['4aa5d6d1d50c4c7b8c216078a92ef3df'].user}}</value>
+    <variable>586e2c4253e0220002c6435723dc3415</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_389f4674c95d403392b2b25f0e0b8040</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="delete_multiple" query="id=cf24d573c93744729f3dd0dd37bc1628"/>
+  <sys_element_mapping action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>ed0379e12d8e4b4a9d079d453b972ab4</sys_id>
+    <field>user</field>
+    <id>cf24d573c93744729f3dd0dd37bc1628</id>
+    <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+    <value>{{step['4aa5d6d1d50c4c7b8c216078a92ef3df'].user}}</value>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_element_mapping_ed0379e12d8e4b4a9d079d453b972ab4</sys_update_name>
+  </sys_element_mapping>
+</record_update>

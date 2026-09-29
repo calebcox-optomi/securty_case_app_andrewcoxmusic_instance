@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+  <sys_atf_test action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>b6dc5413fca942f6ab324ffeb04eb669</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_test_b6dc5413fca942f6ab324ffeb04eb669</sys_update_name>
+    <active>true</active>
+    <description>Inserts a Security Case and validates the number field is auto-populated with the CASE prefix, verifying auto-numbering configuration on the table.</description>
+    <fail_on_server_error>true</fail_on_server_error>
+    <name>Security Case Auto Numbering</name>
+  </sys_atf_test>
+</record_update>
