@@ -35,8 +35,9 @@
 (function () {
     // Only applies to users with manager role
     if (!gs.hasRole('x_2241073_securi_0.manager')) return;
-    // Skip if user is admin
+    // Skip if user is platform admin or scoped admin
     if (gs.hasRole('admin')) return;
+    if (gs.hasRole('x_2241073_securi_0.admin')) return;
 
     // Check if manager is "working" the case
     var userId = gs.getUserID();

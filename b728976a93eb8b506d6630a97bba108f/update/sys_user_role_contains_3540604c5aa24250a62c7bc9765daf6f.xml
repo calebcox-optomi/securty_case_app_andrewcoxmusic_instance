@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+  <sys_user_role_contains action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>3540604c5aa24250a62c7bc9765daf6f</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_user_role_contains_3540604c5aa24250a62c7bc9765daf6f</sys_update_name>
+    <contains name="x_2241073_securi_0.manager">ef63358d56f04e08bc26edb722aeb8e5</contains>
+    <role name="x_2241073_securi_0.admin">a4e448cc63804b21828cece4bb05b893</role>
+  </sys_user_role_contains>
+</record_update>
