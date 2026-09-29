@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>736758bd9738491eac6ba3985e83bd12</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_app_module_736758bd9738491eac6ba3985e83bd12</sys_update_name>
+    <active>true</active>
+    <application>38b903827900459785cacc0fa7eef242</application>
+    <link_type>LIST</link_type>
+    <name>x_2241073_securi_0_sla_view</name>
+    <order>900</order>
+    <roles>[object Object],[object Object],admin</roles>
+    <title>SLA Dashboard</title>
+  </sys_app_module>
+</record_update>

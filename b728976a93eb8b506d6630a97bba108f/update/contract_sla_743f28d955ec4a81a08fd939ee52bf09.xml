@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="contract_sla">
+  <contract_sla action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>743f28d955ec4a81a08fd939ee52bf09</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>contract_sla_743f28d955ec4a81a08fd939ee52bf09</sys_update_name>
+    <active>true</active>
+    <collection>x_2241073_securi_0_sec_case</collection>
+    <duration>1970-01-01 00:15:00</duration>
+    <name>Security Case Response - Critical</name>
+    <retroactive>true</retroactive>
+    <set_start_to>opened_at</set_start_to>
+    <start_condition>severity=1^stateIN1,2</start_condition>
+    <stop_condition>stateIN3,4,6,7</stop_condition>
+    <target>response</target>
+    <type>SLA</type>
+    <when_to_cancel>no_match</when_to_cancel>
+  </contract_sla>
+</record_update>

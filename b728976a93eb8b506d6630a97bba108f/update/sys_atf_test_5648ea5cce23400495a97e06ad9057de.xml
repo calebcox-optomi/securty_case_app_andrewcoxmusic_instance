@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+  <sys_atf_test action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>5648ea5cce23400495a97e06ad9057de</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_test_5648ea5cce23400495a97e06ad9057de</sys_update_name>
+    <active>true</active>
+    <description>Inserts a Security Case, transitions from New to In Progress to Pending (4), then queries task_sla to verify an SLA record exists, confirming SLA tracking persists through the Pending state pause condition.</description>
+    <fail_on_server_error>true</fail_on_server_error>
+    <name>SLA Tracks Through Pending State</name>
+  </sys_atf_test>
+</record_update>

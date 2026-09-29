@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+  <sys_db_view_table action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>53d28a4ff2ef41c29e0a9f5751e69d2e</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_db_view_table_53d28a4ff2ef41c29e0a9f5751e69d2e</sys_update_name>
+    <left_join>false</left_join>
+    <order>100</order>
+    <table>task_sla</table>
+    <variable_prefix>tsla</variable_prefix>
+    <view>2d5198c7321e43a18324c7040ab2f4c8</view>
+  </sys_db_view_table>
+</record_update>

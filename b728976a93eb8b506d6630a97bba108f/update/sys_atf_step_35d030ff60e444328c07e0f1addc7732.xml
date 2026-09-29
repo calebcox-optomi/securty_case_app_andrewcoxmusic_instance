@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>35d030ff60e444328c07e0f1addc7732</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Run Server Side Script</display_name>
+    <notes/>
+    <order>3</order>
+    <step_config>41de4a935332120028bc29cac2dc349a</step_config>
+    <table/>
+    <test>a5e45232525f4df8aee79bb2656af70f</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_step_35d030ff60e444328c07e0f1addc7732</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=35d030ff60e444328c07e0f1addc7732"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>54aa476ecfbd4220b0f5ab4aa930a60d</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>35d030ff60e444328c07e0f1addc7732</document_key>
+    <value>3.1</value>
+    <variable>42f2564b73031300440211d8faf6a777</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_54aa476ecfbd4220b0f5ab4aa930a60d</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>751a5ea527144ad39775c92da7285898</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>35d030ff60e444328c07e0f1addc7732</document_key>
+    <value>
+(function(outputs, steps, params, stepResult, assertEqual) {
+    var caseId = steps('{{step['186209e9c1304978ad4275077649be48'].record_id}}');
+    var slaGR = new GlideRecord('task_sla');
+    slaGR.addQuery('task', caseId);
+    slaGR.query();
+    var count = slaGR.getRowCount();
+    assertEqual({
+        name: 'SLA record exists after state transition',
+        shouldbe: 'true',
+        value: String(count &gt; 0)
+    });
+    stepResult.setOutputMessage('Found ' + count + ' task_sla record(s) after transition to In Progress');
+})(outputs, steps, params, stepResult, assertEqual);
+</value>
+    <variable>989d9e235324220002c6435723dc3484</variable>
+    <order>200</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_751a5ea527144ad39775c92da7285898</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="delete_multiple" query="id=35d030ff60e444328c07e0f1addc7732"/>
+  <sys_element_mapping action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>ec3a163bd67e47a3843348cac39605d2</sys_id>
+    <field>script</field>
+    <id>35d030ff60e444328c07e0f1addc7732</id>
+    <table>var__m_atf_input_variable_41de4a935332120028bc29cac2dc349a</table>
+    <value>
+(function(outputs, steps, params, stepResult, assertEqual) {
+    var caseId = steps('{{step['186209e9c1304978ad4275077649be48'].record_id}}');
+    var slaGR = new GlideRecord('task_sla');
+    slaGR.addQuery('task', caseId);
+    slaGR.query();
+    var count = slaGR.getRowCount();
+    assertEqual({
+        name: 'SLA record exists after state transition',
+        shouldbe: 'true',
+        value: String(count &gt; 0)
+    });
+    stepResult.setOutputMessage('Found ' + count + ' task_sla record(s) after transition to In Progress');
+})(outputs, steps, params, stepResult, assertEqual);
+</value>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_element_mapping_ec3a163bd67e47a3843348cac39605d2</sys_update_name>
+  </sys_element_mapping>
+</record_update>

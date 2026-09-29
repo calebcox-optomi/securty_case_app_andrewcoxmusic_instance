@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+  <sys_db_view_table action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>79bbd992144c47f0821d7889a65df70e</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_db_view_table_79bbd992144c47f0821d7889a65df70e</sys_update_name>
+    <left_join>true</left_join>
+    <order>200</order>
+    <table>x_2241073_securi_0_sec_case</table>
+    <variable_prefix>sc</variable_prefix>
+    <view>2d5198c7321e43a18324c7040ab2f4c8</view>
+    <where_clause>x_2241073_securi_0_sec_case.sys_id=task_sla.task</where_clause>
+  </sys_db_view_table>
+</record_update>

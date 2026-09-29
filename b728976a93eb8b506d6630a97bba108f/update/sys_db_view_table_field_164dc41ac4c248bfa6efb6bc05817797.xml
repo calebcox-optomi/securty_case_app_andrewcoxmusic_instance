@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field">
+  <sys_db_view_table_field action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>164dc41ac4c248bfa6efb6bc05817797</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_db_view_table_field_164dc41ac4c248bfa6efb6bc05817797</sys_update_name>
+    <field>number</field>
+    <view_table>79bbd992144c47f0821d7889a65df70e</view_table>
+  </sys_db_view_table_field>
+</record_update>

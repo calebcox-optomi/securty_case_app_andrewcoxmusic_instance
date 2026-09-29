@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>a986ceb46d2145be90c5969bf1045dfd</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Record Insert</display_name>
+    <notes/>
+    <order>1</order>
+    <step_config>14872288df60220062fe6c7a4df26319</step_config>
+    <table>x_2241073_securi_0_sec_case</table>
+    <test>e24c0f32961b4d7b89200276037746a9</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_step_a986ceb46d2145be90c5969bf1045dfd</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=a986ceb46d2145be90c5969bf1045dfd"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>214081dc91364bdf9b2a8f471ad49142</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>a986ceb46d2145be90c5969bf1045dfd</document_key>
+    <value>x_2241073_securi_0_sec_case</value>
+    <variable>90144b535320220002c6435723dc3488</variable>
+    <order>200</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_214081dc91364bdf9b2a8f471ad49142</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>14b1e3d33a434f01bcd315be330741dc</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>a986ceb46d2145be90c5969bf1045dfd</document_key>
+    <value>record_successfully_inserted</value>
+    <variable>9024a37f671003007ba405225685efe5</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_14b1e3d33a434f01bcd315be330741dc</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>150fe91f6fb44a5795b4b38a131a9343</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>a986ceb46d2145be90c5969bf1045dfd</document_key>
+    <value>short_description=ATF: SLA Attachment Test - Critical^severity=1^state=1^EQ</value>
+    <variable>dd54cf535320220002c6435723dc34fd</variable>
+    <order>400</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_150fe91f6fb44a5795b4b38a131a9343</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>d75596f2551049678a1adba264e6fddc</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>a986ceb46d2145be90c5969bf1045dfd</document_key>
+    <value>1</value>
+    <variable>e6e3c7535320220002c6435723dc3496</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_d75596f2551049678a1adba264e6fddc</sys_update_name>
+  </sys_variable_value>
+</record_update>

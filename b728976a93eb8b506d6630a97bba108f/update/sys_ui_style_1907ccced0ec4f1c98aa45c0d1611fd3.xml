@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+  <sys_ui_style action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>1907ccced0ec4f1c98aa45c0d1611fd3</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_ui_style_1907ccced0ec4f1c98aa45c0d1611fd3</sys_update_name>
+    <element>sla_status</element>
+    <name>x_2241073_securi_0_sec_case</name>
+    <style>background-color:LimeGreen</style>
+    <value>1</value>
+  </sys_ui_style>
+</record_update>

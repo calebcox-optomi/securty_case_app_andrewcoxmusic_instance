@@ -67,7 +67,8 @@
         'case_type', 'case_source', 'detection_source', 'severity',
         'affected_systems', 'affected_users', 'investigation_summary',
         'containment_actions', 'remediation_actions', 'root_cause',
-        'lessons_learned', 'caller_id', 'short_description', 'description', 'priority'
+        'lessons_learned', 'caller_id', 'short_description', 'description', 'priority',
+        'sla_status', 'response_due', 'resolution_due'
     ];
 
     for (var i = 0; i < restrictedFields.length; i++) {

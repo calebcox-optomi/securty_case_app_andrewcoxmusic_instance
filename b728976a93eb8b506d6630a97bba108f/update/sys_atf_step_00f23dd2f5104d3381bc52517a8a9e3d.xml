@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>00f23dd2f5104d3381bc52517a8a9e3d</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Run Server Side Script</display_name>
+    <notes/>
+    <order>4</order>
+    <step_config>41de4a935332120028bc29cac2dc349a</step_config>
+    <table/>
+    <test>5648ea5cce23400495a97e06ad9057de</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_step_00f23dd2f5104d3381bc52517a8a9e3d</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=00f23dd2f5104d3381bc52517a8a9e3d"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>6ff82be31ea94795a548f429cfe2bb6b</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>00f23dd2f5104d3381bc52517a8a9e3d</document_key>
+    <value>3.1</value>
+    <variable>42f2564b73031300440211d8faf6a777</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_6ff82be31ea94795a548f429cfe2bb6b</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>d07598df071a4c8386cb37d87accc654</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>00f23dd2f5104d3381bc52517a8a9e3d</document_key>
+    <value>
+(function(outputs, steps, params, stepResult, assertEqual) {
+    var caseId = steps('{{step['5092f9db6013477d9a90b84c6122b2d5'].record_id}}');
+    var slaGR = new GlideRecord('task_sla');
+    slaGR.addQuery('task', caseId);
+    slaGR.query();
+    var count = slaGR.getRowCount();
+    assertEqual({
+        name: 'SLA record exists in Pending state',
+        shouldbe: 'true',
+        value: String(count &gt; 0)
+    });
+    // Check if any SLA has pause_time set (indicating pause)
+    slaGR.initialize();
+    slaGR.addQuery('task', caseId);
+    slaGR.addNotNullQuery('pause_time');
+    slaGR.query();
+    var pausedCount = slaGR.getRowCount();
+    stepResult.setOutputMessage('Found ' + count + ' SLA record(s); ' + pausedCount + ' with pause_time set');
+})(outputs, steps, params, stepResult, assertEqual);
+</value>
+    <variable>989d9e235324220002c6435723dc3484</variable>
+    <order>200</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_d07598df071a4c8386cb37d87accc654</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="delete_multiple" query="id=00f23dd2f5104d3381bc52517a8a9e3d"/>
+  <sys_element_mapping action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>68dd91c34bf94d918c0205ac6c8c9291</sys_id>
+    <field>script</field>
+    <id>00f23dd2f5104d3381bc52517a8a9e3d</id>
+    <table>var__m_atf_input_variable_41de4a935332120028bc29cac2dc349a</table>
+    <value>
+(function(outputs, steps, params, stepResult, assertEqual) {
+    var caseId = steps('{{step['5092f9db6013477d9a90b84c6122b2d5'].record_id}}');
+    var slaGR = new GlideRecord('task_sla');
+    slaGR.addQuery('task', caseId);
+    slaGR.query();
+    var count = slaGR.getRowCount();
+    assertEqual({
+        name: 'SLA record exists in Pending state',
+        shouldbe: 'true',
+        value: String(count &gt; 0)
+    });
+    // Check if any SLA has pause_time set (indicating pause)
+    slaGR.initialize();
+    slaGR.addQuery('task', caseId);
+    slaGR.addNotNullQuery('pause_time');
+    slaGR.query();
+    var pausedCount = slaGR.getRowCount();
+    stepResult.setOutputMessage('Found ' + count + ' SLA record(s); ' + pausedCount + ' with pause_time set');
+})(outputs, steps, params, stepResult, assertEqual);
+</value>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_element_mapping_68dd91c34bf94d918c0205ac6c8c9291</sys_update_name>
+  </sys_element_mapping>
+</record_update>

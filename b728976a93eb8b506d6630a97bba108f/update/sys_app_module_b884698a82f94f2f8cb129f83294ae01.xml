@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>b884698a82f94f2f8cb129f83294ae01</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_app_module_b884698a82f94f2f8cb129f83294ae01</sys_update_name>
+    <active>true</active>
+    <application>38b903827900459785cacc0fa7eef242</application>
+    <link_type>SEPARATOR</link_type>
+    <order>750</order>
+    <title>SLA Management</title>
+  </sys_app_module>
+</record_update>

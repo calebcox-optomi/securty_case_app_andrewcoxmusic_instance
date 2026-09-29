@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script">
+  <sys_script action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>4705c6b8d8674797bb8262e3483d20a7</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_script_4705c6b8d8674797bb8262e3483d20a7</sys_update_name>
+    <abort_action>false</abort_action>
+    <access>package_private</access>
+    <action_delete>false</action_delete>
+    <action_insert>true</action_insert>
+    <action_query>false</action_query>
+    <action_update>true</action_update>
+    <active>true</active>
+    <add_message>false</add_message>
+    <advanced>true</advanced>
+    <change_fields>false</change_fields>
+    <client_callable>false</client_callable>
+    <collection>task_sla</collection>
+    <condition/>
+    <description/>
+    <execute_function>false</execute_function>
+    <filter_condition>task.sys_class_name=x_2241073_securi_0_sec_case</filter_condition>
+    <is_rest>false</is_rest>
+    <message/>
+    <name>Sync SLA Data to Security Case</name>
+    <order>200</order>
+    <priority>100</priority>
+    <rest_method/>
+    <rest_method_text/>
+    <rest_service/>
+    <rest_service_text/>
+    <rest_variables/>
+    <role_conditions/>
+    <script><![CDATA[(function() {
+    var taskId = current.getValue('task');
+    if (!taskId) return;
+
+    // Verify the task is a Security Case
+    var caseGR = new GlideRecord('x_2241073_securi_0_sec_case');
+    if (!caseGR.get(taskId)) return;
+
+    // Query all active task_sla records for this case
+    var slaGR = new GlideRecord('task_sla');
+    slaGR.addQuery('task', taskId);
+    slaGR.addQuery('active', true);
+    slaGR.query();
+
+    var responseDue = '';
+    var resolutionDue = '';
+    var worstStatus = 1; // 1=On Track
+
+    while (slaGR.next()) {
+        var slaDefName = slaGR.getDisplayValue('sla');
+        var plannedEnd = slaGR.getValue('planned_end_time');
+        var hasBreached = slaGR.getValue('has_breached');
+        var percentage = parseFloat(slaGR.getValue('percentage')) || 0;
+
+        // Determine SLA type from definition name
+        if (slaDefName.indexOf('Response') > -1) {
+            responseDue = plannedEnd || '';
+        } else if (slaDefName.indexOf('Resolution') > -1) {
+            resolutionDue = plannedEnd || '';
+        }
+
+        // Determine worst SLA status
+        if (hasBreached == 'true' || hasBreached == true) {
+            worstStatus = 3; // Breached
+        } else if (percentage >= 80 && worstStatus < 2) {
+            worstStatus = 2; // At Risk
+        }
+    }
+
+    // Also check completed/breached SLAs
+    var completedGR = new GlideRecord('task_sla');
+    completedGR.addQuery('task', taskId);
+    completedGR.addQuery('active', false);
+    completedGR.addQuery('has_breached', true);
+    completedGR.query();
+    if (completedGR.hasNext()) {
+        worstStatus = 3; // Breached
+    }
+
+    // Update the Security Case
+    caseGR.setValue('sla_status', worstStatus.toString());
+    if (responseDue) caseGR.setValue('response_due', responseDue);
+    if (resolutionDue) caseGR.setValue('resolution_due', resolutionDue);
+    caseGR.setWorkflow(false); // Prevent recursive BR firing
+    caseGR.update();
+})();
+]]></script>
+    <sys_name>Sync SLA Data to Security Case</sys_name>
+    <sys_policy/>
+    <template/>
+    <when>after</when>
+  </sys_script>
+</record_update>
