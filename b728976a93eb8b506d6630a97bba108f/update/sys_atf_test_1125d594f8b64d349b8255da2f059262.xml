@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+  <sys_atf_test action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>1125d594f8b64d349b8255da2f059262</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_test_1125d594f8b64d349b8255da2f059262</sys_update_name>
+    <active>true</active>
+    <description>Sends a GET to /case/NONEXISTENT12345 with a non-existent case identifier and validates a 404 status code with the standardized error response containing error.status=404.</description>
+    <fail_on_server_error>true</fail_on_server_error>
+    <name>API - GET Not Found (404)</name>
+  </sys_atf_test>
+</record_update>

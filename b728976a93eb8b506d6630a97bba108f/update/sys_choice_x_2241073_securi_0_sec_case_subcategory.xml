@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true" field="subcategory" table="x_2241073_securi_0_sec_case" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>2cd4fdf742d0420aa9dbc3c93789bab4</sys_id>
+      <element>subcategory</element>
+      <sys_update_name>sys_choice_x_2241073_securi_0_sec_case_subcategory</sys_update_name>
+      <name>x_2241073_securi_0_sec_case</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+      <sys_package display_value="x_2241073_securi_0" source="b728976a93eb8b506d6630a97bba108f">b728976a93eb8b506d6630a97bba108f</sys_package>
+      <sys_name>subcategory</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>96a201b1982c4894a6101c9f5bc00a68</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Spear Phishing</label>
+      <value>spear_phishing</value>
+      <sequence>1</sequence>
+      <dependent_value>phishing</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>53ff5fd126a943c3919ad73a1c16acac</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Whaling</label>
+      <value>whaling</value>
+      <sequence>2</sequence>
+      <dependent_value>phishing</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>e45765f16bbe41bd94bd5c2c5f0fd3a0</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Credential Harvesting</label>
+      <value>credential_harvest</value>
+      <sequence>3</sequence>
+      <dependent_value>phishing</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>399a9d4f218647429cbbec67e915140d</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Ransomware</label>
+      <value>ransomware</value>
+      <sequence>4</sequence>
+      <dependent_value>malware</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>2e1343d82b02448ba88b48332e1f4c68</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Trojan</label>
+      <value>trojan</value>
+      <sequence>5</sequence>
+      <dependent_value>malware</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>7633bb599e5d4d0bb85baea3a1e3c55a</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Worm</label>
+      <value>worm</value>
+      <sequence>6</sequence>
+      <dependent_value>malware</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>d2a3979e4a8c4a94994e2eadd91dbb6e</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>PII Exposure</label>
+      <value>pii_exposure</value>
+      <sequence>7</sequence>
+      <dependent_value>data_breach</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>cb2b72f5b49f42bfbbaaf483e7b8afae</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Financial Data</label>
+      <value>financial_data</value>
+      <sequence>8</sequence>
+      <dependent_value>data_breach</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>39c1430c216442ae95bb8c4de12b7a3f</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Intellectual Property</label>
+      <value>intellectual_property</value>
+      <sequence>9</sequence>
+      <dependent_value>data_breach</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>18e20bf33fcf4ac98970868caab3cb61</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Privilege Escalation</label>
+      <value>privilege_escalation</value>
+      <sequence>10</sequence>
+      <dependent_value>unauthorized_access</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>a70d119c788d4d8f8cbf37f3cf70eed6</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Brute Force</label>
+      <value>brute_force</value>
+      <sequence>11</sequence>
+      <dependent_value>unauthorized_access</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>1da3178ae6ea4ac186e7236b0e9a0100</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Stolen Credentials</label>
+      <value>stolen_credentials</value>
+      <sequence>12</sequence>
+      <dependent_value>unauthorized_access</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>e25c8c9311844284bacd780bca9d28b9</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Data Exfiltration</label>
+      <value>data_exfiltration</value>
+      <sequence>13</sequence>
+      <dependent_value>insider_threat</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>26c5aeec713e49d9886e6e18585382d0</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Sabotage</label>
+      <value>sabotage</value>
+      <sequence>14</sequence>
+      <dependent_value>insider_threat</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>8ad76a5db742407095556a066b7e8857</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Policy Violation</label>
+      <value>policy_violation</value>
+      <sequence>15</sequence>
+      <dependent_value>insider_threat</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>9d7de62cfa9045e6bfd4b52bea48a3c9</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>DDoS</label>
+      <value>ddos</value>
+      <sequence>16</sequence>
+      <dependent_value>denial_of_service</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>9c36eede75f443a1a1de6668b29c14c3</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Application Layer</label>
+      <value>application_layer</value>
+      <sequence>17</sequence>
+      <dependent_value>denial_of_service</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>3dad1f88f5b04c69b3049210213b018f</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Volumetric</label>
+      <value>volumetric</value>
+      <sequence>18</sequence>
+      <dependent_value>denial_of_service</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>716db1ffc771464bb6bc7e20a6568e65</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Unknown</label>
+      <value>unknown</value>
+      <sequence>19</sequence>
+      <dependent_value>other</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>3d99f338974d480391b57fbfb7d470eb</sys_id>
+      <name>x_2241073_securi_0_sec_case</name>
+      <element>subcategory</element>
+      <label>Other</label>
+      <value>other</value>
+      <sequence>20</sequence>
+      <dependent_value>other</dependent_value>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>

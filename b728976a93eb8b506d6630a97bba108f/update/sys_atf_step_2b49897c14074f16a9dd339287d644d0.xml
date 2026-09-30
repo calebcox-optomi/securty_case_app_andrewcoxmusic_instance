@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>2b49897c14074f16a9dd339287d644d0</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Assert JSON Response Payload Element</display_name>
+    <notes/>
+    <order>3</order>
+    <step_config>afc114199f132200ef4afa7dc67fcf64</step_config>
+    <table/>
+    <test>1125d594f8b64d349b8255da2f059262</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_step_2b49897c14074f16a9dd339287d644d0</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=2b49897c14074f16a9dd339287d644d0"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>c4e01cac235e423d9a89e210f9d9e2eb</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>2b49897c14074f16a9dd339287d644d0</document_key>
+    <value>equals</value>
+    <variable>2db298199f132200ef4afa7dc67fcfbc</variable>
+    <order>110</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_c4e01cac235e423d9a89e210f9d9e2eb</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>a0ae13f94e2942359db6968579cf1951</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>2b49897c14074f16a9dd339287d644d0</document_key>
+    <value>error.status</value>
+    <variable>5a9258199f132200ef4afa7dc67fcfb4</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_a0ae13f94e2942359db6968579cf1951</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>fa17aff316fd4d0bb701516cc7f88e34</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>2b49897c14074f16a9dd339287d644d0</document_key>
+    <value>404</value>
+    <variable>7b139c199f132200ef4afa7dc67fcfb3</variable>
+    <order>120</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_fa17aff316fd4d0bb701516cc7f88e34</sys_update_name>
+  </sys_variable_value>
+</record_update>

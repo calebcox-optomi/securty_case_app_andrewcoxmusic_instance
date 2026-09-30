@@ -4,7 +4,7 @@
     <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
     <sys_update_name>sys_atf_test_a5e45232525f4df8aee79bb2656af70f</sys_update_name>
     <active>true</active>
-    <description>Inserts a Security Case with severity=3, transitions state from New (1) to In Progress (3), then queries task_sla to verify an SLA record exists for the case, confirming SLA tracking survives state changes.</description>
+    <description>Inserts a Security Case with severity=3, transitions state from New (1) to In Progress (3), and validates the state change persisted. Confirms state transitions work correctly for SLA stop conditions.</description>
     <fail_on_server_error>true</fail_on_server_error>
     <name>SLA Exists After State Transition</name>
   </sys_atf_test>

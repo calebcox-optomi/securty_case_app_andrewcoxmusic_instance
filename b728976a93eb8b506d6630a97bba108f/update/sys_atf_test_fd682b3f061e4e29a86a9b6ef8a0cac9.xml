@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+  <sys_atf_test action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>fd682b3f061e4e29a86a9b6ef8a0cac9</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_test_fd682b3f061e4e29a86a9b6ef8a0cac9</sys_update_name>
+    <active>true</active>
+    <description>Sends a POST to /case with missing required fields (torq_incident_id, short_description, severity) and validates a 400 status code is returned with error.message indicating missing required fields.</description>
+    <fail_on_server_error>true</fail_on_server_error>
+    <name>API - POST Validation Error (400)</name>
+  </sys_atf_test>
+</record_update>

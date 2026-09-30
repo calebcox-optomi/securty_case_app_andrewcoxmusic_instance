@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>e53f03aa4a0a479f866f2fd687a7ba98</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Run Server Side Script</display_name>
+    <notes/>
+    <order>1</order>
+    <step_config>41de4a935332120028bc29cac2dc349a</step_config>
+    <table/>
+    <test>e3d6d75cf2da40339c1779b58e2208b0</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_step_e53f03aa4a0a479f866f2fd687a7ba98</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=e53f03aa4a0a479f866f2fd687a7ba98"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>a2c51a782a914751979ebce362327c67</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>e53f03aa4a0a479f866f2fd687a7ba98</document_key>
+    <value>3.1</value>
+    <variable>42f2564b73031300440211d8faf6a777</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_a2c51a782a914751979ebce362327c67</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>9c16206e24b646859387ba52c5b58681</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>e53f03aa4a0a479f866f2fd687a7ba98</document_key>
+    <value>(function(outputs, steps, params, stepResult, assertEqual) {
+                var gr = new GlideRecord('x_2241073_securi_0_sec_case');
+                gr.addQuery('torq_incident_id', 'ATF-CREATE-001');
+                gr.query();
+                while (gr.next()) {
+                    gr.deleteRecord();
+                }
+                stepResult.setOutputMessage('Cleanup complete for ATF-CREATE-001');
+            })(outputs, steps, params, stepResult, assertEqual);</value>
+    <variable>989d9e235324220002c6435723dc3484</variable>
+    <order>200</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_9c16206e24b646859387ba52c5b58681</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="delete_multiple" query="id=e53f03aa4a0a479f866f2fd687a7ba98"/>
+  <sys_element_mapping action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>eda79f9d74be499ea8fbe3e87c6b313a</sys_id>
+    <field>script</field>
+    <id>e53f03aa4a0a479f866f2fd687a7ba98</id>
+    <table>var__m_atf_input_variable_41de4a935332120028bc29cac2dc349a</table>
+    <value>(function(outputs, steps, params, stepResult, assertEqual) {
+                var gr = new GlideRecord('x_2241073_securi_0_sec_case');
+                gr.addQuery('torq_incident_id', 'ATF-CREATE-001');
+                gr.query();
+                while (gr.next()) {
+                    gr.deleteRecord();
+                }
+                stepResult.setOutputMessage('Cleanup complete for ATF-CREATE-001');
+            })(outputs, steps, params, stepResult, assertEqual);</value>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_element_mapping_eda79f9d74be499ea8fbe3e87c6b313a</sys_update_name>
+  </sys_element_mapping>
+</record_update>

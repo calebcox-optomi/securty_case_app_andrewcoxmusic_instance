@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>c086e36a346c4331b7bae7e65eee7f7a</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Assert Status Code</display_name>
+    <notes/>
+    <order>3</order>
+    <step_config>2f4fa7309f132200ef4afa7dc67fcf0f</step_config>
+    <table/>
+    <test>e3d6d75cf2da40339c1779b58e2208b0</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_step_c086e36a346c4331b7bae7e65eee7f7a</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=c086e36a346c4331b7bae7e65eee7f7a"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>bfa930033a444ff88c90136b90a57cb8</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>c086e36a346c4331b7bae7e65eee7f7a</document_key>
+    <value>equals</value>
+    <variable>1d94cb1f3b8032000774229c93efc419</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_bfa930033a444ff88c90136b90a57cb8</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>9833125826184673abd4f05df6ed85d3</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>c086e36a346c4331b7bae7e65eee7f7a</document_key>
+    <value>201</value>
+    <variable>9f5f67709f132200ef4afa7dc67fcf94</variable>
+    <order>110</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_9833125826184673abd4f05df6ed85d3</sys_update_name>
+  </sys_variable_value>
+</record_update>

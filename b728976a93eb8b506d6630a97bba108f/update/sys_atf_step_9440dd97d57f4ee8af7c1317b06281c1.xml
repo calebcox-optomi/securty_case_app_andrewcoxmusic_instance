@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>9440dd97d57f4ee8af7c1317b06281c1</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Send REST Request - Inbound</display_name>
+    <notes/>
+    <order>1</order>
+    <step_config>e00571a10b3222000b7da95e93673a8f</step_config>
+    <table/>
+    <test>fd682b3f061e4e29a86a9b6ef8a0cac9</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_step_9440dd97d57f4ee8af7c1317b06281c1</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=9440dd97d57f4ee8af7c1317b06281c1"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>89f3ee4dac6c43db8b1a2cbcd8eaaa6e</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>9440dd97d57f4ee8af7c1317b06281c1</document_key>
+    <value/>
+    <variable>020a6af09fd32200ef4afa7dc67fcfec</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_89f3ee4dac6c43db8b1a2cbcd8eaaa6e</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>4714ad6d5df446449a8c7d34d801f6a3</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>9440dd97d57f4ee8af7c1317b06281c1</document_key>
+    <value>/api/x_2241073_securi_0/security_case_inbound/case</value>
+    <variable>50bff9250b3222000b7da95e93673a9b</variable>
+    <order>2</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_4714ad6d5df446449a8c7d34d801f6a3</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>f1e1fc8011ab421685ae302989fca068</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>9440dd97d57f4ee8af7c1317b06281c1</document_key>
+    <value/>
+    <variable>58408e250b3222000b7da95e93673a5c</variable>
+    <order>3</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_f1e1fc8011ab421685ae302989fca068</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>24257d9e0b2a4567affb0b2283bad8c3</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>9440dd97d57f4ee8af7c1317b06281c1</document_key>
+    <value>post</value>
+    <variable>59877da10b3222000b7da95e93673a56</variable>
+    <order>1</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_24257d9e0b2a4567affb0b2283bad8c3</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>6f53ae26807945bcad31c173c27cfe24</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>9440dd97d57f4ee8af7c1317b06281c1</document_key>
+    <value>basic</value>
+    <variable>6cdd0ab543010210b6f9a0246bb8f2f2</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_6f53ae26807945bcad31c173c27cfe24</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>a1dc6e7956cd4bdea01705bbc66c3a71</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>9440dd97d57f4ee8af7c1317b06281c1</document_key>
+    <value>{"description":"Missing required fields test"}</value>
+    <variable>81e042650b3222000b7da95e93673aa2</variable>
+    <order>5</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_a1dc6e7956cd4bdea01705bbc66c3a71</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>8ad2296cdecc4380b928927440e70fc2</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>9440dd97d57f4ee8af7c1317b06281c1</document_key>
+    <value/>
+    <variable>89ad06b543010210b6f9a0246bb8f2d7</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_8ad2296cdecc4380b928927440e70fc2</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>beab66e5de26486ea449314e7d4a4ec4</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>9440dd97d57f4ee8af7c1317b06281c1</document_key>
+    <value>{"Content-Type":"application/json","Accept":"application/json"}</value>
+    <variable>cec002650b3222000b7da95e93673aae</variable>
+    <order>4</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_beab66e5de26486ea449314e7d4a4ec4</sys_update_name>
+  </sys_variable_value>
+</record_update>
