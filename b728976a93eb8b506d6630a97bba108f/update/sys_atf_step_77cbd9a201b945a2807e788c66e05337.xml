@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>77cbd9a201b945a2807e788c66e05337</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <active>true</active>
+    <description/>
+    <display_name>Run Server Side Script</display_name>
+    <notes/>
+    <order>1</order>
+    <step_config>41de4a935332120028bc29cac2dc349a</step_config>
+    <table/>
+    <test>46f2be923f4a4f07b5c5adb3e43500b6</test>
+    <timeout/>
+    <warning_message/>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_step_77cbd9a201b945a2807e788c66e05337</sys_update_name>
+  </sys_atf_step>
+  <sys_variable_value action="delete_multiple" query="document_key=77cbd9a201b945a2807e788c66e05337"/>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>89ec7277d78844f2b02f71a6e6a3757a</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>77cbd9a201b945a2807e788c66e05337</document_key>
+    <value>3.1</value>
+    <variable>42f2564b73031300440211d8faf6a777</variable>
+    <order>100</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_89ec7277d78844f2b02f71a6e6a3757a</sys_update_name>
+  </sys_variable_value>
+  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>847b6b75a2134a74a582601185f5a9d5</sys_id>
+    <document>sys_atf_step</document>
+    <document_key>77cbd9a201b945a2807e788c66e05337</document_key>
+    <value>
+(function(outputs, steps, params, stepResult, assertEqual) {
+    var origEnabled = gs.getProperty('x_2241073_securi_0.api.enabled', 'false');
+    var origUrl = gs.getProperty('x_2241073_securi_0.api.url', '');
+
+    gs.setProperty('x_2241073_securi_0.api.enabled', 'true');
+    gs.setProperty('x_2241073_securi_0.api.url', 'https://test.example.com/webhook');
+
+    try {
+        var caseGR = new GlideRecord('x_2241073_securi_0_sec_case');
+        caseGR.initialize();
+        caseGR.setValue('short_description', 'ATF Non-Torq No Webhook Test');
+        caseGR.setValue('severity', '3');
+        caseGR.setValue('case_source', 'manual');
+        var caseId = caseGR.insert();
+
+        var updateGR = new GlideRecord('x_2241073_securi_0_sec_case');
+        if (updateGR.get(caseId)) {
+            updateGR.setValue('severity', '1');
+            updateGR.update();
+        }
+
+        var logGR = new GlideRecord('x_2241073_securi_0_webhook_log');
+        logGR.addQuery('case_id', caseId);
+        logGR.addQuery('direction', 'outbound');
+        logGR.query();
+        var count = logGR.getRowCount();
+
+        assertEqual({
+            name: 'No outbound webhook created for non-torq case',
+            shouldbe: '0',
+            value: String(count)
+        });
+
+        stepResult.setOutputMessage('Confirmed 0 outbound webhooks for non-torq case (count=' + count + ')');
+
+        // Cleanup
+        var cleanLog = new GlideRecord('x_2241073_securi_0_webhook_log');
+        cleanLog.addQuery('case_id', caseId);
+        cleanLog.query();
+        while (cleanLog.next()) { cleanLog.deleteRecord(); }
+
+        var cleanCase = new GlideRecord('x_2241073_securi_0_sec_case');
+        if (cleanCase.get(caseId)) { cleanCase.deleteRecord(); }
+    } finally {
+        gs.setProperty('x_2241073_securi_0.api.enabled', origEnabled);
+        gs.setProperty('x_2241073_securi_0.api.url', origUrl);
+    }
+})(outputs, steps, params, stepResult, assertEqual);
+        </value>
+    <variable>989d9e235324220002c6435723dc3484</variable>
+    <order>200</order>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_variable_value_847b6b75a2134a74a582601185f5a9d5</sys_update_name>
+  </sys_variable_value>
+  <sys_element_mapping action="delete_multiple" query="id=77cbd9a201b945a2807e788c66e05337"/>
+  <sys_element_mapping action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>72619e2c546e4250be9f6a355b208773</sys_id>
+    <field>script</field>
+    <id>77cbd9a201b945a2807e788c66e05337</id>
+    <table>var__m_atf_input_variable_41de4a935332120028bc29cac2dc349a</table>
+    <value>
+(function(outputs, steps, params, stepResult, assertEqual) {
+    var origEnabled = gs.getProperty('x_2241073_securi_0.api.enabled', 'false');
+    var origUrl = gs.getProperty('x_2241073_securi_0.api.url', '');
+
+    gs.setProperty('x_2241073_securi_0.api.enabled', 'true');
+    gs.setProperty('x_2241073_securi_0.api.url', 'https://test.example.com/webhook');
+
+    try {
+        var caseGR = new GlideRecord('x_2241073_securi_0_sec_case');
+        caseGR.initialize();
+        caseGR.setValue('short_description', 'ATF Non-Torq No Webhook Test');
+        caseGR.setValue('severity', '3');
+        caseGR.setValue('case_source', 'manual');
+        var caseId = caseGR.insert();
+
+        var updateGR = new GlideRecord('x_2241073_securi_0_sec_case');
+        if (updateGR.get(caseId)) {
+            updateGR.setValue('severity', '1');
+            updateGR.update();
+        }
+
+        var logGR = new GlideRecord('x_2241073_securi_0_webhook_log');
+        logGR.addQuery('case_id', caseId);
+        logGR.addQuery('direction', 'outbound');
+        logGR.query();
+        var count = logGR.getRowCount();
+
+        assertEqual({
+            name: 'No outbound webhook created for non-torq case',
+            shouldbe: '0',
+            value: String(count)
+        });
+
+        stepResult.setOutputMessage('Confirmed 0 outbound webhooks for non-torq case (count=' + count + ')');
+
+        // Cleanup
+        var cleanLog = new GlideRecord('x_2241073_securi_0_webhook_log');
+        cleanLog.addQuery('case_id', caseId);
+        cleanLog.query();
+        while (cleanLog.next()) { cleanLog.deleteRecord(); }
+
+        var cleanCase = new GlideRecord('x_2241073_securi_0_sec_case');
+        if (cleanCase.get(caseId)) { cleanCase.deleteRecord(); }
+    } finally {
+        gs.setProperty('x_2241073_securi_0.api.enabled', origEnabled);
+        gs.setProperty('x_2241073_securi_0.api.url', origUrl);
+    }
+})(outputs, steps, params, stepResult, assertEqual);
+        </value>
+    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_element_mapping_72619e2c546e4250be9f6a355b208773</sys_update_name>
+  </sys_element_mapping>
+</record_update>

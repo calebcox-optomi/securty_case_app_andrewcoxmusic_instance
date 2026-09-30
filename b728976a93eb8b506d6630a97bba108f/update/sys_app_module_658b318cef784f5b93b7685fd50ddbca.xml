@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>658b318cef784f5b93b7685fd50ddbca</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_app_module_658b318cef784f5b93b7685fd50ddbca</sys_update_name>
+    <active>true</active>
+    <application>38b903827900459785cacc0fa7eef242</application>
+    <filter>status=failed_review^direction=outbound</filter>
+    <link_type>FILTER</link_type>
+    <name>x_2241073_securi_0_webhook_log</name>
+    <order>950</order>
+    <roles>[object Object],[object Object],admin</roles>
+    <title>Webhooks Pending Review</title>
+  </sys_app_module>
+</record_update>

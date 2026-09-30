@@ -30,8 +30,7 @@
     <sys_id>9c3afe98d5554ca2a4f6845c33de307c</sys_id>
     <document>sys_atf_step</document>
     <document_key>b93c5c9cad6c4b7d851fd6ab4f7f85b3</document_key>
-    <value>
-(function(outputs, steps, params, stepResult, assertEqual) {
+    <value>(function(outputs, steps, params, stepResult, assertEqual) {
     var caseId = steps('{{step['a986ceb46d2145be90c5969bf1045dfd'].record_id}}');
     var slaGR = new GlideRecord('task_sla');
     slaGR.addQuery('task', caseId);
@@ -43,8 +42,7 @@
         value: String(count &gt; 0)
     });
     stepResult.setOutputMessage('Found ' + count + ' task_sla record(s) for the case');
-})(outputs, steps, params, stepResult, assertEqual);
-</value>
+})(outputs, steps, params, stepResult, assertEqual);</value>
     <variable>989d9e235324220002c6435723dc3484</variable>
     <order>200</order>
     <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
@@ -56,8 +54,7 @@
     <field>script</field>
     <id>b93c5c9cad6c4b7d851fd6ab4f7f85b3</id>
     <table>var__m_atf_input_variable_41de4a935332120028bc29cac2dc349a</table>
-    <value>
-(function(outputs, steps, params, stepResult, assertEqual) {
+    <value>(function(outputs, steps, params, stepResult, assertEqual) {
     var caseId = steps('{{step['a986ceb46d2145be90c5969bf1045dfd'].record_id}}');
     var slaGR = new GlideRecord('task_sla');
     slaGR.addQuery('task', caseId);
@@ -69,8 +66,7 @@
         value: String(count &gt; 0)
     });
     stepResult.setOutputMessage('Found ' + count + ' task_sla record(s) for the case');
-})(outputs, steps, params, stepResult, assertEqual);
-</value>
+})(outputs, steps, params, stepResult, assertEqual);</value>
     <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
     <sys_update_name>sys_element_mapping_e25cf40442de453aaa33290548573ace</sys_update_name>
   </sys_element_mapping>

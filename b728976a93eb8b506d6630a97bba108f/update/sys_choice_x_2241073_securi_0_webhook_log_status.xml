@@ -43,5 +43,49 @@
       <inactive_on_update>false</inactive_on_update>
       <language>en</language>
     </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>657ccfd2d2c54c688e17f97fc657f65a</sys_id>
+      <name>x_2241073_securi_0_webhook_log</name>
+      <element>status</element>
+      <label>Retrying</label>
+      <value>retrying</value>
+      <sequence>4</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>a30d61e80cf34bc5b27b540600022dd8</sys_id>
+      <name>x_2241073_securi_0_webhook_log</name>
+      <element>status</element>
+      <label>Sent</label>
+      <value>sent</value>
+      <sequence>5</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>54ca7a7ed7d840c599038a45b5adb37e</sys_id>
+      <name>x_2241073_securi_0_webhook_log</name>
+      <element>status</element>
+      <label>Failed - Review</label>
+      <value>failed_review</value>
+      <sequence>6</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>bc13d443ffb44183877cb314fa97f166</sys_id>
+      <name>x_2241073_securi_0_webhook_log</name>
+      <element>status</element>
+      <label>Discarded</label>
+      <value>discarded</value>
+      <sequence>7</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
   </sys_choice_set>
 </record_update>
