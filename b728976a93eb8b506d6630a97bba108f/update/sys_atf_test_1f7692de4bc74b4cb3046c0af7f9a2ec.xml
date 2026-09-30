@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+  <sys_atf_test action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>1f7692de4bc74b4cb3046c0af7f9a2ec</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_atf_test_1f7692de4bc74b4cb3046c0af7f9a2ec</sys_update_name>
+    <active>true</active>
+    <description>Enables outbound webhooks, creates a Torq-sourced case with severity=3 and state=1, then updates BOTH severity to 1 AND state to 3 in a single update. Asserts the webhook_log payload contains event_type case.severity_changed (not case.state_changed), confirming the business rule priority order: severity &gt; state &gt; reassigned &gt; updated.</description>
+    <fail_on_server_error>true</fail_on_server_error>
+    <name>Severity Change Takes Priority Over State Change</name>
+  </sys_atf_test>
+</record_update>

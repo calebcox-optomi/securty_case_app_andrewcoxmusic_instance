@@ -38,6 +38,7 @@
     gs.setProperty('x_2241073_securi_0.api.enabled', 'true');
     gs.setProperty('x_2241073_securi_0.api.url', 'https://test.example.com/webhook');
 
+    var caseId = '';
     try {
         var caseGR = new GlideRecord('x_2241073_securi_0_sec_case');
         caseGR.initialize();
@@ -46,7 +47,7 @@
         caseGR.setValue('state', '1');
         caseGR.setValue('case_source', 'torq');
         caseGR.setValue('torq_incident_id', 'ATF-OUTBOUND-STATE-001');
-        var caseId = caseGR.insert();
+        caseId = caseGR.insert();
 
         var updateGR = new GlideRecord('x_2241073_securi_0_sec_case');
         if (updateGR.get(caseId)) {
@@ -78,15 +79,16 @@
         }
 
         stepResult.setOutputMessage('Found ' + count + ' pending outbound webhook(s) for state change');
-
-        var cleanLog = new GlideRecord('x_2241073_securi_0_webhook_log');
-        cleanLog.addQuery('case_id', caseId);
-        cleanLog.query();
-        while (cleanLog.next()) { cleanLog.deleteRecord(); }
-
-        var cleanCase = new GlideRecord('x_2241073_securi_0_sec_case');
-        if (cleanCase.get(caseId)) { cleanCase.deleteRecord(); }
     } finally {
+        if (caseId) {
+            var cleanLog = new GlideRecord('x_2241073_securi_0_webhook_log');
+            cleanLog.addQuery('case_id', caseId);
+            cleanLog.query();
+            while (cleanLog.next()) { cleanLog.deleteRecord(); }
+
+            var cleanCase = new GlideRecord('x_2241073_securi_0_sec_case');
+            if (cleanCase.get(caseId)) { cleanCase.deleteRecord(); }
+        }
         gs.setProperty('x_2241073_securi_0.api.enabled', origEnabled);
         gs.setProperty('x_2241073_securi_0.api.url', origUrl);
     }
@@ -111,6 +113,7 @@
     gs.setProperty('x_2241073_securi_0.api.enabled', 'true');
     gs.setProperty('x_2241073_securi_0.api.url', 'https://test.example.com/webhook');
 
+    var caseId = '';
     try {
         var caseGR = new GlideRecord('x_2241073_securi_0_sec_case');
         caseGR.initialize();
@@ -119,7 +122,7 @@
         caseGR.setValue('state', '1');
         caseGR.setValue('case_source', 'torq');
         caseGR.setValue('torq_incident_id', 'ATF-OUTBOUND-STATE-001');
-        var caseId = caseGR.insert();
+        caseId = caseGR.insert();
 
         var updateGR = new GlideRecord('x_2241073_securi_0_sec_case');
         if (updateGR.get(caseId)) {
@@ -151,15 +154,16 @@
         }
 
         stepResult.setOutputMessage('Found ' + count + ' pending outbound webhook(s) for state change');
-
-        var cleanLog = new GlideRecord('x_2241073_securi_0_webhook_log');
-        cleanLog.addQuery('case_id', caseId);
-        cleanLog.query();
-        while (cleanLog.next()) { cleanLog.deleteRecord(); }
-
-        var cleanCase = new GlideRecord('x_2241073_securi_0_sec_case');
-        if (cleanCase.get(caseId)) { cleanCase.deleteRecord(); }
     } finally {
+        if (caseId) {
+            var cleanLog = new GlideRecord('x_2241073_securi_0_webhook_log');
+            cleanLog.addQuery('case_id', caseId);
+            cleanLog.query();
+            while (cleanLog.next()) { cleanLog.deleteRecord(); }
+
+            var cleanCase = new GlideRecord('x_2241073_securi_0_sec_case');
+            if (cleanCase.get(caseId)) { cleanCase.deleteRecord(); }
+        }
         gs.setProperty('x_2241073_securi_0.api.enabled', origEnabled);
         gs.setProperty('x_2241073_securi_0.api.url', origUrl);
     }

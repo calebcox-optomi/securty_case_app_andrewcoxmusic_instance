@@ -38,13 +38,14 @@
     gs.setProperty('x_2241073_securi_0.api.enabled', 'true');
     gs.setProperty('x_2241073_securi_0.api.url', 'https://test.example.com/webhook');
 
+    var caseId = '';
     try {
         var caseGR = new GlideRecord('x_2241073_securi_0_sec_case');
         caseGR.initialize();
         caseGR.setValue('short_description', 'ATF Non-Torq No Webhook Test');
         caseGR.setValue('severity', '3');
         caseGR.setValue('case_source', 'manual');
-        var caseId = caseGR.insert();
+        caseId = caseGR.insert();
 
         var updateGR = new GlideRecord('x_2241073_securi_0_sec_case');
         if (updateGR.get(caseId)) {
@@ -65,16 +66,17 @@
         });
 
         stepResult.setOutputMessage('Confirmed 0 outbound webhooks for non-torq case (count=' + count + ')');
-
-        // Cleanup
-        var cleanLog = new GlideRecord('x_2241073_securi_0_webhook_log');
-        cleanLog.addQuery('case_id', caseId);
-        cleanLog.query();
-        while (cleanLog.next()) { cleanLog.deleteRecord(); }
-
-        var cleanCase = new GlideRecord('x_2241073_securi_0_sec_case');
-        if (cleanCase.get(caseId)) { cleanCase.deleteRecord(); }
     } finally {
+        // Cleanup any stray logs and the test case
+        if (caseId) {
+            var cleanLog = new GlideRecord('x_2241073_securi_0_webhook_log');
+            cleanLog.addQuery('case_id', caseId);
+            cleanLog.query();
+            while (cleanLog.next()) { cleanLog.deleteRecord(); }
+
+            var cleanCase = new GlideRecord('x_2241073_securi_0_sec_case');
+            if (cleanCase.get(caseId)) { cleanCase.deleteRecord(); }
+        }
         gs.setProperty('x_2241073_securi_0.api.enabled', origEnabled);
         gs.setProperty('x_2241073_securi_0.api.url', origUrl);
     }
@@ -99,13 +101,14 @@
     gs.setProperty('x_2241073_securi_0.api.enabled', 'true');
     gs.setProperty('x_2241073_securi_0.api.url', 'https://test.example.com/webhook');
 
+    var caseId = '';
     try {
         var caseGR = new GlideRecord('x_2241073_securi_0_sec_case');
         caseGR.initialize();
         caseGR.setValue('short_description', 'ATF Non-Torq No Webhook Test');
         caseGR.setValue('severity', '3');
         caseGR.setValue('case_source', 'manual');
-        var caseId = caseGR.insert();
+        caseId = caseGR.insert();
 
         var updateGR = new GlideRecord('x_2241073_securi_0_sec_case');
         if (updateGR.get(caseId)) {
@@ -126,16 +129,17 @@
         });
 
         stepResult.setOutputMessage('Confirmed 0 outbound webhooks for non-torq case (count=' + count + ')');
-
-        // Cleanup
-        var cleanLog = new GlideRecord('x_2241073_securi_0_webhook_log');
-        cleanLog.addQuery('case_id', caseId);
-        cleanLog.query();
-        while (cleanLog.next()) { cleanLog.deleteRecord(); }
-
-        var cleanCase = new GlideRecord('x_2241073_securi_0_sec_case');
-        if (cleanCase.get(caseId)) { cleanCase.deleteRecord(); }
     } finally {
+        // Cleanup any stray logs and the test case
+        if (caseId) {
+            var cleanLog = new GlideRecord('x_2241073_securi_0_webhook_log');
+            cleanLog.addQuery('case_id', caseId);
+            cleanLog.query();
+            while (cleanLog.next()) { cleanLog.deleteRecord(); }
+
+            var cleanCase = new GlideRecord('x_2241073_securi_0_sec_case');
+            if (cleanCase.get(caseId)) { cleanCase.deleteRecord(); }
+        }
         gs.setProperty('x_2241073_securi_0.api.enabled', origEnabled);
         gs.setProperty('x_2241073_securi_0.api.url', origUrl);
     }

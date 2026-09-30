@@ -4,7 +4,7 @@
     <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
     <sys_update_name>sys_atf_test_177e8cd7ae234a8898879d0db0f43b07</sys_update_name>
     <active>true</active>
-    <description>Enables outbound webhooks via system property, creates a Torq-sourced case with severity=3, updates severity to 1, and asserts a pending outbound webhook_log entry was created by the Create Outbound Webhook after-update business rule. Cleans up test data and restores the property afterward.</description>
+    <description>Enables outbound webhooks via system property, creates a Torq-sourced case with severity=3, updates severity to 1, and asserts a pending outbound webhook_log entry was created by the Create Outbound Webhook after-update business rule with event_type case.severity_changed. Cleans up test data and restores properties afterward.</description>
     <fail_on_server_error>true</fail_on_server_error>
     <name>Outbound Webhook Created on Severity Change</name>
   </sys_atf_test>

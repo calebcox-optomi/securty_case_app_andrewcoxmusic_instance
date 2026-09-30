@@ -4,8 +4,8 @@
     <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
     <sys_update_name>sys_atf_test_46f2be923f4a4f07b5c5adb3e43500b6</sys_update_name>
     <active>true</active>
-    <description>Enables outbound webhooks via system property, creates a case with case_source=manual, updates severity, and asserts NO outbound webhook_log entry was created. The Create Outbound Webhook business rule only fires for case_source=torq, so manual cases must be excluded.</description>
+    <description>Enables outbound webhooks via system property, creates a case with case_source=manual, updates severity from 3 to 1, and asserts NO outbound webhook_log entry was created. The Create Outbound Webhook business rule only fires for case_source=torq, so manual cases must be excluded.</description>
     <fail_on_server_error>true</fail_on_server_error>
-    <name>No Outbound Webhook for Non-Torq Cases</name>
+    <name>Non-Torq Case Does Not Create Webhook</name>
   </sys_atf_test>
 </record_update>

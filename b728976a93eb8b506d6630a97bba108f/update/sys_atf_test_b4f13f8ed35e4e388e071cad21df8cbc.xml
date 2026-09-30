@@ -4,7 +4,7 @@
     <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
     <sys_update_name>sys_atf_test_b4f13f8ed35e4e388e071cad21df8cbc</sys_update_name>
     <active>true</active>
-    <description>Enables outbound webhooks via system property, creates a Torq-sourced case with state=1 (New), updates state to 3 (Investigation), and asserts a pending outbound webhook_log entry was created with event type case.state_changed by the Create Outbound Webhook after-update business rule.</description>
+    <description>Enables outbound webhooks via system property, creates a Torq-sourced case with state=1 (New), updates state to 3 (Investigation), and asserts a pending outbound webhook_log entry was created with event_type case.state_changed by the Create Outbound Webhook after-update business rule.</description>
     <fail_on_server_error>true</fail_on_server_error>
     <name>Outbound Webhook Created on State Change</name>
   </sys_atf_test>
