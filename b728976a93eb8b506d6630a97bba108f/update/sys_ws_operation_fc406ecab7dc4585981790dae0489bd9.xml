@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+  <sys_ws_operation action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>fc406ecab7dc4585981790dae0489bd9</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_ws_operation_fc406ecab7dc4585981790dae0489bd9</sys_update_name>
+    <active>true</active>
+    <consumes>application/json</consumes>
+    <consumes_customized>false</consumes_customized>
+    <default_operation_uri>/api/x_2241073_securi_0/security_case_inbound/case/{case_id}</default_operation_uri>
+    <enforce_acl>e521828077174667ab6b6b39b33ed7a1</enforce_acl>
+    <http_method>PUT</http_method>
+    <name>Update Case</name>
+    <operation_script><![CDATA[(function process(request, response) {
+    var startTime = new GlideDateTime();
+    var httpStatus = 200;
+    var responseBody = {};
+    var caseId = '';
+
+    try {
+        var pathCaseId = request.pathParams.case_id;
+        var requestData = request.body.data;
+
+        // Look up by sys_id or number
+        var gr = new GlideRecord('x_2241073_securi_0_sec_case');
+        if (!gr.get(pathCaseId)) {
+            gr = new GlideRecord('x_2241073_securi_0_sec_case');
+            gr.addQuery('number', pathCaseId);
+            gr.query();
+            if (!gr.next()) {
+                httpStatus = 404;
+                responseBody = {
+                    error: {
+                        message: 'Case not found',
+                        detail: 'No Security Case found with identifier: ' + pathCaseId,
+                        status: 404
+                    }
+                };
+                response.setStatus(404);
+                response.setBody(responseBody);
+                _logWebhook(request, responseBody, httpStatus, startTime, caseId);
+                return;
+            }
+        }
+
+        caseId = gr.getUniqueValue();
+
+        // Map updatable fields (torq_incident_id is NOT updatable)
+        var updatableFields = [
+            'short_description', 'description', 'severity', 'category', 'subcategory',
+            'detection_source', 'torq_incident_url', 'case_type',
+            'affected_systems', 'affected_users', 'state'
+        ];
+
+        for (var i = 0; i < updatableFields.length; i++) {
+            var field = updatableFields[i];
+            if (requestData.hasOwnProperty(field) && requestData[field] !== null && requestData[field] !== undefined) {
+                gr.setValue(field, requestData[field].toString());
+            }
+        }
+
+        gr.update();
+
+        responseBody = {
+            result: {
+                sys_id: caseId,
+                number: gr.getValue('number'),
+                state: gr.getValue('state'),
+                status: 'updated'
+            }
+        };
+
+        response.setStatus(200);
+        response.setBody(responseBody);
+
+    } catch (e) {
+        httpStatus = 500;
+        responseBody = {
+            error: {
+                message: 'Internal server error',
+                detail: e.toString(),
+                status: 500
+            }
+        };
+        response.setStatus(500);
+        response.setBody(responseBody);
+    }
+
+    _logWebhook(request, responseBody, httpStatus, startTime, caseId);
+
+})(request, response);
+
+function _logWebhook(request, responseBody, httpStatus, startTime, caseId) {
+    try {
+        var endTime = new GlideDateTime();
+        var duration = GlideDateTime.subtract(startTime, endTime);
+        var durationMs = duration.getNumericValue();
+        var log = new GlideRecord('x_2241073_securi_0_webhook_log');
+        log.initialize();
+        log.setValue('direction', 'inbound');
+        log.setValue('endpoint_url', request.uri);
+        log.setValue('http_method', 'PUT');
+        log.setValue('http_status', httpStatus);
+        log.setValue('payload', request.body.dataString || '');
+        log.setValue('response_body', JSON.stringify(responseBody));
+        log.setValue('status', httpStatus < 400 ? 'success' : 'failure');
+        log.setValue('duration_ms', durationMs);
+        if (caseId) log.setValue('case_id', caseId);
+        log.insert();
+    } catch (e) {
+        gs.error('Failed to log webhook: ' + e.toString());
+    }
+}
+]]></operation_script>
+    <operation_uri>/api/x_2241073_securi_0/security_case_inbound/case/{case_id}</operation_uri>
+    <produces>application/json</produces>
+    <produces_customized>false</produces_customized>
+    <relative_path>/case/{case_id}</relative_path>
+    <request_example/>
+    <requires_acl_authorization>true</requires_acl_authorization>
+    <requires_authentication>true</requires_authentication>
+    <requires_snc_internal_role>true</requires_snc_internal_role>
+    <short_description>Update an existing Security Case by sys_id or CASE number</short_description>
+    <sys_policy/>
+    <web_service_definition>842c6e0364f94aaf8ed354a588244e29</web_service_definition>
+    <web_service_version/>
+  </sys_ws_operation>
+</record_update>

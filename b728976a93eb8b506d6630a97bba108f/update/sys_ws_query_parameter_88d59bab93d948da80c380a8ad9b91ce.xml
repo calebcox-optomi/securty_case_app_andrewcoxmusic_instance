@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+  <sys_ws_query_parameter action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>88d59bab93d948da80c380a8ad9b91ce</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_ws_query_parameter_88d59bab93d948da80c380a8ad9b91ce</sys_update_name>
+    <example_value/>
+    <name>fields</name>
+    <required>false</required>
+    <short_description>Comma-separated list of field names to return. If omitted, returns the default field set.</short_description>
+    <web_service_definition>842c6e0364f94aaf8ed354a588244e29</web_service_definition>
+  </sys_ws_query_parameter>
+</record_update>

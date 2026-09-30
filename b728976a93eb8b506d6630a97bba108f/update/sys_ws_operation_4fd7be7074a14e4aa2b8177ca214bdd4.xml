@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+  <sys_ws_operation action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>4fd7be7074a14e4aa2b8177ca214bdd4</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_ws_operation_4fd7be7074a14e4aa2b8177ca214bdd4</sys_update_name>
+    <active>true</active>
+    <consumes>application/json</consumes>
+    <consumes_customized>false</consumes_customized>
+    <default_operation_uri>/api/x_2241073_securi_0/security_case_inbound/case</default_operation_uri>
+    <enforce_acl>e521828077174667ab6b6b39b33ed7a1</enforce_acl>
+    <http_method>POST</http_method>
+    <name>Create or Update Case</name>
+    <operation_script><![CDATA[(function process(request, response) {
+    var startTime = new GlideDateTime();
+    var httpStatus = 200;
+    var responseBody = {};
+    var caseId = '';
+
+    try {
+        var requestData = request.body.data;
+
+        // Validate required fields
+        var missing = [];
+        if (!requestData.torq_incident_id) missing.push('torq_incident_id');
+        if (!requestData.short_description) missing.push('short_description');
+        if (!requestData.severity) missing.push('severity');
+
+        if (missing.length > 0) {
+            httpStatus = 400;
+            responseBody = {
+                error: {
+                    message: 'Missing required fields',
+                    detail: 'The following fields are required: ' + missing.join(', '),
+                    status: 400
+                }
+            };
+            response.setStatus(400);
+            response.setBody(responseBody);
+            _logWebhook(request, responseBody, httpStatus, startTime, caseId);
+            return;
+        }
+
+        // Look up existing case by torq_incident_id
+        var gr = new GlideRecord('x_2241073_securi_0_sec_case');
+        gr.addQuery('torq_incident_id', requestData.torq_incident_id);
+        gr.query();
+
+        var isNew = !gr.next();
+        if (isNew) {
+            gr.initialize();
+        }
+
+        // Map required fields
+        gr.setValue('torq_incident_id', requestData.torq_incident_id);
+        gr.setValue('short_description', requestData.short_description);
+        gr.setValue('severity', requestData.severity.toString());
+        gr.setValue('case_source', 'torq');
+
+        // Map optional fields
+        var optionalFields = {
+            'description': 'description',
+            'category': 'category',
+            'subcategory': 'subcategory',
+            'detection_source': 'detection_source',
+            'torq_incident_url': 'torq_incident_url',
+            'case_type': 'case_type',
+            'affected_systems': 'affected_systems',
+            'affected_users': 'affected_users'
+        };
+
+        for (var key in optionalFields) {
+            if (requestData.hasOwnProperty(key) && requestData[key] !== null && requestData[key] !== undefined) {
+                gr.setValue(optionalFields[key], requestData[key].toString());
+            }
+        }
+
+        if (isNew) {
+            caseId = gr.insert();
+            httpStatus = 201;
+        } else {
+            gr.update();
+            caseId = gr.getUniqueValue();
+            httpStatus = 200;
+        }
+
+        // Re-read to get the auto-generated number
+        var resultGR = new GlideRecord('x_2241073_securi_0_sec_case');
+        resultGR.get(caseId);
+
+        responseBody = {
+            result: {
+                sys_id: caseId,
+                number: resultGR.getValue('number'),
+                state: resultGR.getValue('state'),
+                status: isNew ? 'created' : 'updated'
+            }
+        };
+
+        response.setStatus(httpStatus);
+        response.setBody(responseBody);
+
+    } catch (e) {
+        httpStatus = 500;
+        responseBody = {
+            error: {
+                message: 'Internal server error',
+                detail: e.toString(),
+                status: 500
+            }
+        };
+        response.setStatus(500);
+        response.setBody(responseBody);
+    }
+
+    _logWebhook(request, responseBody, httpStatus, startTime, caseId);
+
+})(request, response);
+
+function _logWebhook(request, responseBody, httpStatus, startTime, caseId) {
+    try {
+        var endTime = new GlideDateTime();
+        var duration = GlideDateTime.subtract(startTime, endTime);
+        var durationMs = duration.getNumericValue();
+
+        var log = new GlideRecord('x_2241073_securi_0_webhook_log');
+        log.initialize();
+        log.setValue('direction', 'inbound');
+        log.setValue('endpoint_url', request.uri);
+        log.setValue('http_method', 'POST');
+        log.setValue('http_status', httpStatus);
+        log.setValue('payload', request.body.dataString || '');
+        log.setValue('response_body', JSON.stringify(responseBody));
+        log.setValue('status', httpStatus < 400 ? 'success' : 'failure');
+        log.setValue('duration_ms', durationMs);
+        if (caseId) {
+            log.setValue('case_id', caseId);
+        }
+        log.insert();
+    } catch (e) {
+        gs.error('Failed to log webhook: ' + e.toString());
+    }
+}
+]]></operation_script>
+    <operation_uri>/api/x_2241073_securi_0/security_case_inbound/case</operation_uri>
+    <produces>application/json</produces>
+    <produces_customized>false</produces_customized>
+    <relative_path>/case</relative_path>
+    <request_example/>
+    <requires_acl_authorization>true</requires_acl_authorization>
+    <requires_authentication>true</requires_authentication>
+    <requires_snc_internal_role>true</requires_snc_internal_role>
+    <short_description>Create a new Security Case or update an existing one by torq_incident_id</short_description>
+    <sys_policy/>
+    <web_service_definition>842c6e0364f94aaf8ed354a588244e29</web_service_definition>
+    <web_service_version/>
+  </sys_ws_operation>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map">
+  <sys_ws_query_parameter_map action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>0e8c04f2aca44af29a23b53868e94794</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_ws_query_parameter_map_0e8c04f2aca44af29a23b53868e94794</sys_update_name>
+    <web_service_operation>6727188b881c423d89df274cda0dafe7</web_service_operation>
+    <web_service_query_parameter>88d59bab93d948da80c380a8ad9b91ce</web_service_query_parameter>
+  </sys_ws_query_parameter_map>
+</record_update>
