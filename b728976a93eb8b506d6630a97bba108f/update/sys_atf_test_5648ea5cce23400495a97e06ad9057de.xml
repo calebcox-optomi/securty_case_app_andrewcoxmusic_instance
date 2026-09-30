@@ -4,7 +4,7 @@
     <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
     <sys_update_name>sys_atf_test_5648ea5cce23400495a97e06ad9057de</sys_update_name>
     <active>true</active>
-    <description>Inserts a Security Case, transitions from New to In Progress to Pending (4), and validates the state reached Pending. Confirms the pause condition state (4) is reachable for SLA pause behavior.</description>
+    <description>Inserts a Security Case, transitions from New to In Progress to Pending (4), and validates the state reached Pending.</description>
     <fail_on_server_error>true</fail_on_server_error>
     <name>SLA Tracks Through Pending State</name>
   </sys_atf_test>

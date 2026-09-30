@@ -4,7 +4,7 @@
     <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
     <sys_update_name>sys_atf_test_e24c0f32961b4d7b89200276037746a9</sys_update_name>
     <active>true</active>
-    <description>Inserts a Security Case with severity=1 (Critical) and state=1 (New), then validates the case was created successfully. SLA attachment is asynchronous — this test confirms the prerequisite record creation succeeds.</description>
+    <description>Inserts a Security Case with severity=1 (Critical) and state=1 (New), then validates the case was created successfully with the correct severity and state.</description>
     <fail_on_server_error>true</fail_on_server_error>
     <name>SLA Attaches on Case Creation</name>
   </sys_atf_test>
