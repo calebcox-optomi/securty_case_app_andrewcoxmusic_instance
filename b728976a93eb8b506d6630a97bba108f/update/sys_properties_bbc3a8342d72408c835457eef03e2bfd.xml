@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+  <sys_properties action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>bbc3a8342d72408c835457eef03e2bfd</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_properties_bbc3a8342d72408c835457eef03e2bfd</sys_update_name>
+    <choices/>
+    <description>Maximum run time for the dispatcher job in seconds before self-terminating. Default: 240 (4 minutes).</description>
+    <ignore_cache>false</ignore_cache>
+    <is_private>false</is_private>
+    <name>x_2241073_securi_0.api.max_run_time</name>
+    <read_roles>admin</read_roles>
+    <suffix>api.max_run_time</suffix>
+    <type>integer</type>
+    <value>240</value>
+    <write_roles>admin</write_roles>
+  </sys_properties>
+</record_update>

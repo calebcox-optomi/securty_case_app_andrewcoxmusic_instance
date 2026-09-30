@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+  <sys_properties action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>764d13b5b9074cd9b15a2c287e3a577d</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_properties_764d13b5b9074cd9b15a2c287e3a577d</sys_update_name>
+    <choices/>
+    <description>Torq webhook endpoint URL. Set to the Torq webhook receiver URL after deployment.</description>
+    <ignore_cache>false</ignore_cache>
+    <is_private>false</is_private>
+    <name>x_2241073_securi_0.api.url</name>
+    <read_roles>admin</read_roles>
+    <suffix>api.url</suffix>
+    <type>string</type>
+    <value/>
+    <write_roles>admin</write_roles>
+  </sys_properties>
+</record_update>

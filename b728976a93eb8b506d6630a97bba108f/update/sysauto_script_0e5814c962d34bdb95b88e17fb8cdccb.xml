@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+  <sysauto_script action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>0e5814c962d34bdb95b88e17fb8cdccb</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sysauto_script_0e5814c962d34bdb95b88e17fb8cdccb</sys_update_name>
+    <active>true</active>
+    <advanced>false</advanced>
+    <business_calendar/>
+    <condition><![CDATA[gs.getProperty('x_2241073_securi_0.api.enabled') == 'true']]></condition>
+    <conditional>true</conditional>
+    <entered_run_end/>
+    <entered_run_start/>
+    <entered_time/>
+    <max_drift/>
+    <name>Outbound Webhook Dispatcher</name>
+    <offset/>
+    <offset_type>0</offset_type>
+    <repeat_every/>
+    <run_as/>
+    <run_as_tz/>
+    <run_dayofmonth>1</run_dayofmonth>
+    <run_dayofweek>1</run_dayofweek>
+    <run_daysofweek/>
+    <run_end/>
+    <run_month/>
+    <run_period>1970-01-01 00:00:05</run_period>
+    <run_start/>
+    <run_time>1970-01-01 00:00:00</run_time>
+    <run_type>periodically</run_type>
+    <run_weekinmonth/>
+    <script><![CDATA[/**
+ * Outbound Webhook Dispatcher
+ * Picks up pending/retrying outbound webhook log entries and delivers them.
+ * Implements: exponential backoff retries, rate limiting per case, max run time.
+ */
+(function () {
+    var MAX_RUN_TIME = parseInt(gs.getProperty('x_2241073_securi_0.api.max_run_time', '240'), 10) * 1000;
+    var MAX_RETRIES = parseInt(gs.getProperty('x_2241073_securi_0.api.max_retries', '3'), 10);
+    var BASE_DELAY = parseInt(gs.getProperty('x_2241073_securi_0.api.retry_delay', '60'), 10);
+    var RATE_LIMIT = parseInt(gs.getProperty('x_2241073_securi_0.api.rate_limit', '5'), 10);
+    var HTTP_TIMEOUT = parseInt(gs.getProperty('x_2241073_securi_0.api.http_timeout', '30'), 10);
+    var API_URL = gs.getProperty('x_2241073_securi_0.api.url', '');
+    var AUTH_TOKEN = gs.getProperty('x_2241073_securi_0.api.auth_token', '');
+
+    if (!API_URL) {
+        gs.warn('Outbound webhook dispatcher: api.url is not configured');
+        return;
+    }
+
+    var startTime = new GlideDateTime().getNumericValue();
+
+    // Query pending and retrying webhooks ready for delivery
+    var gr = new GlideRecord('x_2241073_securi_0_webhook_log');
+    gr.addQuery('direction', 'outbound');
+    gr.addQuery('status', 'IN', 'pending,retrying');
+    // Only pick up entries where next_attempt is null or in the past
+    var qc = gr.addQuery('next_attempt', '');
+    qc.addOrCondition('next_attempt', '<=', new GlideDateTime());
+    gr.orderBy('sys_created_on');
+    gr.setLimit(50);
+    gr.query();
+
+    var processed = 0;
+    while (gr.next()) {
+        // Check max run time
+        var elapsed = new GlideDateTime().getNumericValue() - startTime;
+        if (elapsed > MAX_RUN_TIME) {
+            gs.info('Webhook dispatcher: max run time reached after ' + processed + ' webhooks');
+            break;
+        }
+
+        // Rate limiting: check how many outbound webhooks were sent for this case in the last minute
+        var caseId = gr.getValue('case_id');
+        if (caseId && RATE_LIMIT > 0) {
+            var oneMinAgo = new GlideDateTime();
+            oneMinAgo.addSeconds(-60);
+            var countGR = new GlideAggregate('x_2241073_securi_0_webhook_log');
+            countGR.addQuery('case_id', caseId);
+            countGR.addQuery('direction', 'outbound');
+            countGR.addQuery('status', 'sent');
+            countGR.addQuery('sent_at', '>=', oneMinAgo);
+            countGR.addAggregate('COUNT');
+            countGR.query();
+            if (countGR.next()) {
+                var count = parseInt(countGR.getAggregate('COUNT'), 10);
+                if (count >= RATE_LIMIT) {
+                    // Skip this webhook; will be picked up next cycle
+                    continue;
+                }
+            }
+        }
+
+        // Determine attempt number from attempt_history journal
+        var attemptNum = 1;
+        try {
+            var history = gr.getValue('attempt_history') || '';
+            var matches = history.match(/Attempt \d+/g);
+            attemptNum = matches ? matches.length + 1 : 1;
+        } catch (e) {
+            attemptNum = 1;
+        }
+
+        // Send the webhook
+        var sendStartTime = new GlideDateTime();
+        var httpStatus = 0;
+        var responseBody = '';
+        var success = false;
+
+        try {
+            var request = new sn_ws.RESTMessageV2();
+            request.setEndpoint(API_URL);
+            request.setHttpMethod('POST');
+            request.setRequestHeader('Content-Type', 'application/json');
+            request.setRequestHeader('Accept', 'application/json');
+            if (AUTH_TOKEN) {
+                request.setRequestHeader('Authorization', 'Bearer ' + AUTH_TOKEN);
+            }
+            request.setRequestBody(gr.getValue('payload'));
+            request.setHttpTimeout(HTTP_TIMEOUT * 1000);
+
+            var response = request.execute();
+            httpStatus = response.getStatusCode();
+            responseBody = response.getBody();
+            success = (httpStatus >= 200 && httpStatus < 300);
+        } catch (e) {
+            responseBody = 'Error: ' + e.toString();
+            httpStatus = 0;
+        }
+
+        var sendEndTime = new GlideDateTime();
+        var durationMs = sendEndTime.getNumericValue() - sendStartTime.getNumericValue();
+
+        // Update the webhook log
+        gr.setValue('http_status', httpStatus);
+        gr.setValue('response_body', responseBody);
+        gr.setValue('sent_at', sendStartTime);
+        gr.setValue('duration_ms', durationMs);
+
+        // Log attempt to journal
+        var attemptMsg = 'Attempt ' + attemptNum + ': HTTP ' + httpStatus + ' (' + durationMs + 'ms)';
+        if (!success) {
+            attemptMsg += ' - FAILED: ' + responseBody.substring(0, 500);
+        }
+        gr.setValue('attempt_history', attemptMsg);
+
+        if (success) {
+            gr.setValue('status', 'sent');
+            gr.setValue('next_attempt', '');
+        } else if (attemptNum >= MAX_RETRIES) {
+            // Max retries exceeded - mark for manual review
+            gr.setValue('status', 'failed_review');
+            gr.setValue('next_attempt', '');
+        } else {
+            // Schedule retry with exponential backoff
+            gr.setValue('status', 'retrying');
+            var delaySeconds = BASE_DELAY * Math.pow(2, attemptNum - 1);
+            var nextAttempt = new GlideDateTime();
+            nextAttempt.addSeconds(delaySeconds);
+            gr.setValue('next_attempt', nextAttempt);
+        }
+
+        gr.update();
+        processed++;
+    }
+
+    if (processed > 0) {
+        gs.info('Webhook dispatcher: processed ' + processed + ' outbound webhooks');
+    }
+})();
+]]></script>
+    <sys_name>Outbound Webhook Dispatcher</sys_name>
+    <sys_policy/>
+    <time_zone/>
+    <upgrade_safe>false</upgrade_safe>
+  </sysauto_script>
+</record_update>

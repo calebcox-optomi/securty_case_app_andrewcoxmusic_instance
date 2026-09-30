@@ -31,8 +31,11 @@
     <rest_variables/>
     <role_conditions/>
     <script><![CDATA[// BR8: Torq Case Source Auto-Set
+// Uses property-backed user_name comparison instead of gs.hasRole()
+// to avoid false positives when admins create cases.
 (function () {
-    if (gs.hasRole('x_2241073_securi_0.torq_integration')) {
+    var torqUser = gs.getProperty('x_2241073_securi_0.torq_service_account', '');
+    if (torqUser && gs.getUserName() == torqUser) {
         current.setValue('case_source', 'torq');
     }
 })();

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script">
+  <sys_script action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>aa83bd9f9cd04cbcaad669218eb50db0</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_script_aa83bd9f9cd04cbcaad669218eb50db0</sys_update_name>
+    <abort_action>false</abort_action>
+    <access>package_private</access>
+    <action_delete>false</action_delete>
+    <action_insert>false</action_insert>
+    <action_query>false</action_query>
+    <action_update>true</action_update>
+    <active>true</active>
+    <add_message>false</add_message>
+    <advanced>true</advanced>
+    <change_fields>false</change_fields>
+    <client_callable>false</client_callable>
+    <collection>x_2241073_securi_0_sec_case</collection>
+    <condition/>
+    <description/>
+    <execute_function>false</execute_function>
+    <filter_condition/>
+    <is_rest>false</is_rest>
+    <message/>
+    <name>Create Outbound Webhook on Case Update</name>
+    <order>500</order>
+    <priority>100</priority>
+    <rest_method/>
+    <rest_method_text/>
+    <rest_service/>
+    <rest_service_text/>
+    <rest_variables/>
+    <role_conditions/>
+    <script><![CDATA[// After-update Business Rule: Create Outbound Webhook on Case Update
+// Determines event priority (severity > state > reassigned > updated),
+// builds payload with change data, and creates pending webhook log entries.
+// Only fires for case_source='torq' cases.
+(function () {
+    var enabled = gs.getProperty('x_2241073_securi_0.api.enabled', 'false');
+    if (enabled != 'true') return;
+
+    // Only create webhooks for cases with case_source = 'torq'
+    if (current.getValue('case_source') != 'torq') return;
+
+    var eventName = '';
+    var eventType = '';
+
+    // Priority 1: Severity changed
+    if (current.severity.changes()) {
+        eventName = 'x_2241073_securi_0.case.sev_chg';
+        eventType = 'case.severity_changed';
+    }
+    // Priority 2: State changed
+    else if (current.state.changes()) {
+        eventName = 'x_2241073_securi_0.case.state';
+        eventType = 'case.state_changed';
+    }
+    // Priority 3: Assignment changed
+    else if (current.assigned_to.changes() || current.assignment_group.changes()) {
+        eventName = 'x_2241073_securi_0.case.assign';
+        eventType = 'case.reassigned';
+    }
+    // Priority 4: Other tracked fields changed
+    else {
+        var trackedFields = ['short_description', 'description', 'category', 'subcategory', 'case_type', 'detection_source'];
+        for (var i = 0; i < trackedFields.length; i++) {
+            if (current[trackedFields[i]].changes()) {
+                eventName = 'x_2241073_securi_0.case.update';
+                eventType = 'case.updated';
+                break;
+            }
+        }
+    }
+
+    if (!eventName) return;
+
+    // Build change_reason from work_notes if available
+    var changeReason = '';
+    try {
+        changeReason = current.work_notes.getJournalEntry(1) || '';
+    } catch (e) {
+        changeReason = '';
+    }
+
+    // Build payload
+    var payload = {
+        event_type: eventType,
+        timestamp: new GlideDateTime().getValue(),
+        case: {
+            sys_id: current.getUniqueValue(),
+            number: current.getValue('number'),
+            short_description: current.getValue('short_description'),
+            severity: current.getValue('severity'),
+            state: current.getValue('state'),
+            category: current.getValue('category'),
+            assigned_to: current.getDisplayValue('assigned_to'),
+            assignment_group: current.getDisplayValue('assignment_group'),
+            sla_status: current.getValue('sla_status'),
+            torq_incident_id: current.getValue('torq_incident_id'),
+            api_url: gs.getProperty('glide.servlet.uri') + 'api/x_2241073_securi_0/security_case_inbound/case/' + current.getValue('number'),
+        },
+        changes: {},
+    };
+
+    // Add specific change data based on event type
+    if (eventType == 'case.severity_changed') {
+        payload.changes = {
+            severity: { previous: previous.getValue('severity'), current: current.getValue('severity') },
+        };
+    } else if (eventType == 'case.state_changed') {
+        payload.changes = {
+            state: { previous: previous.getValue('state'), current: current.getValue('state') },
+        };
+    } else if (eventType == 'case.reassigned') {
+        payload.changes = {};
+        if (current.assigned_to.changes()) {
+            payload.changes.assigned_to = {
+                previous: previous.getDisplayValue('assigned_to'),
+                current: current.getDisplayValue('assigned_to'),
+            };
+        }
+        if (current.assignment_group.changes()) {
+            payload.changes.assignment_group = {
+                previous: previous.getDisplayValue('assignment_group'),
+                current: current.getDisplayValue('assignment_group'),
+            };
+        }
+    }
+
+    if (changeReason) {
+        payload.change_reason = changeReason;
+    }
+
+    // Create webhook log entry (pending for dispatcher to pick up)
+    var log = new GlideRecord('x_2241073_securi_0_webhook_log');
+    log.initialize();
+    log.setValue('case_id', current.getUniqueValue());
+    log.setValue('direction', 'outbound');
+    log.setValue('endpoint_url', gs.getProperty('x_2241073_securi_0.api.url', ''));
+    log.setValue('http_method', 'POST');
+    log.setValue('payload', JSON.stringify(payload));
+    log.setValue('status', 'pending');
+    log.insert();
+
+    // Fire the event (for downstream script actions if needed)
+    gs.eventQueue(eventName, current, current.getUniqueValue(), '');
+})();
+]]></script>
+    <sys_name>Create Outbound Webhook on Case Update</sys_name>
+    <sys_policy/>
+    <template/>
+    <when>after</when>
+  </sys_script>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+  <sysevent_register action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>eef53ebac7554c55b2d4a3e40b1797f3</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sysevent_register_eef53ebac7554c55b2d4a3e40b1797f3</sys_update_name>
+    <description>Fired when a Security Case is updated with general field changes</description>
+    <event_name>x_2241073_securi_0.case.update</event_name>
+    <fired_by>Business Rule: Create Outbound Webhook on Case Update</fired_by>
+    <priority>200</priority>
+    <suffix>case.update</suffix>
+    <table>x_2241073_securi_0_sec_case</table>
+  </sysevent_register>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+  <sysevent_register action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>a0ec174a791e46e585fb7f943dde1437</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sysevent_register_a0ec174a791e46e585fb7f943dde1437</sys_update_name>
+    <description>Fired when a Security Case SLA reaches 80% (at risk warning)</description>
+    <event_name>x_2241073_securi_0.sla.warning</event_name>
+    <fired_by>Flow: Security Case SLA Flow (parm1=case sys_id, parm2=task_sla sys_id)</fired_by>
+    <priority>100</priority>
+    <suffix>sla.warning</suffix>
+    <table>x_2241073_securi_0_sec_case</table>
+  </sysevent_register>
+</record_update>

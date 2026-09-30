@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+  <sys_ui_action_role action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>9c05e9cafbb64342bca2c5d746fc647e</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_ui_action_role_9c05e9cafbb64342bca2c5d746fc647e</sys_update_name>
+    <sys_ui_action>8b5beccef14f414b9772b55946a460f8</sys_ui_action>
+    <sys_user_role name="admin">ec60507d83d84706a9c04a08fa710a76</sys_user_role>
+  </sys_ui_action_role>
+</record_update>

@@ -5,7 +5,7 @@
     <sys_update_name>sysevent_register_423e69014dd04f01a0a18c251f075200</sys_update_name>
     <description>Fired when a Security Case SLA reaches 100% (breached)</description>
     <event_name>x_2241073_securi_0.sla.breached</event_name>
-    <fired_by>Flow: Security Case SLA Flow (at 100% threshold)</fired_by>
+    <fired_by>Flow: Security Case SLA Flow (parm1=case sys_id, parm2=task_sla sys_id)</fired_by>
     <priority>100</priority>
     <suffix>sla.breached</suffix>
     <table>x_2241073_securi_0_sec_case</table>

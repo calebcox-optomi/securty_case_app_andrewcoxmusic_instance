@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+  <sys_properties action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>46d5e114ac88448caa4cfea250e0a083</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_properties_46d5e114ac88448caa4cfea250e0a083</sys_update_name>
+    <choices/>
+    <description>Master switch to enable/disable outbound webhooks to Torq. Set to true after configuring api.url and api.auth_token.</description>
+    <ignore_cache>false</ignore_cache>
+    <is_private>false</is_private>
+    <name>x_2241073_securi_0.api.enabled</name>
+    <read_roles>admin</read_roles>
+    <suffix>api.enabled</suffix>
+    <type>boolean</type>
+    <value>false</value>
+    <write_roles>admin</write_roles>
+  </sys_properties>
+</record_update>
