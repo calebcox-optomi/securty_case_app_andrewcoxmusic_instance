@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field">
-  <sys_db_view_table_field action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>164dc41ac4c248bfa6efb6bc05817797</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_db_view_table_field_164dc41ac4c248bfa6efb6bc05817797</sys_update_name>
-    <field>number</field>
-    <view_table>79bbd992144c47f0821d7889a65df70e</view_table>
-  </sys_db_view_table_field>
+    <sys_db_view_table_field action="INSERT_OR_UPDATE">
+        <field>number</field>
+        <sys_class_name>sys_db_view_table_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 19:14:03</sys_created_on>
+        <sys_id>164dc41ac4c248bfa6efb6bc05817797</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_db_view_table_field_164dc41ac4c248bfa6efb6bc05817797</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 19:14:03</sys_updated_on>
+        <table/>
+        <view_table display_value="x_2241073_securi_0_sec_case">79bbd992144c47f0821d7889a65df70e</view_table>
+    </sys_db_view_table_field>
 </record_update>

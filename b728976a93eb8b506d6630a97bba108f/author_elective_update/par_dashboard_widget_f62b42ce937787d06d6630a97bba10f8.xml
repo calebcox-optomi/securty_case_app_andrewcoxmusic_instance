@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">de2b42ce937787d06d6630a97bba10cf</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"dataSources":[{"allowRealTime":true,"dataCategories":["trend","group","simple"],"filterQuery":"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","id":"c72b82ce937787d06d6630a97bba10f0","isDatabaseView":false,"preferredVisualizations":[],"sourceType":"table","tableOrViewName":"x_2241073_securi_0_sec_case"}],"additionalGroupByConfig":[],"allowAdditionalGroupByPerMetric":false,"componentId":"","contextMenuActions":[],"description":"","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","headingLevel":2,"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showAdditionalGroupBySelector":false,"showFilterIcon":true,"showHeaderSeparator":false,"showHeader":true,"showLoadingIndicator":false,"wrapTitle":false,"parFilter":"","parFilterConfig":[],"allowListPagination":true,"columnLimit":0,"limit":10,"maxCharLimit":4000,"columnPreferenceKey":"","bareBorder":false,"wrapCellContent":"useLineBreaksUserPref","showPersonalization":false,"hideDotwalk":false,"showColumnReorder":false,"showColumnGrouping":false,"showColumnResizing":false,"showColumnFiltering":false,"showColumnSorting":true,"followFilters":true,"groupByField":"","showLinks":true,"showViewAll":true,"showInlineEditing":false,"table":"x_2241073_securi_0_sec_case","headerTitle":"My Work","columns":"","showRecordCount":true}</component_props>
+        <h>18</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"My Work","code":"PAR_DASHBOARD.de2b42ce937787d06d6630a97bba10cf.f62b42ce937787d06d6630a97bba10f8"},{"comment":"","message":"My Work","code":"PAR_DASHBOARD.de2b42ce937787d06d6630a97bba10cf.f62b42ce937787d06d6630a97bba10f8"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 14:23:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f62b42ce937787d06d6630a97bba10f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>par_dashboard_widget_f62b42ce937787d06d6630a97bba10f8</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-10-09 14:23:40</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</application>
+        <file_path/>
+        <instance_id>a0fc231eeb0e4710e483f459bad0cd22</instance_id>
+        <instance_name>dev437938</instance_name>
+        <name>par_dashboard_widget_f62b42ce937787d06d6630a97bba10f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">de2b42ce937787d06d6630a97bba10cf</canvas><component display_value="List">7ff373544303121093711347efb8f23c</component><component_props>{"dataSources":[{"allowRealTime":true,"dataCategories":["trend","group","simple"],"filterQuery":"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe","id":"c72b82ce937787d06d6630a97bba10f0","isDatabaseView":false,"preferredVisualizations":[],"sourceType":"table","tableOrViewName":"x_2241073_securi_0_sec_case"}],"additionalGroupByConfig":[],"allowAdditionalGroupByPerMetric":false,"componentId":"","contextMenuActions":[],"description":"","emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","headingLevel":2,"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showAdditionalGroupBySelector":false,"showFilterIcon":true,"showHeaderSeparator":false,"showHeader":true,"showLoadingIndicator":false,"wrapTitle":false,"parFilter":"","parFilterConfig":[],"allowListPagination":true,"columnLimit":0,"limit":10,"maxCharLimit":4000,"columnPreferenceKey":"","bareBorder":false,"wrapCellContent":"useLineBreaksUserPref","showPersonalization":false,"hideDotwalk":false,"showColumnReorder":false,"showColumnGrouping":false,"showColumnResizing":false,"showColumnFiltering":false,"showColumnSorting":true,"followFilters":true,"groupByField":"","showLinks":true,"showViewAll":true,"showInlineEditing":false,"table":"x_2241073_securi_0_sec_case","headerTitle":"My Work","columns":"","showRecordCount":true}</component_props><h>18</h><name/><required_translations>[{"comment":"","message":"My Work","code":"PAR_DASHBOARD.de2b42ce937787d06d6630a97bba10cf.f62b42ce937787d06d6630a97bba10f8"},{"comment":"","message":"My Work","code":"PAR_DASHBOARD.de2b42ce937787d06d6630a97bba10cf.f62b42ce937787d06d6630a97bba10f8"}]</required_translations><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 14:23:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f62b42ce937787d06d6630a97bba10f8</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package><sys_policy/><sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope><sys_update_name>par_dashboard_widget_f62b42ce937787d06d6630a97bba10f8</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2026-10-09 14:23:40</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-956180128</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>4c38976a93eb8b506d6630a97bba1092</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-10-09 14:23:40</sys_created_on>
+        <sys_id>972bc2ce937787d06d6630a97bba1006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1210c5b010000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-10-09 14:23:40</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>572bc2ce367787d04706d2be36f69905</update_guid>
+        <update_guid_history>572bc2ce367787d04706d2be36f69905:-956180128,b62b82ce537787d0fd0bc1dfb3e02e77:1898397591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">632bc2ce937787d06d6630a97bba10ac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-10-09 14:23:41</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>272263c5906948acbc9a5dbc2af52719</sys_id>
+        <sys_metadata>f62b42ce937787d06d6630a97bba10f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_scope_delete display_value="">0b8eb1c3c9344f9e97012ded93406264</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_f62b42ce937787d06d6630a97bba10f8</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_f62b42ce937787d06d6630a97bba10f8">972bc2ce937787d06d6630a97bba1006</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-10-09 14:23:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

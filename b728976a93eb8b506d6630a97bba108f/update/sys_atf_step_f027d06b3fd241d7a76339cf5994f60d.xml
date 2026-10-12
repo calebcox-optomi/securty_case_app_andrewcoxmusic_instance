@@ -1,49 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
-  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>f027d06b3fd241d7a76339cf5994f60d</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <active>true</active>
-    <description/>
-    <display_name>Assert JSON Response Payload Element</display_name>
-    <notes/>
-    <order>4</order>
-    <step_config>afc114199f132200ef4afa7dc67fcf64</step_config>
-    <table/>
-    <test>1944f8757a8543a09f16c62d21d0891f</test>
-    <timeout/>
-    <warning_message/>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_atf_step_f027d06b3fd241d7a76339cf5994f60d</sys_update_name>
-  </sys_atf_step>
-  <sys_variable_value action="delete_multiple" query="document_key=f027d06b3fd241d7a76339cf5994f60d"/>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>7b849a27fc8141fd836018653794a27e</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>f027d06b3fd241d7a76339cf5994f60d</document_key>
-    <value>equals</value>
-    <variable>2db298199f132200ef4afa7dc67fcfbc</variable>
-    <order>110</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_7b849a27fc8141fd836018653794a27e</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>39f4e77c076e4fde8d86206fc03d9202</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>f027d06b3fd241d7a76339cf5994f60d</document_key>
-    <value>result.status</value>
-    <variable>5a9258199f132200ef4afa7dc67fcfb4</variable>
-    <order>100</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_39f4e77c076e4fde8d86206fc03d9202</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>ec9a9c123650400bae47039e708382eb</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>f027d06b3fd241d7a76339cf5994f60d</document_key>
-    <value>created</value>
-    <variable>7b139c199f132200ef4afa7dc67fcfb3</variable>
-    <order>120</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_ec9a9c123650400bae47039e708382eb</sys_update_name>
-  </sys_variable_value>
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Assert JSON Response Payload Element</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <step_config display_value="Assert JSON Response Payload Element">afc114199f132200ef4afa7dc67fcf64</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 02:44:41</sys_created_on>
+        <sys_id>f027d06b3fd241d7a76339cf5994f60d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert JSON Response Payload Element</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_atf_step_f027d06b3fd241d7a76339cf5994f60d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 02:44:41</sys_updated_on>
+        <table/>
+        <test display_value="API - POST Upsert Existing Case (200)">1944f8757a8543a09f16c62d21d0891f</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f027d06b3fd241d7a76339cf5994f60d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f027d06b3fd241d7a76339cf5994f60d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:21</sys_created_on>
+        <sys_id>39f4e77c076e4fde8d86206fc03d9202</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:21</sys_updated_on>
+        <value>result.status</value>
+        <variable display_value="Element path">5a9258199f132200ef4afa7dc67fcfb4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f027d06b3fd241d7a76339cf5994f60d</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:21</sys_created_on>
+        <sys_id>7b849a27fc8141fd836018653794a27e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:21</sys_updated_on>
+        <value>equals</value>
+        <variable display_value="Operation">2db298199f132200ef4afa7dc67fcfbc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f027d06b3fd241d7a76339cf5994f60d</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:21</sys_created_on>
+        <sys_id>ec9a9c123650400bae47039e708382eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:21</sys_updated_on>
+        <value>created</value>
+        <variable display_value="Value">7b139c199f132200ef4afa7dc67fcfb3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_afc114199f132200ef4afa7dc67fcf64^id=f027d06b3fd241d7a76339cf5994f60d"/>
 </record_update>

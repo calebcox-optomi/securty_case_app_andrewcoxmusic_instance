@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Investigation" section_id="292b8e8e937787d06d6630a97bba10f7" sys_domain="global" table="x_2241073_securi_0_sec_case" version="3" view="workspace-security-case-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigation_summary</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>ad2b8e8e937787d06d6630a97bba10fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Investigation" display_value="Investigation" name="x_2241073_securi_0_sec_case" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">292b8e8e937787d06d6630a97bba10f7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>containment_actions</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>a92b8e8e937787d06d6630a97bba10fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Investigation" display_value="Investigation" name="x_2241073_securi_0_sec_case" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">292b8e8e937787d06d6630a97bba10f7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remediation_actions</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>212b8e8e937787d06d6630a97bba10fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Investigation" display_value="Investigation" name="x_2241073_securi_0_sec_case" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">292b8e8e937787d06d6630a97bba10f7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>root_cause</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>2d2b8e8e937787d06d6630a97bba10fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Investigation" display_value="Investigation" name="x_2241073_securi_0_sec_case" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">292b8e8e937787d06d6630a97bba10f7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lessons_learned</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>a12b8e8e937787d06d6630a97bba10fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Investigation" display_value="Investigation" name="x_2241073_securi_0_sec_case" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">292b8e8e937787d06d6630a97bba10f7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Investigation</caption>
+            <header>false</header>
+            <name>x_2241073_securi_0_sec_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>292b8e8e937787d06d6630a97bba10f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2241073_securi_0_sec_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+            <sys_update_name>sys_ui_section_292b8e8e937787d06d6630a97bba10f7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Security Case Management 0" name="workspace-security-case-management-0">cf0b828ec37787d0e40c58197f6da3b2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

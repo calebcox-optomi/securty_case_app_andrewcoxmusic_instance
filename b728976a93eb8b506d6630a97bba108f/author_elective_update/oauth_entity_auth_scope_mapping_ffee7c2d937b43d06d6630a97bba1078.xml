@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_auth_scope_mapping">
+    <oauth_entity_auth_scope_mapping action="DELETE">
+        <auth_scope display_value="torq_api_user">5a5e3c69937b43d06d6630a97bba10ad</auth_scope>
+        <oauth_entity display_value="Torq Inbound Integration">3fee3469937b43d06d6630a97bba10ae</oauth_entity>
+        <sys_class_name>oauth_entity_auth_scope_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-07 19:33:36</sys_created_on>
+        <sys_id>ffee7c2d937b43d06d6630a97bba1078</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>oauth_entity_auth_scope_mapping_ffee7c2d937b43d06d6630a97bba1078</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-07 19:33:36</sys_updated_on>
+    </oauth_entity_auth_scope_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</application>
+        <file_path/>
+        <instance_id>a0fc231eeb0e4710e483f459bad0cd22</instance_id>
+        <instance_name>dev437938</instance_name>
+        <name>oauth_entity_auth_scope_mapping_ffee7c2d937b43d06d6630a97bba1078</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_auth_scope_mapping"><oauth_entity_auth_scope_mapping action="INSERT_OR_UPDATE"><auth_scope display_value="torq_api_user">5a5e3c69937b43d06d6630a97bba10ad</auth_scope><oauth_entity display_value="Torq Inbound Integration">3fee3469937b43d06d6630a97bba10ae</oauth_entity><sys_class_name>oauth_entity_auth_scope_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-07 19:33:36</sys_created_on><sys_id>ffee7c2d937b43d06d6630a97bba1078</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package><sys_policy/><sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope><sys_update_name>oauth_entity_auth_scope_mapping_ffee7c2d937b43d06d6630a97bba1078</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-07 19:33:36</sys_updated_on></oauth_entity_auth_scope_mapping></record_update>]]></payload>
+        <payload_hash>2115818474</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>4c38976a93eb8b506d6630a97bba1092</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-07 19:33:36</sys_created_on>
+        <sys_id>f3ee7c2d937b43d06d6630a97bba107e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a117db641a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-07 19:33:36</sys_updated_on>
+        <type>Auth Scopes</type>
+        <update_guid>73ee7c2d6b7b43d09bcd5ec38dd0fe7d</update_guid>
+        <update_guid_history>73ee7c2d6b7b43d09bcd5ec38dd0fe7d:2115818474</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">412289bd93bbc3d06d6630a97bba10d7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-08 14:26:05</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_auth_scope_mapping">oauth_entity_auth_scope_mapping</sys_db_object>
+        <sys_id>114d61c7ce524eb884133a3773b5e929</sys_id>
+        <sys_metadata>ffee7c2d937b43d06d6630a97bba1078</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_scope_delete display_value="">0b8eb1c3c9344f9e97012ded93406264</sys_scope_delete>
+        <sys_update_name>oauth_entity_auth_scope_mapping_ffee7c2d937b43d06d6630a97bba1078</sys_update_name>
+        <sys_update_version display_value="oauth_entity_auth_scope_mapping_ffee7c2d937b43d06d6630a97bba1078">f3ee7c2d937b43d06d6630a97bba107e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-08 14:26:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

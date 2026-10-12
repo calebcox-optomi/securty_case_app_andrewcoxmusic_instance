@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7b70f43f263441e58ade17992e2c2da2" label="Webhook Log" name="x_2241073_securi_0_webhook_log" text_index="true" type="collection">
+        <element label="Attempt History" name="attempt_history" type="journal_input"/>
+        <element label="HTTP Method" max_length="10" name="http_method" type="string"/>
+        <element label="Security Case" name="case_id" reference="x_2241073_securi_0_sec_case" type="reference"/>
+        <element default="javascript:gs.nowDateTime()" label="Sent" name="sent_at" type="glide_date_time"/>
+        <element label="Status" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Success" sequence="1" value="success"/>
+                <element inactive_on_update="false" label="Failed - Review" sequence="6" value="failed_review"/>
+                <element inactive_on_update="false" label="Pending" sequence="3" value="pending"/>
+                <element inactive_on_update="false" label="Retrying" sequence="4" value="retrying"/>
+                <element inactive_on_update="false" label="Sent" sequence="5" value="sent"/>
+                <element inactive_on_update="false" label="Discarded" sequence="7" value="discarded"/>
+                <element inactive_on_update="false" label="Failure" sequence="2" value="failure"/>
+            </choice>
+        </element>
+        <element label="Response Body" max_length="65000" name="response_body" type="string"/>
+        <element label="Duration (ms)" name="duration_ms" type="integer"/>
+        <element label="HTTP Status" name="http_status" type="integer"/>
+        <element label="Endpoint URL" name="endpoint_url" type="url"/>
+        <element label="Payload" max_length="65000" name="payload" type="string"/>
+        <element label="Direction" name="direction" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Outbound" sequence="2" value="outbound"/>
+                <element inactive_on_update="false" label="Inbound" sequence="1" value="inbound"/>
+            </choice>
+        </element>
+        <element label="Next Attempt" name="next_attempt" type="glide_date_time"/>
+        <index name="index">
+            <element name="case_id"/>
+        </index>
+    </element>
+</database>

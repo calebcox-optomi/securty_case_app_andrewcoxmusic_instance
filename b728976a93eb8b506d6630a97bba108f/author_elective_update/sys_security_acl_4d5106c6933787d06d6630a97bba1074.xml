@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow write for root_cause in x_2241073_securi_0_sec_case, for users with roles (x_2241073_securi_0.torq_integration, x_2241073_securi_0.admin, x_2241073_securi_0.analyst, x_2241073_securi_0.compliance).</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_2241073_securi_0_sec_case.root_cause</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 13:40:39</sys_created_on>
+        <sys_id>4d5106c6933787d06d6630a97bba1074</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_2241073_securi_0_sec_case.root_cause</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_security_acl_4d5106c6933787d06d6630a97bba1074</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 13:54:42</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</application>
+        <file_path/>
+        <instance_id>a0fc231eeb0e4710e483f459bad0cd22</instance_id>
+        <instance_name>dev437938</instance_name>
+        <name>sys_security_acl_4d5106c6933787d06d6630a97bba1074</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow write for root_cause in x_2241073_securi_0_sec_case, for users with roles (x_2241073_securi_0.torq_integration, x_2241073_securi_0.admin, x_2241073_securi_0.analyst, x_2241073_securi_0.compliance).</description><local_or_existing>Local</local_or_existing><name>x_2241073_securi_0_sec_case.root_cause</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 13:40:39</sys_created_on><sys_id>4d5106c6933787d06d6630a97bba1074</sys_id><sys_mod_count>5</sys_mod_count><sys_name>x_2241073_securi_0_sec_case.root_cause</sys_name><sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package><sys_policy/><sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope><sys_update_name>sys_security_acl_4d5106c6933787d06d6630a97bba1074</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 13:54:42</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1647018247</payload_hash>
+        <record_name>x_2241073_securi_0_sec_case.root_cause</record_name>
+        <reverted_from/>
+        <source>4c38976a93eb8b506d6630a97bba1092</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 13:54:42</sys_created_on>
+        <sys_id>0384c68e933787d06d6630a97bba107e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a120f1d7290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 13:54:42</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>0784028a673787d08c5ac245dc4fb51e</update_guid>
+        <update_guid_history>0784028a673787d08c5ac245dc4fb51e:1647018247,c95106c6cc3787d014bfe583a8e0827b:-2062579874</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 13:58:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>44b2d65f3c7249aa8ff8f5b507e0c3e4</sys_id>
+        <sys_metadata>4d5106c6933787d06d6630a97bba1074</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2241073_securi_0_sec_case.root_cause</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_parent display_value="Root Cause">fcb016bb0a6d48d1ba64bccffd7bc084</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_scope_delete display_value="">0b8eb1c3c9344f9e97012ded93406264</sys_scope_delete>
+        <sys_update_name>sys_security_acl_4d5106c6933787d06d6630a97bba1074</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_4d5106c6933787d06d6630a97bba1074">0384c68e933787d06d6630a97bba107e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 13:58:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="2ba4da9dc9b5481aa497d9650deba507" label="Case Team" max_length="40" name="x_2241073_securi_0_case_team" type="collection">
+        <element label="User" mandatory="true" name="user_id" reference="sys_user" type="reference"/>
+        <element label="Security Case" mandatory="true" name="case_id" reference="x_2241073_securi_0_sec_case" type="reference"/>
+        <element default="javascript:gs.nowDateTime()" label="Added" name="added_at" type="glide_date_time"/>
+        <element label="Role" max_length="100" name="role" type="string"/>
+        <index name="index">
+            <element name="case_id"/>
+        </index>
+        <index name="index2">
+            <element name="user_id"/>
+        </index>
+    </element>
+</database>

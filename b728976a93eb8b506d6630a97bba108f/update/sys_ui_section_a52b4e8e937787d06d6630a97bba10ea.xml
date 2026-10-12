@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Torq Details" section_id="a52b4e8e937787d06d6630a97bba10ea" sys_domain="global" table="x_2241073_securi_0_sec_case" version="3" view="workspace-security-case-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>6d2b4e8e937787d06d6630a97bba10fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a52b4e8e937787d06d6630a97bba10ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>torq_incident_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>ad2b4e8e937787d06d6630a97bba10ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a52b4e8e937787d06d6630a97bba10ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>detection_source</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>2d2b4e8e937787d06d6630a97bba10ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a52b4e8e937787d06d6630a97bba10ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>ed2b4e8e937787d06d6630a97bba10fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a52b4e8e937787d06d6630a97bba10ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>torq_incident_url</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>612b4e8e937787d06d6630a97bba10fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a52b4e8e937787d06d6630a97bba10ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>212b4e8e937787d06d6630a97bba10ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a52b4e8e937787d06d6630a97bba10ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Torq Details</caption>
+            <header>false</header>
+            <name>x_2241073_securi_0_sec_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a52b4e8e937787d06d6630a97bba10ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2241073_securi_0_sec_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+            <sys_update_name>sys_ui_section_a52b4e8e937787d06d6630a97bba10ea</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:32</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Security Case Management 0" name="workspace-security-case-management-0">cf0b828ec37787d0e40c58197f6da3b2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

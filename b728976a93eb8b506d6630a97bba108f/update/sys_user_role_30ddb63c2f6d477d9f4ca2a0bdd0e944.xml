@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
-  <sys_user_role action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>30ddb63c2f6d477d9f4ca2a0bdd0e944</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_user_role_30ddb63c2f6d477d9f4ca2a0bdd0e944</sys_update_name>
-    <assignable_by/>
-    <can_delegate>true</can_delegate>
-    <description>Torq service account role for REST API integration</description>
-    <elevated_privilege>false</elevated_privilege>
-    <grantable>true</grantable>
-    <name>x_2241073_securi_0.torq_integration</name>
-    <scoped_admin>false</scoped_admin>
-    <suffix>torq_integration</suffix>
-  </sys_user_role>
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Torq service account role for REST API integration</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>vbik9AmKXcOmkm7Dl5DCOdQNgKZ41ctWVrTZeyedXPE=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_2241073_securi_0.torq_integration</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>torq_integration</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 00:00:12</sys_created_on>
+        <sys_id>30ddb63c2f6d477d9f4ca2a0bdd0e944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2241073_securi_0.torq_integration</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_user_role_30ddb63c2f6d477d9f4ca2a0bdd0e944</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 00:00:12</sys_updated_on>
+    </sys_user_role>
 </record_update>

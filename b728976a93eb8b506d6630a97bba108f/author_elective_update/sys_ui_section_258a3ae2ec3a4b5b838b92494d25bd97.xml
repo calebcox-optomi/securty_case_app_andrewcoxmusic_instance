@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section action="DELETE" caption="Torq Details" section_id="258a3ae2ec3a4b5b838b92494d25bd97" sys_domain="global" table="x_2241073_securi_0_sec_case" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>fa7f299cd0cb410783c84dd8a9c5ce10</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>torq_incident_id</element>
+      <position>1</position>
+      <sys_id>6deca5bf222340a4a2cc64451a6045d0</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>detection_source</element>
+      <position>2</position>
+      <sys_id>a76d8525f70c47599666020d2ab86e69</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>d94b4f50f6ac4435a0b00391468dfbb5</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>torq_incident_url</element>
+      <position>4</position>
+      <sys_id>cf6e87dc60c648a59c45b77da145499e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>5</position>
+      <sys_id>57f58eec7c7b4f8cb3da0a39a21242e4</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="DELETE" apply_defaults="true">
+      <caption>Torq Details</caption>
+      <header>false</header>
+      <name>x_2241073_securi_0_sec_case</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>258a3ae2ec3a4b5b838b92494d25bd97</sys_id>
+      <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</application>
+        <file_path/>
+        <instance_id>a0fc231eeb0e4710e483f459bad0cd22</instance_id>
+        <instance_name>dev437938</instance_name>
+        <name>sys_ui_section_258a3ae2ec3a4b5b838b92494d25bd97</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Torq Details" section_id="258a3ae2ec3a4b5b838b92494d25bd97" sys_domain="global" table="x_2241073_securi_0_sec_case" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>fa7f299cd0cb410783c84dd8a9c5ce10</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>torq_incident_id</element>
+      <position>1</position>
+      <sys_id>6deca5bf222340a4a2cc64451a6045d0</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>detection_source</element>
+      <position>2</position>
+      <sys_id>a76d8525f70c47599666020d2ab86e69</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>d94b4f50f6ac4435a0b00391468dfbb5</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>torq_incident_url</element>
+      <position>4</position>
+      <sys_id>cf6e87dc60c648a59c45b77da145499e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>5</position>
+      <sys_id>57f58eec7c7b4f8cb3da0a39a21242e4</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Torq Details" display_value="Torq Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">258a3ae2ec3a4b5b838b92494d25bd97</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <caption>Torq Details</caption>
+      <header>false</header>
+      <name>x_2241073_securi_0_sec_case</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>258a3ae2ec3a4b5b838b92494d25bd97</sys_id>
+      <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-815767428</payload_hash>
+        <record_name>Security Case</record_name>
+        <reverted_from/>
+        <source>f765e3e2936f8b506d6630a97bba10b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 00:00:10</sys_created_on>
+        <sys_id>78a56726936f8b506d6630a97bba1028</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0ea76330e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 00:00:10</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>b8a56726886f8b50e9a1b5c480a6fa27</update_guid>
+        <update_guid_history>b8a56726886f8b50e9a1b5c480a6fa27:-815767428</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 15:35:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0f877f7e2d1c49be821f687c00bf83a1</sys_id>
+        <sys_metadata>258a3ae2ec3a4b5b838b92494d25bd97</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Torq Details</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_parent display_value="Security Case">f798d1c5372040a2b63efbbd051c5479</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_scope_delete display_value="">0b8eb1c3c9344f9e97012ded93406264</sys_scope_delete>
+        <sys_update_name>sys_ui_section_258a3ae2ec3a4b5b838b92494d25bd97</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_258a3ae2ec3a4b5b838b92494d25bd97">78a56726936f8b506d6630a97bba1028</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 15:35:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

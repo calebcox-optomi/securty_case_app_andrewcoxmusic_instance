@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_2241073_securi_0_webhook_log" version="2" view="workspace-security-case-management-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>case_id</element>
+            <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a12bce8e937787d06d6630a97bba105c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>a12bce8e937787d06d6630a97bba105d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>direction</element>
+            <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a12bce8e937787d06d6630a97bba105c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>292bce8e937787d06d6630a97bba105d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>http_method</element>
+            <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a12bce8e937787d06d6630a97bba105c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>ad2bce8e937787d06d6630a97bba105d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>http_status</element>
+            <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a12bce8e937787d06d6630a97bba105c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>252bce8e937787d06d6630a97bba105e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a12bce8e937787d06d6630a97bba105c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>a92bce8e937787d06d6630a97bba105e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sent_at</element>
+            <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a12bce8e937787d06d6630a97bba105c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>212bce8e937787d06d6630a97bba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>duration_ms</element>
+            <list_id display_value="x_2241073_securi_0_webhook_log" element="NULL" name="x_2241073_securi_0_webhook_log" parent="NULL" relationship="NULL" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">a12bce8e937787d06d6630a97bba105c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_id>a52bce8e937787d06d6630a97bba105f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_2241073_securi_0_webhook_log</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a12bce8e937787d06d6630a97bba105c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2241073_securi_0_webhook_log</sys_name>
+            <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+            <sys_update_name>sys_ui_list_x_2241073_securi_0_webhook_log_workspace-security-case-management-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Security Case Management 0" name="workspace-security-case-management-0">cf0b828ec37787d0e40c58197f6da3b2</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

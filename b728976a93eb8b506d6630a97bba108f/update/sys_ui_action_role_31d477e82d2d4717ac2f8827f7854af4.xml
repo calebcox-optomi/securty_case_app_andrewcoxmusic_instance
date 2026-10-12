@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
-  <sys_ui_action_role action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>31d477e82d2d4717ac2f8827f7854af4</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_ui_action_role_31d477e82d2d4717ac2f8827f7854af4</sys_update_name>
-    <sys_ui_action>313892c2b4e7413dbc28663fd0413b37</sys_ui_action>
-    <sys_user_role name="admin">ec60507d83d84706a9c04a08fa710a76</sys_user_role>
-  </sys_ui_action_role>
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 20:42:04</sys_created_on>
+        <sys_id>31d477e82d2d4717ac2f8827f7854af4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Discard.admin</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_ui_action display_value="Discard">313892c2b4e7413dbc28663fd0413b37</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_31d477e82d2d4717ac2f8827f7854af4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 20:42:04</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+    </sys_ui_action_role>
 </record_update>

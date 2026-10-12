@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Security Case Management">0a2b42ce937787d06d6630a97bba1046</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_2241073_securi_0.ir_team" name="x_2241073_securi_0.ir_team">a1ac5779079c4fc6a6a80e3a371517a0</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 14:23:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>043b06ce937787d06d6630a97bba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0a2b42ce937787d06d6630a97bba1046</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>par_dashboard_permission_043b06ce937787d06d6630a97bba1041</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 14:23:43</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

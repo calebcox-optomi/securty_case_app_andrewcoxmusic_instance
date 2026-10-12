@@ -1,99 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
-  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>124c5959aff04a2eab7e24abe09ada34</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <active>true</active>
-    <description/>
-    <display_name>Send REST Request - Inbound</display_name>
-    <notes/>
-    <order>2</order>
-    <step_config>e00571a10b3222000b7da95e93673a8f</step_config>
-    <table/>
-    <test>e3d6d75cf2da40339c1779b58e2208b0</test>
-    <timeout/>
-    <warning_message/>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_atf_step_124c5959aff04a2eab7e24abe09ada34</sys_update_name>
-  </sys_atf_step>
-  <sys_variable_value action="delete_multiple" query="document_key=124c5959aff04a2eab7e24abe09ada34"/>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>1b188ada293c4536b39dfce790c9c321</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
-    <value/>
-    <variable>020a6af09fd32200ef4afa7dc67fcfec</variable>
-    <order>100</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_1b188ada293c4536b39dfce790c9c321</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>662d79c1e6404e55bb3fbb5971992eab</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
-    <value>/api/x_2241073_securi_0/security_case_inbound/case</value>
-    <variable>50bff9250b3222000b7da95e93673a9b</variable>
-    <order>2</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_662d79c1e6404e55bb3fbb5971992eab</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>1a165a7448a64b34bf1bc0d6d444014f</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
-    <value/>
-    <variable>58408e250b3222000b7da95e93673a5c</variable>
-    <order>3</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_1a165a7448a64b34bf1bc0d6d444014f</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>0dcdb2c2f0b844c4bae37b783621eb21</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
-    <value>post</value>
-    <variable>59877da10b3222000b7da95e93673a56</variable>
-    <order>1</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_0dcdb2c2f0b844c4bae37b783621eb21</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>bdc40e7bb4474f6189cc7251ee2b8108</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
-    <value>basic</value>
-    <variable>6cdd0ab543010210b6f9a0246bb8f2f2</variable>
-    <order>100</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_bdc40e7bb4474f6189cc7251ee2b8108</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>bb1fe17ba4bd497592a2044536078696</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
-    <value>{"torq_incident_id":"ATF-CREATE-001","short_description":"ATF REST API Create Test","severity":"2","category":"malware","detection_source":"ATF Test"}</value>
-    <variable>81e042650b3222000b7da95e93673aa2</variable>
-    <order>5</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_bb1fe17ba4bd497592a2044536078696</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>7c1d04cc56904370bdbac7dbdfa6c6ab</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
-    <value/>
-    <variable>89ad06b543010210b6f9a0246bb8f2d7</variable>
-    <order>100</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_7c1d04cc56904370bdbac7dbdfa6c6ab</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>24a598c229aa4d2185e5e969e38ddf02</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
-    <value>{"Content-Type":"application/json","Accept":"application/json"}</value>
-    <variable>cec002650b3222000b7da95e93673aae</variable>
-    <order>4</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_24a598c229aa4d2185e5e969e38ddf02</sys_update_name>
-  </sys_variable_value>
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Send REST Request - Inbound</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Send REST Request - Inbound">e00571a10b3222000b7da95e93673a8f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 02:44:34</sys_created_on>
+        <sys_id>124c5959aff04a2eab7e24abe09ada34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send REST Request - Inbound</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_atf_step_124c5959aff04a2eab7e24abe09ada34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 02:44:34</sys_updated_on>
+        <table/>
+        <test display_value="API - POST Create Case (201)">e3d6d75cf2da40339c1779b58e2208b0</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=124c5959aff04a2eab7e24abe09ada34"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:13</sys_created_on>
+        <sys_id>0dcdb2c2f0b844c4bae37b783621eb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:13</sys_updated_on>
+        <value>post</value>
+        <variable display_value="Method">59877da10b3222000b7da95e93673a56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:13</sys_created_on>
+        <sys_id>1a165a7448a64b34bf1bc0d6d444014f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:13</sys_updated_on>
+        <value/>
+        <variable display_value="Query Parameters">58408e250b3222000b7da95e93673a5c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:13</sys_created_on>
+        <sys_id>1b188ada293c4536b39dfce790c9c321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:13</sys_updated_on>
+        <value/>
+        <variable display_value="Basic authentication">020a6af09fd32200ef4afa7dc67fcfec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:13</sys_created_on>
+        <sys_id>24a598c229aa4d2185e5e969e38ddf02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:13</sys_updated_on>
+        <value>{"Content-Type":"application/json","Accept":"application/json"}</value>
+        <variable display_value="Headers">cec002650b3222000b7da95e93673aae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:13</sys_created_on>
+        <sys_id>662d79c1e6404e55bb3fbb5971992eab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:13</sys_updated_on>
+        <value>/api/x_2241073_securi_0/security_case_inbound/case</value>
+        <variable display_value="Path">50bff9250b3222000b7da95e93673a9b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:13</sys_created_on>
+        <sys_id>7c1d04cc56904370bdbac7dbdfa6c6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:13</sys_updated_on>
+        <value/>
+        <variable display_value="Mutual Authentication">89ad06b543010210b6f9a0246bb8f2d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:13</sys_created_on>
+        <sys_id>bb1fe17ba4bd497592a2044536078696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:13</sys_updated_on>
+        <value>{"torq_incident_id":"ATF-CREATE-001","short_description":"ATF REST API Create Test","severity":"2","category":"malware","detection_source":"ATF Test"}</value>
+        <variable display_value="Body">81e042650b3222000b7da95e93673aa2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>124c5959aff04a2eab7e24abe09ada34</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:13</sys_created_on>
+        <sys_id>bdc40e7bb4474f6189cc7251ee2b8108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:13</sys_updated_on>
+        <value>basic</value>
+        <variable display_value="Authentication Type">6cdd0ab543010210b6f9a0246bb8f2f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_e00571a10b3222000b7da95e93673a8f^id=124c5959aff04a2eab7e24abe09ada34"/>
 </record_update>

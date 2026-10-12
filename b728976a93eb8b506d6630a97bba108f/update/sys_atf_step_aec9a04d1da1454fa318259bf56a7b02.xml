@@ -1,59 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
-  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>aec9a04d1da1454fa318259bf56a7b02</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <active>true</active>
-    <description/>
-    <display_name>Record Insert</display_name>
-    <notes/>
-    <order>2</order>
-    <step_config>14872288df60220062fe6c7a4df26319</step_config>
-    <table>x_2241073_securi_0_sec_case</table>
-    <test>f66c1223feb1473a93b2a128db27796d</test>
-    <timeout/>
-    <warning_message/>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_atf_step_aec9a04d1da1454fa318259bf56a7b02</sys_update_name>
-  </sys_atf_step>
-  <sys_variable_value action="delete_multiple" query="document_key=aec9a04d1da1454fa318259bf56a7b02"/>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>70247159dd1c40f399784cdfd642477b</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>aec9a04d1da1454fa318259bf56a7b02</document_key>
-    <value>x_2241073_securi_0_sec_case</value>
-    <variable>90144b535320220002c6435723dc3488</variable>
-    <order>200</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_70247159dd1c40f399784cdfd642477b</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>0bb71de7be804ce2a7109f2ddd3f5092</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>aec9a04d1da1454fa318259bf56a7b02</document_key>
-    <value>record_successfully_inserted</value>
-    <variable>9024a37f671003007ba405225685efe5</variable>
-    <order>100</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_0bb71de7be804ce2a7109f2ddd3f5092</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>f88a492932124d5fbdcf9f92ffc2d563</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>aec9a04d1da1454fa318259bf56a7b02</document_key>
-    <value>short_description=ATF Close Test^severity=3^state=3^EQ</value>
-    <variable>dd54cf535320220002c6435723dc34fd</variable>
-    <order>400</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_f88a492932124d5fbdcf9f92ffc2d563</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>6bcb2a45fa3b40469ff0d44025a4cf9c</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>aec9a04d1da1454fa318259bf56a7b02</document_key>
-    <value>1</value>
-    <variable>e6e3c7535320220002c6435723dc3496</variable>
-    <order>100</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_6bcb2a45fa3b40469ff0d44025a4cf9c</sys_update_name>
-  </sys_variable_value>
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 23:59:22</sys_created_on>
+        <sys_id>aec9a04d1da1454fa318259bf56a7b02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_atf_step_aec9a04d1da1454fa318259bf56a7b02</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 23:59:22</sys_updated_on>
+        <table>x_2241073_securi_0_sec_case</table>
+        <test display_value="Non-Manager Cannot Close Case">f66c1223feb1473a93b2a128db27796d</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=aec9a04d1da1454fa318259bf56a7b02"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>aec9a04d1da1454fa318259bf56a7b02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:19</sys_created_on>
+        <sys_id>0bb71de7be804ce2a7109f2ddd3f5092</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:19</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>aec9a04d1da1454fa318259bf56a7b02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:19</sys_created_on>
+        <sys_id>6bcb2a45fa3b40469ff0d44025a4cf9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>aec9a04d1da1454fa318259bf56a7b02</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:18</sys_created_on>
+        <sys_id>70247159dd1c40f399784cdfd642477b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:18</sys_updated_on>
+        <value>x_2241073_securi_0_sec_case</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>aec9a04d1da1454fa318259bf56a7b02</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:19</sys_created_on>
+        <sys_id>f88a492932124d5fbdcf9f92ffc2d563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:19</sys_updated_on>
+        <value>short_description=ATF Close Test^severity=3^state=3^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_14872288df60220062fe6c7a4df26319^id=aec9a04d1da1454fa318259bf56a7b02"/>
 </record_update>

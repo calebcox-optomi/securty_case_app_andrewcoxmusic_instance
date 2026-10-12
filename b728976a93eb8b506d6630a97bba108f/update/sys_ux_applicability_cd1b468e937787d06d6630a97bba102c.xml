@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_2241073_securi_0.Audience for app security-case-management</api_name>
+        <description/>
+        <name>Audience for app security-case-management</name>
+        <role_names/>
+        <roles>208d967e93e30f506d6630a97bba1092,c8c21a0f3bea42c09c435e29c9ac0c04,fc1a58a6556740f487938214c36d47d3,a1ac5779079c4fc6a6a80e3a371517a0,ef63358d56f04e08bc26edb722aeb8e5</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 14:23:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd1b468e937787d06d6630a97bba102c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app security-case-management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_ux_applicability_cd1b468e937787d06d6630a97bba102c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 14:23:14</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

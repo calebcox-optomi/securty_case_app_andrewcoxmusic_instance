@@ -1,36 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
-  <sys_atf_step action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>b93c5c9cad6c4b7d851fd6ab4f7f85b3</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <active>true</active>
-    <description/>
-    <display_name>Run Server Side Script</display_name>
-    <notes/>
-    <order>2</order>
-    <step_config>41de4a935332120028bc29cac2dc349a</step_config>
-    <table/>
-    <test>e24c0f32961b4d7b89200276037746a9</test>
-    <timeout/>
-    <warning_message/>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_atf_step_b93c5c9cad6c4b7d851fd6ab4f7f85b3</sys_update_name>
-  </sys_atf_step>
-  <sys_variable_value action="delete_multiple" query="document_key=b93c5c9cad6c4b7d851fd6ab4f7f85b3"/>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>31428f65ca394790a2951b5f8c3381d6</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>b93c5c9cad6c4b7d851fd6ab4f7f85b3</document_key>
-    <value>3.1</value>
-    <variable>42f2564b73031300440211d8faf6a777</variable>
-    <order>100</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_31428f65ca394790a2951b5f8c3381d6</sys_update_name>
-  </sys_variable_value>
-  <sys_variable_value action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>9c3afe98d5554ca2a4f6845c33de307c</sys_id>
-    <document>sys_atf_step</document>
-    <document_key>b93c5c9cad6c4b7d851fd6ab4f7f85b3</document_key>
-    <value>(function(outputs, steps, params, stepResult, assertEqual) {
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description/>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 19:13:53</sys_created_on>
+        <sys_id>b93c5c9cad6c4b7d851fd6ab4f7f85b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_atf_step_b93c5c9cad6c4b7d851fd6ab4f7f85b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 19:13:53</sys_updated_on>
+        <table/>
+        <test display_value="SLA Attaches on Case Creation">e24c0f32961b4d7b89200276037746a9</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b93c5c9cad6c4b7d851fd6ab4f7f85b3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b93c5c9cad6c4b7d851fd6ab4f7f85b3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:19</sys_created_on>
+        <sys_id>31428f65ca394790a2951b5f8c3381d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:19</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b93c5c9cad6c4b7d851fd6ab4f7f85b3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 21:09:19</sys_created_on>
+        <sys_id>9c3afe98d5554ca2a4f6845c33de307c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 21:09:19</sys_updated_on>
+        <value>(function(outputs, steps, params, stepResult, assertEqual) {
     var caseId = steps('{{step['a986ceb46d2145be90c5969bf1045dfd'].record_id}}');
     var slaGR = new GlideRecord('task_sla');
     slaGR.addQuery('task', caseId);
@@ -43,31 +66,6 @@
     });
     stepResult.setOutputMessage('Found ' + count + ' task_sla record(s) for the case');
 })(outputs, steps, params, stepResult, assertEqual);</value>
-    <variable>989d9e235324220002c6435723dc3484</variable>
-    <order>200</order>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_variable_value_9c3afe98d5554ca2a4f6845c33de307c</sys_update_name>
-  </sys_variable_value>
-  <sys_element_mapping action="delete_multiple" query="id=b93c5c9cad6c4b7d851fd6ab4f7f85b3"/>
-  <sys_element_mapping action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>e25cf40442de453aaa33290548573ace</sys_id>
-    <field>script</field>
-    <id>b93c5c9cad6c4b7d851fd6ab4f7f85b3</id>
-    <table>var__m_atf_input_variable_41de4a935332120028bc29cac2dc349a</table>
-    <value>(function(outputs, steps, params, stepResult, assertEqual) {
-    var caseId = steps('{{step['a986ceb46d2145be90c5969bf1045dfd'].record_id}}');
-    var slaGR = new GlideRecord('task_sla');
-    slaGR.addQuery('task', caseId);
-    slaGR.query();
-    var count = slaGR.getRowCount();
-    assertEqual({
-        name: 'At least one SLA record attached',
-        shouldbe: 'true',
-        value: String(count &gt; 0)
-    });
-    stepResult.setOutputMessage('Found ' + count + ' task_sla record(s) for the case');
-})(outputs, steps, params, stepResult, assertEqual);</value>
-    <sys_scope>b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_element_mapping_e25cf40442de453aaa33290548573ace</sys_update_name>
-  </sys_element_mapping>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
 </record_update>

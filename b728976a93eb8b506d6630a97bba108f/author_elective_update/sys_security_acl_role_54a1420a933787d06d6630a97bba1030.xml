@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 13:42:10</sys_created_on>
+        <sys_id>54a1420a933787d06d6630a97bba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2241073_securi_0_sec_case.lessons_learned.x_2241073_securi_0.compliance</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_security_acl display_value="x_2241073_securi_0_sec_case.lessons_learned">4b614ac6933787d06d6630a97bba1037</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_54a1420a933787d06d6630a97bba1030</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 13:42:10</sys_updated_on>
+        <sys_user_role display_value="x_2241073_securi_0.compliance" name="x_2241073_securi_0.compliance">fc1a58a6556740f487938214c36d47d3</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</application>
+        <file_path/>
+        <instance_id>a0fc231eeb0e4710e483f459bad0cd22</instance_id>
+        <instance_name>dev437938</instance_name>
+        <name>sys_security_acl_role_54a1420a933787d06d6630a97bba1030</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-09 13:42:10</sys_created_on><sys_id>54a1420a933787d06d6630a97bba1030</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2241073_securi_0_sec_case.lessons_learned.x_2241073_securi_0.compliance</sys_name><sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package><sys_policy/><sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope><sys_security_acl display_value="x_2241073_securi_0_sec_case.lessons_learned">4b614ac6933787d06d6630a97bba1037</sys_security_acl><sys_update_name>sys_security_acl_role_54a1420a933787d06d6630a97bba1030</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-09 13:42:10</sys_updated_on><sys_user_role display_value="x_2241073_securi_0.compliance" name="x_2241073_securi_0.compliance">fc1a58a6556740f487938214c36d47d3</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>625182606</payload_hash>
+        <record_name>x_2241073_securi_0_sec_case.lessons_learned.x_2241073_securi_0.compliance</record_name>
+        <reverted_from/>
+        <source>4c38976a93eb8b506d6630a97bba1092</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 13:42:10</sys_created_on>
+        <sys_id>efa1060a933787d06d6630a97bba1082</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a120e65e4e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 13:42:10</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>afa1060a8f3787d0350ee8577a255681</update_guid>
+        <update_guid_history>afa1060a8f3787d0350ee8577a255681:625182606</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_2241073_securi_0_sec_case.lessons_learned.x_2241073_securi_0.compliance">20654a02937787d06d6630a97bba1040</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 13:58:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0ca1fe85eb96413483cd1ff0f86322a4</sys_id>
+        <sys_metadata>54a1420a933787d06d6630a97bba1030</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2241073_securi_0_sec_case.lessons_learned.x_2241073_securi_0.compliance</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_scope_delete display_value="">0b8eb1c3c9344f9e97012ded93406264</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_54a1420a933787d06d6630a97bba1030</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_54a1420a933787d06d6630a97bba1030">efa1060a933787d06d6630a97bba1082</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 13:58:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

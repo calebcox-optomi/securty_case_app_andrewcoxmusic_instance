@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>10800</access_token_lifespan>
+        <active>true</active>
+        <allow_snc_user_exchange>false</allow_snc_user_exchange>
+        <auth_aig_client>false</auth_aig_client>
+        <auth_cimd_client>false</auth_cimd_client>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <bff_cookie_exchange_allowed>false</bff_cookie_exchange_allowed>
+        <bind_token_to_session>false</bind_token_to_session>
+        <certificate_url/>
+        <client_id>ffcdcc75593d45de83df78ee3788e364</client_id>
+        <client_secret>﷞﷟﷒3733622293e38b506d6630a97bba10c2﷬﷔1﷬﷭on7T471UjOSF0ESVqzVODg==Hvuw5y_xEGCyb1sUSSFNK08jpyRXOvK1bxvjnhQD4H9x_D8bQkIybN7rLG-5oyqm﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>7bee3469937b43d06d6630a97bba10ae</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <inbound_grant_type>authz_code</inbound_grant_type>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>Torq Inbound Integration</name>
+        <oauth_api_script/>
+        <only_rest_processor>false</only_rest_processor>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev437938.service-now.com/api/x_2241073_securi_0/security_case_inbound</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt/>
+        <scope_restriction_status>restricted</scope_restriction_status>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim>sys_id</sub_claim>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-07 19:33:35</sys_created_on>
+        <sys_id>3fee3469937b43d06d6630a97bba10ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Torq Inbound Integration</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>oauth_entity_3fee3469937b43d06d6630a97bba10ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-07 19:33:35</sys_updated_on>
+        <token_format>opaque</token_format>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user/>
+    </oauth_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</application>
+        <file_path/>
+        <instance_id>a0fc231eeb0e4710e483f459bad0cd22</instance_id>
+        <instance_name>dev437938</instance_name>
+        <name>oauth_entity_3fee3469937b43d06d6630a97bba10ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity"><oauth_entity action="INSERT_OR_UPDATE"><access>public</access><access_token_lifespan>10800</access_token_lifespan><active>true</active><allow_snc_user_exchange>false</allow_snc_user_exchange><auth_aig_client>false</auth_aig_client><auth_cimd_client>false</auth_cimd_client><auth_code_lifespan>60</auth_code_lifespan><auth_url/><bff_cookie_exchange_allowed>false</bff_cookie_exchange_allowed><bind_token_to_session>false</bind_token_to_session><certificate_url/><client_id>ffcdcc75593d45de83df78ee3788e364</client_id><client_secret>﷞﷟﷒3733622293e38b506d6630a97bba10c2﷬﷔1﷬﷭on7T471UjOSF0ESVqzVODg==Hvuw5y_xEGCyb1sUSSFNK08jpyRXOvK1bxvjnhQD4H9x_D8bQkIybN7rLG-5oyqm﷮﷯</client_secret><client_type/><client_uuid>7bee3469937b43d06d6630a97bba10ae</client_uuid><code_challenge_method>S256</code_challenge_method><comments/><default_grant_type>password</default_grant_type><extend_refresh_token_expiry>false</extend_refresh_token_expiry><id_token_lifespan>86400</id_token_lifespan><inbound_grant_type>authz_code</inbound_grant_type><jwt_provider/><login_url/><logo_url/><message_signature_lifespan>60</message_signature_lifespan><mobile_client>false</mobile_client><name>Torq Inbound Integration</name><oauth_api_script/><only_rest_processor>false</only_rest_processor><protocol_name/><public_client>false</public_client><redirect_url>https://dev437938.service-now.com/api/x_2241073_securi_0/security_case_inbound</redirect_url><refresh_token_lifespan>8640000</refresh_token_lifespan><refresh_token_url/><restricted_binding>false</restricted_binding><revoke_token_url/><salt/><scope_restriction_status>restricted</scope_restriction_status><send_client_credentials_as>request_body_parameter</send_client_credentials_as><skip_authorize>false</skip_authorize><sub_claim>sys_id</sub_claim><sys_class_name>oauth_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-07 19:33:35</sys_created_on><sys_id>3fee3469937b43d06d6630a97bba10ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Torq Inbound Integration</sys_name><sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package><sys_policy/><sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope><sys_update_name>oauth_entity_3fee3469937b43d06d6630a97bba10ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-07 19:33:35</sys_updated_on><token_format>opaque</token_format><token_url/><type>client</type><use_mutual_auth>false</use_mutual_auth><use_pkce>false</use_pkce><user/></oauth_entity></record_update>]]></payload>
+        <payload_hash>1512395559</payload_hash>
+        <record_name>Torq Inbound Integration</record_name>
+        <reverted_from/>
+        <source>4c38976a93eb8b506d6630a97bba1092</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-07 19:33:36</sys_created_on>
+        <sys_id>b7ee7c2d937b43d06d6630a97bba1076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a117db63a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-07 19:33:36</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>77ee7c2d2f7b43d0f79301e44c3aa775</update_guid>
+        <update_guid_history>77ee7c2d2f7b43d0f79301e44c3aa775:1512395559</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Torq Inbound Integration">c5224dfd93bbc3d06d6630a97bba10c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-08 14:26:05</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>0a01a5260315408cbc58507370ee9f90</sys_id>
+        <sys_metadata>3fee3469937b43d06d6630a97bba10ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Torq Inbound Integration</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_scope_delete display_value="">0b8eb1c3c9344f9e97012ded93406264</sys_scope_delete>
+        <sys_update_name>oauth_entity_3fee3469937b43d06d6630a97bba10ae</sys_update_name>
+        <sys_update_version display_value="oauth_entity_3fee3469937b43d06d6630a97bba10ae">b7ee7c2d937b43d06d6630a97bba1076</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-08 14:26:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

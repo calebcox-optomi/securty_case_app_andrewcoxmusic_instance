@@ -1,36 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script">
-  <sys_script action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>4705c6b8d8674797bb8262e3483d20a7</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_script_4705c6b8d8674797bb8262e3483d20a7</sys_update_name>
-    <abort_action>false</abort_action>
-    <access>package_private</access>
-    <action_delete>false</action_delete>
-    <action_insert>true</action_insert>
-    <action_query>false</action_query>
-    <action_update>true</action_update>
-    <active>true</active>
-    <add_message>false</add_message>
-    <advanced>true</advanced>
-    <change_fields>false</change_fields>
-    <client_callable>false</client_callable>
-    <collection>task_sla</collection>
-    <condition/>
-    <description/>
-    <execute_function>false</execute_function>
-    <filter_condition>task.sys_class_name=x_2241073_securi_0_sec_case</filter_condition>
-    <is_rest>false</is_rest>
-    <message/>
-    <name>Sync SLA Data to Security Case</name>
-    <order>200</order>
-    <priority>100</priority>
-    <rest_method/>
-    <rest_method_text/>
-    <rest_service/>
-    <rest_service_text/>
-    <rest_variables/>
-    <role_conditions/>
-    <script><![CDATA[(function() {
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>task_sla</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="task_sla">task.sys_class_name=x_2241073_securi_0_sec_case<item display_value="Security Case" endquery="false" field="task.sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_2241073_securi_0_sec_case"/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Sync SLA Data to Security Case</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function() {
     var taskId = current.getValue('task');
     if (!taskId) return;
 
@@ -87,9 +85,23 @@
     caseGR.update();
 })();
 ]]></script>
-    <sys_name>Sync SLA Data to Security Case</sys_name>
-    <sys_policy/>
-    <template/>
-    <when>after</when>
-  </sys_script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 19:14:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4705c6b8d8674797bb8262e3483d20a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sync SLA Data to Security Case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_script_4705c6b8d8674797bb8262e3483d20a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 19:14:14</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=4705c6b8d8674797bb8262e3483d20a7"/>
 </record_update>

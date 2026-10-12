@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="case_source" table="x_2241073_securi_0_sec_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>case_source</element>
+            <name>x_2241073_securi_0_sec_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-28 23:59:25</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>case_source</sys_name>
+            <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+            <sys_update_name>sys_choice_x_2241073_securi_0_sec_case_case_source</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-28 23:59:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>case_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Torq</label>
+            <language>en</language>
+            <name>x_2241073_securi_0_sec_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:22</sys_updated_on>
+            <value>torq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>case_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee Report</label>
+            <language>en</language>
+            <name>x_2241073_securi_0_sec_case</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:23</sys_updated_on>
+            <value>employee_report</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>case_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manual</label>
+            <language>en</language>
+            <name>x_2241073_securi_0_sec_case</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:23</sys_updated_on>
+            <value>manual</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>case_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>x_2241073_securi_0_sec_case</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:23</sys_updated_on>
+            <value>email</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

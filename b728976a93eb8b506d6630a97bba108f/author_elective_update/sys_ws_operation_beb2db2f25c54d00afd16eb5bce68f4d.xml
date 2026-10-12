@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+  <sys_ws_operation action="DELETE" apply_defaults="true">
+    <sys_id>beb2db2f25c54d00afd16eb5bce68f4d</sys_id>
+    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
+    <sys_update_name>sys_ws_operation_beb2db2f25c54d00afd16eb5bce68f4d</sys_update_name>
+    <active>true</active>
+    <consumes>application/json</consumes>
+    <consumes_customized>false</consumes_customized>
+    <default_operation_uri>/api/x_2241073_securi_0/security_case_inbound/case/{case_id}</default_operation_uri>
+    <enforce_acl>e521828077174667ab6b6b39b33ed7a1</enforce_acl>
+    <http_method>DELETE</http_method>
+    <name>Soft Delete Case</name>
+    <operation_script><![CDATA[(function process(request, response) {
+    var startTime = new GlideDateTime();
+    var httpStatus = 200;
+    var responseBody = {};
+    var caseId = '';
+
+    try {
+        var pathCaseId = request.pathParams.case_id;
+
+        var gr = new GlideRecord('x_2241073_securi_0_sec_case');
+        if (!gr.get(pathCaseId)) {
+            gr = new GlideRecord('x_2241073_securi_0_sec_case');
+            gr.addQuery('number', pathCaseId);
+            gr.query();
+            if (!gr.next()) {
+                httpStatus = 404;
+                responseBody = {
+                    error: {
+                        message: 'Case not found',
+                        detail: 'No Security Case found with identifier: ' + pathCaseId,
+                        status: 404
+                    }
+                };
+                response.setStatus(404);
+                response.setBody(responseBody);
+                _logWebhook(request, responseBody, httpStatus, startTime, caseId);
+                return;
+            }
+        }
+
+        caseId = gr.getUniqueValue();
+
+        // Soft-delete: set state to Cancelled (8)
+        gr.setValue('state', '8');
+        gr.update();
+
+        responseBody = {
+            result: {
+                sys_id: caseId,
+                number: gr.getValue('number'),
+                state: '8',
+                status: 'cancelled'
+            }
+        };
+
+        response.setStatus(200);
+        response.setBody(responseBody);
+
+    } catch (e) {
+        httpStatus = 500;
+        responseBody = {
+            error: {
+                message: 'Internal server error',
+                detail: e.toString(),
+                status: 500
+            }
+        };
+        response.setStatus(500);
+        response.setBody(responseBody);
+    }
+
+    _logWebhook(request, responseBody, httpStatus, startTime, caseId);
+
+})(request, response);
+
+function _logWebhook(request, responseBody, httpStatus, startTime, caseId) {
+    try {
+        var endTime = new GlideDateTime();
+        var duration = GlideDateTime.subtract(startTime, endTime);
+        var durationMs = duration.getNumericValue();
+        var log = new GlideRecord('x_2241073_securi_0_webhook_log');
+        log.initialize();
+        log.setValue('direction', 'inbound');
+        log.setValue('endpoint_url', request.uri);
+        log.setValue('http_method', 'DELETE');
+        log.setValue('http_status', httpStatus);
+        log.setValue('payload', '');
+        log.setValue('response_body', JSON.stringify(responseBody));
+        log.setValue('status', httpStatus < 400 ? 'success' : 'failure');
+        log.setValue('duration_ms', durationMs);
+        if (caseId) log.setValue('case_id', caseId);
+        log.insert();
+    } catch (e) {
+        gs.error('Failed to log webhook: ' + e.toString());
+    }
+}
+]]></operation_script>
+    <operation_uri>/api/x_2241073_securi_0/security_case_inbound/case/{case_id}</operation_uri>
+    <produces>application/json</produces>
+    <produces_customized>false</produces_customized>
+    <relative_path>/case/{case_id}</relative_path>
+    <request_example/>
+    <requires_acl_authorization>true</requires_acl_authorization>
+    <requires_authentication>true</requires_authentication>
+    <requires_snc_internal_role>true</requires_snc_internal_role>
+    <short_description>Soft-delete a Security Case by setting state to Cancelled</short_description>
+    <sys_policy/>
+    <web_service_definition>842c6e0364f94aaf8ed354a588244e29</web_service_definition>
+    <web_service_version/>
+  </sys_ws_operation>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</application>
+        <file_path/>
+        <instance_id>a0fc231eeb0e4710e483f459bad0cd22</instance_id>
+        <instance_name>dev437938</instance_name>
+        <name>sys_ws_operation_beb2db2f25c54d00afd16eb5bce68f4d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;
+  &lt;sys_ws_operation action="INSERT_OR_UPDATE" apply_defaults="true"&gt;
+    &lt;sys_id&gt;beb2db2f25c54d00afd16eb5bce68f4d&lt;/sys_id&gt;
+    &lt;sys_scope display_value="x_2241073_securi_0"&gt;b728976a93eb8b506d6630a97bba108f&lt;/sys_scope&gt;
+    &lt;sys_update_name&gt;sys_ws_operation_beb2db2f25c54d00afd16eb5bce68f4d&lt;/sys_update_name&gt;
+    &lt;active&gt;true&lt;/active&gt;
+    &lt;consumes&gt;application/json&lt;/consumes&gt;
+    &lt;consumes_customized&gt;false&lt;/consumes_customized&gt;
+    &lt;default_operation_uri&gt;/api/x_2241073_securi_0/security_case_inbound/case/{case_id}&lt;/default_operation_uri&gt;
+    &lt;enforce_acl&gt;e521828077174667ab6b6b39b33ed7a1&lt;/enforce_acl&gt;
+    &lt;http_method&gt;DELETE&lt;/http_method&gt;
+    &lt;name&gt;Soft Delete Case&lt;/name&gt;
+    &lt;operation_script&gt;&lt;![CDATA[(function process(request, response) {
+    var startTime = new GlideDateTime();
+    var httpStatus = 200;
+    var responseBody = {};
+    var caseId = '';
+
+    try {
+        var pathCaseId = request.pathParams.case_id;
+
+        var gr = new GlideRecord('x_2241073_securi_0_sec_case');
+        if (!gr.get(pathCaseId)) {
+            gr = new GlideRecord('x_2241073_securi_0_sec_case');
+            gr.addQuery('number', pathCaseId);
+            gr.query();
+            if (!gr.next()) {
+                httpStatus = 404;
+                responseBody = {
+                    error: {
+                        message: 'Case not found',
+                        detail: 'No Security Case found with identifier: ' + pathCaseId,
+                        status: 404
+                    }
+                };
+                response.setStatus(404);
+                response.setBody(responseBody);
+                _logWebhook(request, responseBody, httpStatus, startTime, caseId);
+                return;
+            }
+        }
+
+        caseId = gr.getUniqueValue();
+
+        // Soft-delete: set state to Cancelled (8)
+        gr.setValue('state', '8');
+        gr.update();
+
+        responseBody = {
+            result: {
+                sys_id: caseId,
+                number: gr.getValue('number'),
+                state: '8',
+                status: 'cancelled'
+            }
+        };
+
+        response.setStatus(200);
+        response.setBody(responseBody);
+
+    } catch (e) {
+        httpStatus = 500;
+        responseBody = {
+            error: {
+                message: 'Internal server error',
+                detail: e.toString(),
+                status: 500
+            }
+        };
+        response.setStatus(500);
+        response.setBody(responseBody);
+    }
+
+    _logWebhook(request, responseBody, httpStatus, startTime, caseId);
+
+})(request, response);
+
+function _logWebhook(request, responseBody, httpStatus, startTime, caseId) {
+    try {
+        var endTime = new GlideDateTime();
+        var duration = GlideDateTime.subtract(startTime, endTime);
+        var durationMs = duration.getNumericValue();
+        var log = new GlideRecord('x_2241073_securi_0_webhook_log');
+        log.initialize();
+        log.setValue('direction', 'inbound');
+        log.setValue('endpoint_url', request.uri);
+        log.setValue('http_method', 'DELETE');
+        log.setValue('http_status', httpStatus);
+        log.setValue('payload', '');
+        log.setValue('response_body', JSON.stringify(responseBody));
+        log.setValue('status', httpStatus &lt; 400 ? 'success' : 'failure');
+        log.setValue('duration_ms', durationMs);
+        if (caseId) log.setValue('case_id', caseId);
+        log.insert();
+    } catch (e) {
+        gs.error('Failed to log webhook: ' + e.toString());
+    }
+}
+]]&gt;&lt;/operation_script&gt;
+    &lt;operation_uri&gt;/api/x_2241073_securi_0/security_case_inbound/case/{case_id}&lt;/operation_uri&gt;
+    &lt;produces&gt;application/json&lt;/produces&gt;
+    &lt;produces_customized&gt;false&lt;/produces_customized&gt;
+    &lt;relative_path&gt;/case/{case_id}&lt;/relative_path&gt;
+    &lt;request_example/&gt;
+    &lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;
+    &lt;requires_authentication&gt;true&lt;/requires_authentication&gt;
+    &lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;
+    &lt;short_description&gt;Soft-delete a Security Case by setting state to Cancelled&lt;/short_description&gt;
+    &lt;sys_policy/&gt;
+    &lt;web_service_definition&gt;842c6e0364f94aaf8ed354a588244e29&lt;/web_service_definition&gt;
+    &lt;web_service_version/&gt;
+  &lt;/sys_ws_operation&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>314704817</payload_hash>
+        <record_name>Soft Delete Case</record_name>
+        <reverted_from/>
+        <source>3f58190393eb4f506d6630a97bba10d1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 03:00:45</sys_created_on>
+        <sys_id>0498110793eb4f506d6630a97bba101d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0f041e6fe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 03:00:45</sys_updated_on>
+        <type>Scripted REST Resource</type>
+        <update_guid>c0981107e0eb4f505ce007a434559f1c</update_guid>
+        <update_guid_history>c0981107e0eb4f505ce007a434559f1c:314704817</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-07 19:34:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_operation">sys_ws_operation</sys_db_object>
+        <sys_id>1546e434bf6547b3a4eb8745016e26c1</sys_id>
+        <sys_metadata>beb2db2f25c54d00afd16eb5bce68f4d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Soft Delete Case</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_scope_delete display_value="">0b8eb1c3c9344f9e97012ded93406264</sys_scope_delete>
+        <sys_update_name>sys_ws_operation_beb2db2f25c54d00afd16eb5bce68f4d</sys_update_name>
+        <sys_update_version display_value="sys_ws_operation_beb2db2f25c54d00afd16eb5bce68f4d">0498110793eb4f506d6630a97bba101d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-07 19:34:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
-  <sys_db_view action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>2d5198c7321e43a18324c7040ab2f4c8</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_db_view_2d5198c7321e43a18324c7040ab2f4c8</sys_update_name>
-    <label>Security Case SLA View</label>
-    <name>x_2241073_securi_0_sla_view</name>
-    <plural>Security Case SLA Views</plural>
-  </sys_db_view>
+    <sys_db_view action="INSERT_OR_UPDATE">
+        <description/>
+        <label>Security Case SLA View</label>
+        <name>x_2241073_securi_0_sla_view</name>
+        <plural>Security Case SLA Views</plural>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 19:14:02</sys_created_on>
+        <sys_id>2d5198c7321e43a18324c7040ab2f4c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2241073_securi_0_sla_view</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_db_view_2d5198c7321e43a18324c7040ab2f4c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 19:14:02</sys_updated_on>
+    </sys_db_view>
 </record_update>

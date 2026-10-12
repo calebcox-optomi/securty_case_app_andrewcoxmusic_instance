@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Case Details" section_id="54d8a0f4265a4eeeae43470068727ca6" sys_domain="global" table="x_2241073_securi_0_sec_case" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>severity</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-08 19:00:26</sys_created_on>
+            <sys_id>73e0ce7193f307d06d6630a97bba1035</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-08 19:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-08 19:00:26</sys_created_on>
+            <sys_id>ffe0ce7193f307d06d6630a97bba1035</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-08 19:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>affected_users</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-08 19:00:26</sys_created_on>
+            <sys_id>7fe0ce7193f307d06d6630a97bba1036</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-08 19:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-08 19:00:26</sys_created_on>
+            <sys_id>fbe0ce7193f307d06d6630a97bba1037</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-08 19:00:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case_type</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-08 19:00:26</sys_created_on>
+            <sys_id>7be0ce7193f307d06d6630a97bba1038</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-08 19:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-08 19:00:26</sys_created_on>
+            <sys_id>f7e0ce7193f307d06d6630a97bba1039</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-08 19:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>affected_systems</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-08 19:00:26</sys_created_on>
+            <sys_id>77e0ce7193f307d06d6630a97bba103a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-08 19:00:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Case Details</caption>
+            <header>false</header>
+            <name>x_2241073_securi_0_sec_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 00:00:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54d8a0f4265a4eeeae43470068727ca6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_2241073_securi_0_sec_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+            <sys_update_name>sys_ui_section_54d8a0f4265a4eeeae43470068727ca6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-08 18:55:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</application>
+        <file_path/>
+        <instance_id>a0fc231eeb0e4710e483f459bad0cd22</instance_id>
+        <instance_name>dev437938</instance_name>
+        <name>sys_ui_section_54d8a0f4265a4eeeae43470068727ca6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Case Details" section_id="54d8a0f4265a4eeeae43470068727ca6" sys_domain="global" table="x_2241073_securi_0_sec_case" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>severity</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-08 19:00:26</sys_created_on><sys_id>73e0ce7193f307d06d6630a97bba1035</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-08 19:00:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-08 19:00:26</sys_created_on><sys_id>ffe0ce7193f307d06d6630a97bba1035</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-08 19:00:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>affected_users</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-08 19:00:26</sys_created_on><sys_id>7fe0ce7193f307d06d6630a97bba1036</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-08 19:00:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-08 19:00:26</sys_created_on><sys_id>fbe0ce7193f307d06d6630a97bba1037</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-08 19:00:26</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>case_type</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-08 19:00:26</sys_created_on><sys_id>7be0ce7193f307d06d6630a97bba1038</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-08 19:00:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-08 19:00:26</sys_created_on><sys_id>f7e0ce7193f307d06d6630a97bba1039</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-08 19:00:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>affected_systems</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-08 19:00:26</sys_created_on><sys_id>77e0ce7193f307d06d6630a97bba103a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Case Details" display_value="Case Details" name="x_2241073_securi_0_sec_case" sys_domain="global" view="Default view">54d8a0f4265a4eeeae43470068727ca6</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-08 19:00:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Case Details</caption><header>false</header><name>x_2241073_securi_0_sec_case</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-29 00:00:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>54d8a0f4265a4eeeae43470068727ca6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_2241073_securi_0_sec_case</sys_name><sys_overrides/><sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package><sys_policy/><sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope><sys_update_name>sys_ui_section_54d8a0f4265a4eeeae43470068727ca6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-08 18:55:00</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-425852088</payload_hash>
+        <record_name>Security Case</record_name>
+        <reverted_from/>
+        <source>4c38976a93eb8b506d6630a97bba1092</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-08 19:00:26</sys_created_on>
+        <sys_id>fbe0ce7193f307d06d6630a97bba103e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a11ce363150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-08 19:00:26</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>fbe0ce7139f307d00129cfbc46a36f3d</update_guid>
+        <update_guid_history>fbe0ce7139f307d00129cfbc46a36f3d:-425852088,30bf35fdb1b307d05aa17c844dc385e9:1349302271,d4bf35fd5ab307d0d76d3a7d0803461b:-1497522020,34a56726456f8b50b36bbcc375f06f97:-1684057993</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 15:35:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0b9a6d9094bb4b688eefa113c5119a40</sys_id>
+        <sys_metadata>54d8a0f4265a4eeeae43470068727ca6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case Details</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_parent display_value="Security Case">f798d1c5372040a2b63efbbd051c5479</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_scope_delete display_value="">0b8eb1c3c9344f9e97012ded93406264</sys_scope_delete>
+        <sys_update_name>sys_ui_section_54d8a0f4265a4eeeae43470068727ca6</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_54d8a0f4265a4eeeae43470068727ca6">fbe0ce7193f307d06d6630a97bba103e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 15:35:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

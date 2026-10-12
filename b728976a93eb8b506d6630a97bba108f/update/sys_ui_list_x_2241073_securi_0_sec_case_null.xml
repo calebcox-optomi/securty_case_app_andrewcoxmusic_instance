@@ -1,59 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-  <sys_ui_list parent="" relationship="" sys_domain="global" table="x_2241073_securi_0_sec_case" view="">
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>564d034faaad4df181eb60bfb2935203</sys_id>
-      <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
-      <element>number</element>
-      <position>0</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>e4d132c02bf44beb974e793702c46c93</sys_id>
-      <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
-      <element>short_description</element>
-      <position>1</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>b72626cdc02e452383fd9cffe9b403fa</sys_id>
-      <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
-      <element>state</element>
-      <position>2</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>8e7b8dd3550046a38674df209192bce8</sys_id>
-      <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
-      <element>severity</element>
-      <position>3</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>e86f78e3f8ed41c3a1ecdde5d5a8320e</sys_id>
-      <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
-      <element>category</element>
-      <position>4</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>1d3e9a48d82544be9df99a2b654f3949</sys_id>
-      <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
-      <element>assigned_to</element>
-      <position>5</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>5bf21e98e2e3488bb7e260a451e92c5d</sys_id>
-      <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
-      <element>assignment_group</element>
-      <position>6</position>
-    </sys_ui_list_element>
-    <sys_ui_list_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>843553f8666340ff8387b8fd1fb74f33</sys_id>
-      <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
-      <element>opened_at</element>
-      <position>7</position>
-    </sys_ui_list_element>
-    <sys_ui_list action="INSERT_OR_UPDATE" apply_defaults="true">
-      <sys_id>51c6197c83a44b1384d64f7a06f8c2c4</sys_id>
-      <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-      <view name="NULL">Default view</view>
-      <name>x_2241073_securi_0_sec_case</name>
-      <sys_domain>global</sys_domain>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_2241073_securi_0_sec_case" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:46</sys_created_on>
+            <sys_id>564d034faaad4df181eb60bfb2935203</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:46</sys_created_on>
+            <sys_id>e4d132c02bf44beb974e793702c46c93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:46</sys_created_on>
+            <sys_id>b72626cdc02e452383fd9cffe9b403fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>severity</element>
+            <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:46</sys_created_on>
+            <sys_id>8e7b8dd3550046a38674df209192bce8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:46</sys_created_on>
+            <sys_id>e86f78e3f8ed41c3a1ecdde5d5a8320e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:46</sys_created_on>
+            <sys_id>1d3e9a48d82544be9df99a2b654f3949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:46</sys_created_on>
+            <sys_id>5bf21e98e2e3488bb7e260a451e92c5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opened_at</element>
+            <list_id display_value="x_2241073_securi_0_sec_case" element="NULL" name="x_2241073_securi_0_sec_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">51c6197c83a44b1384d64f7a06f8c2c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:46</sys_created_on>
+            <sys_id>843553f8666340ff8387b8fd1fb74f33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_2241073_securi_0_sec_case</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51c6197c83a44b1384d64f7a06f8c2c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2241073_securi_0_sec_case</sys_name>
+            <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+            <sys_update_name>sys_ui_list_x_2241073_securi_0_sec_case_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
     </sys_ui_list>
-  </sys_ui_list>
 </record_update>

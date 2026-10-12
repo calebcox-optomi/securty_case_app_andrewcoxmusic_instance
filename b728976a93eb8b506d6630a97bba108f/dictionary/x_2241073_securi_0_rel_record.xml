@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3ea7abacee9b49289616f7c390327046" label="Related Record" name="x_2241073_securi_0_rel_record" type="collection">
+        <element label="Relationship" max_length="255" name="relationship" type="string"/>
+        <element dependent="related_type" dependent_on_field="related_type" label="Related Record" name="related_id" type="document_id" use_dependent_field="true"/>
+        <element label="Security Case" mandatory="true" name="case_id" reference="x_2241073_securi_0_sec_case" type="reference"/>
+        <element default="javascript:gs.nowDateTime()" label="Created" name="created_at" type="glide_date_time"/>
+        <element label="Related Table" name="related_type" type="table_name"/>
+        <index name="index">
+            <element name="case_id"/>
+        </index>
+        <index name="index2">
+            <element name="related_id"/>
+        </index>
+    </element>
+</database>

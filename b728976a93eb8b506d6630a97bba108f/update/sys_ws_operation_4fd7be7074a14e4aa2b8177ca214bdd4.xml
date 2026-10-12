@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
-  <sys_ws_operation action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>4fd7be7074a14e4aa2b8177ca214bdd4</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_ws_operation_4fd7be7074a14e4aa2b8177ca214bdd4</sys_update_name>
-    <active>true</active>
-    <consumes>application/json</consumes>
-    <consumes_customized>false</consumes_customized>
-    <default_operation_uri>/api/x_2241073_securi_0/security_case_inbound/case</default_operation_uri>
-    <enforce_acl>e521828077174667ab6b6b39b33ed7a1</enforce_acl>
-    <http_method>POST</http_method>
-    <name>Create or Update Case</name>
-    <operation_script><![CDATA[(function process(request, response) {
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>e521828077174667ab6b6b39b33ed7a1</enforce_acl>
+        <http_method>POST</http_method>
+        <name>Create Case</name>
+        <operation_script><![CDATA[(function process(request, response) {
     var startTime = new GlideDateTime();
     var httpStatus = 200;
     var responseBody = {};
@@ -29,9 +26,9 @@
             httpStatus = 400;
             responseBody = {
                 error: {
+					code: httpStatus,
                     message: 'Missing required fields',
-                    detail: 'The following fields are required: ' + missing.join(', '),
-                    status: 400
+                    details: 'The following fields are required: ' + missing.join(', ')
                 }
             };
             response.setStatus(400);
@@ -65,7 +62,8 @@
             'torq_incident_url': 'torq_incident_url',
             'case_type': 'case_type',
             'affected_systems': 'affected_systems',
-            'affected_users': 'affected_users'
+            'affected_users': 'affected_users',
+			'priority': 'priority'
         };
 
         for (var key in optionalFields) {
@@ -89,10 +87,12 @@
 
         responseBody = {
             result: {
+				case_number: resultGR.getValue('number'),
                 sys_id: caseId,
-                number: resultGR.getValue('number'),
                 state: resultGR.getValue('state'),
-                status: isNew ? 'created' : 'updated'
+                assigned_to: resultGR.getDisplayValue('assigned_to'),
+				assignment_group: resultGR.getDisplayValue('assignment_group'),
+				sla_due_date: resultGR.getValue('sla_due')
             }
         };
 
@@ -103,9 +103,9 @@
         httpStatus = 500;
         responseBody = {
             error: {
+				code: httpStatus,
                 message: 'Internal server error',
-                detail: e.toString(),
-                status: 500
+                details: e.toString()
             }
         };
         response.setStatus(500);
@@ -141,17 +141,29 @@ function _logWebhook(request, responseBody, httpStatus, startTime, caseId) {
     }
 }
 ]]></operation_script>
-    <operation_uri>/api/x_2241073_securi_0/security_case_inbound/case</operation_uri>
-    <produces>application/json</produces>
-    <produces_customized>false</produces_customized>
-    <relative_path>/case</relative_path>
-    <request_example/>
-    <requires_acl_authorization>true</requires_acl_authorization>
-    <requires_authentication>true</requires_authentication>
-    <requires_snc_internal_role>true</requires_snc_internal_role>
-    <short_description>Create a new Security Case or update an existing one by torq_incident_id</short_description>
-    <sys_policy/>
-    <web_service_definition>842c6e0364f94aaf8ed354a588244e29</web_service_definition>
-    <web_service_version/>
-  </sys_ws_operation>
+        <operation_uri>/api/x_2241073_securi_0/security_case_inbound/case</operation_uri>
+        <produces>application/json</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/case</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description>Create a new Security Case or update an existing one by torq_incident_id</short_description>
+        <support_trailing_slash>false</support_trailing_slash>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 03:00:45</sys_created_on>
+        <sys_id>4fd7be7074a14e4aa2b8177ca214bdd4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Create Case</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_ws_operation_4fd7be7074a14e4aa2b8177ca214bdd4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-08 18:57:52</sys_updated_on>
+        <web_service_definition display_value="Security Case Inbound API">842c6e0364f94aaf8ed354a588244e29</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
 </record_update>

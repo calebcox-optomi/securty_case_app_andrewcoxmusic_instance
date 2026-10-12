@@ -1,80 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-  <sys_ui_section caption="Case Team Member" section_id="76b8d5b818ac44b4b2f0ad9075ea30ef" sys_domain="global" table="x_2241073_securi_0_case_team" view="">
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.begin_split</element>
-      <position>0</position>
-      <sys_id>5d15d38c19fc4751b2b0aa83cbcb7a9d</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
-      <sys_user/>
-      <type>.begin_split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>case_id</element>
-      <position>1</position>
-      <sys_id>8ceaa5d07b2749dc93cc350011eca85a</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>role</element>
-      <position>2</position>
-      <sys_id>43d0e7c70a3d43d4b34cb0998f3cb70e</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.split</element>
-      <position>3</position>
-      <sys_id>2e966d3885034b39befbb75cc74d86a0</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
-      <sys_user/>
-      <type>.split</type>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>user_id</element>
-      <position>4</position>
-      <sys_id>56e9cd3089fb425284839c0ba71f77f0</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>added_at</element>
-      <position>5</position>
-      <sys_id>beb0bec4425f4288ad87d30f44553454</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
-      <sys_user/>
-      <type/>
-    </sys_ui_element>
-    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
-      <element>.end_split</element>
-      <position>6</position>
-      <sys_id>ff3c879a7523493e8d3137f0f914ce8a</sys_id>
-      <sys_ui_formatter/>
-      <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
-      <sys_user/>
-      <type>.end_split</type>
-    </sys_ui_element>
-    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
-      <caption>Case Team Member</caption>
-      <header>false</header>
-      <name>x_2241073_securi_0_case_team</name>
-      <roles/>
-      <sys_domain>global</sys_domain>
-      <sys_id>76b8d5b818ac44b4b2f0ad9075ea30ef</sys_id>
-      <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-      <sys_user/>
-      <title>false</title>
-      <view_name/>
-      <view display_value="Default view" name="NULL">Default view</view>
+    <sys_ui_section caption="Case Team Member" section_id="76b8d5b818ac44b4b2f0ad9075ea30ef" sys_domain="global" table="x_2241073_securi_0_case_team" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:49</sys_created_on>
+            <sys_id>5d15d38c19fc4751b2b0aa83cbcb7a9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:49</sys_created_on>
+            <sys_id>8ceaa5d07b2749dc93cc350011eca85a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>role</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:49</sys_created_on>
+            <sys_id>43d0e7c70a3d43d4b34cb0998f3cb70e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:49</sys_created_on>
+            <sys_id>2e966d3885034b39befbb75cc74d86a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_id</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:49</sys_created_on>
+            <sys_id>56e9cd3089fb425284839c0ba71f77f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>added_at</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:49</sys_created_on>
+            <sys_id>beb0bec4425f4288ad87d30f44553454</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-30 21:09:49</sys_created_on>
+            <sys_id>ff3c879a7523493e8d3137f0f914ce8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Team Member" display_value="Case Team Member" name="x_2241073_securi_0_case_team" sys_domain="global" view="Default view">76b8d5b818ac44b4b2f0ad9075ea30ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-30 21:09:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Case Team Member</caption>
+            <header>false</header>
+            <name>x_2241073_securi_0_case_team</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-09-29 00:00:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76b8d5b818ac44b4b2f0ad9075ea30ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2241073_securi_0_case_team</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+            <sys_update_name>sys_ui_section_76b8d5b818ac44b4b2f0ad9075ea30ef</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-09-29 00:00:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
     </sys_ui_section>
-  </sys_ui_section>
 </record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_2241073_securi_0.admin" name="x_2241073_securi_0.admin">208d967e93e30f506d6630a97bba1092</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 13:23:46</sys_created_on>
+        <sys_id>6c9d967e93e30f506d6630a97bba10ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>208d967e93e30f506d6630a97bba1092</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_embedded_help_role_6c9d967e93e30f506d6630a97bba10ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 13:23:46</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

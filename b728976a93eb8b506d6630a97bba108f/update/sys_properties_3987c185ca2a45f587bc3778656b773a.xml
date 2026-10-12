@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
-  <sys_properties action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>3987c185ca2a45f587bc3778656b773a</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_properties_3987c185ca2a45f587bc3778656b773a</sys_update_name>
-    <choices/>
-    <description>User_name of the Torq service account. Used by BR8 to identify Torq-created cases instead of role check. Set post-deployment.</description>
-    <ignore_cache>false</ignore_cache>
-    <is_private>false</is_private>
-    <name>x_2241073_securi_0.torq_service_account</name>
-    <read_roles>admin</read_roles>
-    <suffix>torq_service_account</suffix>
-    <type>string</type>
-    <value/>
-    <write_roles>admin</write_roles>
-  </sys_properties>
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>User_name of the Torq service account. Used by BR8 to identify Torq-created cases instead of role check. Set post-deployment.</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_2241073_securi_0.torq_service_account</name>
+        <read_roles>admin</read_roles>
+        <suffix>torq_service_account</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 20:41:55</sys_created_on>
+        <sys_id>3987c185ca2a45f587bc3778656b773a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2241073_securi_0.torq_service_account</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sys_properties_3987c185ca2a45f587bc3778656b773a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 20:41:55</sys_updated_on>
+        <type>string</type>
+        <value/>
+        <write_roles>admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=3987c185ca2a45f587bc3778656b773a"/>
 </record_update>

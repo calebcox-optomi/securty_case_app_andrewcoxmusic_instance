@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="use_document_viewer=true" audit="true" db_object_id="f798d1c5372040a2b63efbbd051c5479" extends="task" label="Security Case" max_length="40" name="x_2241073_securi_0_sec_case" text_index="true" type="collection">
+        <element label="Case Type" max_length="121" name="case_type" type="string"/>
+        <element choice="3" default="1" label="SLA Status" max_length="40" name="sla_status" read_only="true" read_only_option="instance_configured" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Breached" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="On Track" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="At Risk" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element choice="3" default="3" label="Severity" mandatory="true" max_length="40" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Medium" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element label="Remediation Actions" name="remediation_actions" type="html"/>
+        <element label="Response Due" name="response_due" read_only="true" read_only_option="instance_configured" type="glide_date_time"/>
+        <element label="Resolution Due" name="resolution_due" read_only="true" read_only_option="instance_configured" type="glide_date_time"/>
+        <element default="manual" label="Case Source" name="case_source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Email" sequence="4" value="email"/>
+                <element inactive_on_update="false" label="Torq" sequence="1" value="torq"/>
+                <element inactive_on_update="false" label="Manual" sequence="3" value="manual"/>
+                <element inactive_on_update="false" label="Employee Report" sequence="2" value="employee_report"/>
+            </choice>
+        </element>
+        <element label="Category" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Phishing" sequence="1" value="phishing"/>
+                <element inactive_on_update="false" label="Unauthorized Access" sequence="4" value="unauthorized_access"/>
+                <element inactive_on_update="false" label="Insider Threat" sequence="5" value="insider_threat"/>
+                <element inactive_on_update="false" label="Denial of Service" sequence="6" value="denial_of_service"/>
+                <element inactive_on_update="false" label="Other" sequence="7" value="other"/>
+                <element inactive_on_update="false" label="Malware" sequence="2" value="malware"/>
+                <element inactive_on_update="false" label="Data Breach" sequence="3" value="data_breach"/>
+            </choice>
+        </element>
+        <element label="Investigation Summary" name="investigation_summary" type="html"/>
+        <element label="Detection Source" max_length="255" name="detection_source" type="string"/>
+        <element label="Affected Systems" name="affected_systems" reference="cmdb_ci" type="glide_list"/>
+        <element label="Torq Incident URL" name="torq_incident_url" type="url"/>
+        <element default="javascript:gs.getUserID()" label="Caller" name="caller_id" reference="sys_user" type="reference"/>
+        <element label="Resolved By" name="resolved_by" read_only="true" read_only_option="instance_configured" reference="sys_user" type="reference"/>
+        <element label="Resolved" name="resolved_at" read_only="true" read_only_option="instance_configured" type="glide_date_time"/>
+        <element label="Affected Users" name="affected_users" reference="sys_user" type="glide_list"/>
+        <element label="Lessons Learned" name="lessons_learned" type="html"/>
+        <element label="Torq Incident ID" max_length="100" name="torq_incident_id" type="string"/>
+        <element label="Assigned" name="assigned_at" read_only="true" read_only_option="instance_configured" type="glide_date_time"/>
+        <element label="Containment Actions" name="containment_actions" type="html"/>
+        <element dependent="category" dependent_on_field="category" label="Subcategory" max_length="120" name="subcategory" type="string" use_dependent_field="true"/>
+        <element label="Root Cause" name="root_cause" type="html"/>
+    </element>
+</database>

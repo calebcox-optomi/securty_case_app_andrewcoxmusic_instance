@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Webhook Details" section_id="022b4e8e937787d06d6630a97bba1040" sys_domain="global" table="x_2241073_securi_0_webhook_log" version="3" view="workspace-security-case-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>4e2b42ce937787d06d6630a97bba104a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>ca2b42ce937787d06d6630a97bba1052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>direction</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>c62b42ce937787d06d6630a97bba1054</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>endpoint_url</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>4a2b42ce937787d06d6630a97bba104c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>http_method</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>ca2b42ce937787d06d6630a97bba104b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>462b42ce937787d06d6630a97bba104e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>http_status</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>4e2b42ce937787d06d6630a97bba1051</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>462b42ce937787d06d6630a97bba1055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sent_at</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>ce2b42ce937787d06d6630a97bba1050</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>duration_ms</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>c22b42ce937787d06d6630a97bba104f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>c62b42ce937787d06d6630a97bba104d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payload</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>422b42ce937787d06d6630a97bba1050</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>response_body</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_id>4a2b42ce937787d06d6630a97bba1053</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Webhook Details" display_value="Webhook Details" name="x_2241073_securi_0_webhook_log" sys_domain="global" view="cf0b828ec37787d0e40c58197f6da3b2">022b4e8e937787d06d6630a97bba1040</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Webhook Details</caption>
+            <header>false</header>
+            <name>x_2241073_securi_0_webhook_log</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-09 14:23:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>022b4e8e937787d06d6630a97bba1040</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2241073_securi_0_webhook_log</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+            <sys_update_name>sys_ui_section_022b4e8e937787d06d6630a97bba1040</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-09 14:23:35</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Security Case Management 0" name="workspace-security-case-management-0">cf0b828ec37787d0e40c58197f6da3b2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

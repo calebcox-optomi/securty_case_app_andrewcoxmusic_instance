@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
-  <sys_security_acl_role action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>75359153ac524365b8be7444e02396a8</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sys_security_acl_role_75359153ac524365b8be7444e02396a8</sys_update_name>
-    <sys_security_acl>9031026a76a44155a1b96de179a25857</sys_security_acl>
-    <sys_user_role name="x_2241073_securi_0.torq_integration">30ddb63c2f6d477d9f4ca2a0bdd0e944</sys_user_role>
-  </sys_security_acl_role>
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-28 23:59:57</sys_created_on>
+        <sys_id>75359153ac524365b8be7444e02396a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2241073_securi_0_webhook_log.</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_security_acl display_value="x_2241073_securi_0_webhook_log">9031026a76a44155a1b96de179a25857</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_75359153ac524365b8be7444e02396a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-28 23:59:57</sys_updated_on>
+        <sys_user_role display_value="x_2241073_securi_0.torq_integration" name="x_2241073_securi_0.torq_integration">30ddb63c2f6d477d9f4ca2a0bdd0e944</sys_user_role>
+    </sys_security_acl_role>
 </record_update>

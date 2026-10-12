@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_script_action">
-  <sysevent_script_action action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>65a18a44173c44fe871220b88f5f7b4a</sys_id>
-    <sys_scope display_value="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_scope>
-    <sys_update_name>sysevent_script_action_65a18a44173c44fe871220b88f5f7b4a</sys_update_name>
-    <active>true</active>
-    <event_name>x_2241073_securi_0.sla.warning</event_name>
-    <name>Create Webhook for SLA Warning</name>
-    <order>100</order>
-    <script><![CDATA[// Creates outbound webhook log entry for SLA warning (80%)
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_2241073_securi_0.sla.warning</event_name>
+        <name>Create Webhook for SLA Warning</name>
+        <order>100</order>
+        <script><![CDATA[// Creates outbound webhook log entry for SLA warning (80%)
 // event.parm1 = case sys_id, event.parm2 = task_sla sys_id
 (function () {
     var enabled = gs.getProperty('x_2241073_securi_0.api.enabled', 'false');
@@ -68,5 +67,21 @@
     log.insert();
 })();
 ]]></script>
-  </sysevent_script_action>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 20:42:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>65a18a44173c44fe871220b88f5f7b4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Webhook for SLA Warning</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>sysevent_script_action_65a18a44173c44fe871220b88f5f7b4a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 20:42:12</sys_updated_on>
+    </sysevent_script_action>
 </record_update>
