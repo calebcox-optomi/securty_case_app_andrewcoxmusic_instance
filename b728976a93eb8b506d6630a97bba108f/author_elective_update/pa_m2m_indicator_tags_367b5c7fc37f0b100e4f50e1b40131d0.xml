@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_indicator_tags">
+    <pa_m2m_indicator_tags action="DELETE">
+        <indicator display_value="">3b3b547fc37f0b100e4f50e1b401319d</indicator>
+        <order/>
+        <sys_class_name>pa_m2m_indicator_tags</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-14 16:45:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>367b5c7fc37f0b100e4f50e1b40131d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.SOC</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>pa_m2m_indicator_tags_367b5c7fc37f0b100e4f50e1b40131d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-14 16:45:02</sys_updated_on>
+        <tag display_value="SOC">ea7b5c7fc37f0b100e4f50e1b40131ca</tag>
+    </pa_m2m_indicator_tags>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</application>
+        <file_path/>
+        <instance_id>3a3755321b4e861032182f8dee4bcb60</instance_id>
+        <instance_name>dev268614</instance_name>
+        <name>pa_m2m_indicator_tags_367b5c7fc37f0b100e4f50e1b40131d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_indicator_tags"><pa_m2m_indicator_tags action="INSERT_OR_UPDATE"><indicator display_value="">3b3b547fc37f0b100e4f50e1b401319d</indicator><order/><sys_class_name>pa_m2m_indicator_tags</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-14 16:45:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>367b5c7fc37f0b100e4f50e1b40131d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.SOC</sys_name><sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package><sys_policy/><sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope><sys_update_name>pa_m2m_indicator_tags_367b5c7fc37f0b100e4f50e1b40131d0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-14 16:45:02</sys_updated_on><tag display_value="SOC">ea7b5c7fc37f0b100e4f50e1b40131ca</tag></pa_m2m_indicator_tags></record_update>]]></payload>
+        <payload_hash>-1583916118</payload_hash>
+        <record_name>.SOC</record_name>
+        <reverted_from/>
+        <source>3b647abec3b343100e4f50e1b4013159</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-14 16:45:02</sys_created_on>
+        <sys_id>3a7b5c7fc37f0b100e4f50e1b40131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a13b4d95690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-14 16:45:02</sys_updated_on>
+        <type>Indicator Group</type>
+        <update_guid>f67b5c7fc47f0b10b07febe4db2f85d5</update_guid>
+        <update_guid_history>f67b5c7fc47f0b10b07febe4db2f85d5:-1583916118</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".SOC">137b1c3fc37f0b100e4f50e1b4013130</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-14 16:45:05</sys_created_on>
+        <sys_db_object display_value="" name="pa_m2m_indicator_tags">pa_m2m_indicator_tags</sys_db_object>
+        <sys_id>1a6644a32a4c44728a2e983848c6ff91</sys_id>
+        <sys_metadata>367b5c7fc37f0b100e4f50e1b40131d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.SOC</sys_name>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_scope_delete display_value="">0b8eb1c3c9344f9e97012ded93406264</sys_scope_delete>
+        <sys_update_name>pa_m2m_indicator_tags_367b5c7fc37f0b100e4f50e1b40131d0</sys_update_name>
+        <sys_update_version display_value="pa_m2m_indicator_tags_367b5c7fc37f0b100e4f50e1b40131d0">3a7b5c7fc37f0b100e4f50e1b40131d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-14 16:45:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

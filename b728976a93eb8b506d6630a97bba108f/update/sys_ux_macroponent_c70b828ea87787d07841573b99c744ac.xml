@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <bundles/>
+        <bundles>[]</bundles>
         <category>page</category>
         <component_dependencies/>
         <composition>[
@@ -138,13 +138,21 @@
                 },
                 "type": "CONTEXT_BINDING"
             },
+            "data": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
             "defaultDashboard": {
                 "type": "JSON_LITERAL",
                 "value": "0a2b42ce937787d06d6630a97bba1046"
             },
             "defaultDrilldowns": {
                 "type": "JSON_LITERAL",
-                "value": true
+                "value": false
+            },
+            "drilldownToCoreUI": {
+                "type": "JSON_LITERAL",
+                "value": false
             },
             "editMode": {
                 "type": "JSON_LITERAL",
@@ -162,6 +170,10 @@
                     "category": "app"
                 },
                 "type": "CONTEXT_BINDING"
+            },
+            "exportMode": {
+                "type": "JSON_LITERAL",
+                "value": ""
             },
             "filterId": {
                 "type": "JSON_LITERAL",
@@ -206,9 +218,13 @@
             },
             "tabSysId": {
                 "type": "JSON_LITERAL",
-                "value": ""
+                "value": "0a2b42ce937787d06d6630a97bba1046"
             },
             "useAsEmbedded": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "useDataBroker": {
                 "type": "JSON_LITERAL",
                 "value": false
             },
@@ -234,12 +250,11 @@
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
-        <form_factors/>
+        <form_factors>{}</form_factors>
         <handled_events/>
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{}</internal_event_mappings>
-        <keyboard_shortcuts/>
         <layout>{
     "default": {
         "children": null,
@@ -293,7 +308,6 @@
         "valueType": "string"
     }
 ]</props>
-        <required_sys_props/>
         <required_translations>[ ]</required_translations>
         <root_component/>
         <root_component_config>{}</root_component_config>
@@ -306,14 +320,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-10-09 14:23:10</sys_created_on>
         <sys_id>c70b828ea87787d07841573b99c744ac</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
         <sys_update_name>sys_ux_macroponent_c70b828ea87787d07841573b99c744ac</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-09 14:23:43</sys_updated_on>
+        <sys_updated_on>2026-10-13 14:07:53</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=c70b828ea87787d07841573b99c744ac"/>
 </record_update>

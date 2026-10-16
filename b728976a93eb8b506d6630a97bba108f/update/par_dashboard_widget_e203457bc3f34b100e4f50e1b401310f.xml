@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">3e2332d7c33f47100e4f50e1b4013171</canvas>
+        <component display_value="Gauge">037bd8ea3013833fd049186779528b70</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","minValue":0,"maxValue":100,"innerRadius":0.7,"valueLabelSize":"lg","gaugeArcAngle":"240","scoreLabel":"none","showZero":false,"showLabelFirst":false,"showRangeLimit":true,"showRangeLabels":true,"showRegister":false,"registerPosition":"bottom","registerOrientation":"horizontal","legendHorizontalAlignment":"center","rangesConfig":{"type":"red_to_green","data":[{"label":"50% or less","order":0,"maxValue":"50"},{"label":"50% - 75%","order":1,"minValue":"50","maxValue":"75"},{"label":"75% or greater","order":2,"minValue":"75"}]},"colorConfig":{},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"allowRealTime":false,"allowTotalValue":false,"indicatorType":"2","isScriptedIndicator":false,"allowMultiElementsAggregation":false,"aggregateType":1,"label":"Security Case SLA Compliance %","sourceType":"indicator","uuid":{"indicator":"9474303bc3734b100e4f50e1b4013177","breakdowns":[]},"preferredVisualizations":["18ac962264404bcc0039359d184b15f3"],"id":"aW5kaWNhdG9yOTQ3NDMwM2JjMzczNGIxMDBlNGY1MGUxYjQwMTMxNzcxNzkyMDA2MTY1NTI3","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"lineClamp":1,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"SLA Performance %","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"aW5kaWNhdG9yOTQ3NDMwM2JjMzczNGIxMDBlNGY1MGUxYjQwMTMxNzcxNzkyMDA2MTY1NTI3","id":"YVc1a2FXTmhkRzl5T1RRM05ETXdNMkpqTXpjek5HSXhNREJsTkdZMU1HVXhZalF3TVRNeE56Y3hOemt5TURBMk1UWTFOVEkzMTc5MjAwNjE2ODc4NA==","aggregateIndicator":"","frequency":60,"numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":true,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"f2b8ty05","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":true,"numberOfPeriods":null,"showAbsolutePeriod":true,"scoreType":"avg","showChangeFrom":"previous","startTime":"2026-07-14T19:34:26.958Z","endTime":"2026-10-14T20:06:29.672Z","useCurrentDateForEnd":true,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"userInfo":"@context.session.user","sharedContext":null,"colors":{}}</component_props>
+        <h>19</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-14 19:37:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e203457bc3f34b100e4f50e1b401310f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>par_dashboard_widget_e203457bc3f34b100e4f50e1b401310f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-14 20:10:59</sys_updated_on>
+        <visualization/>
+        <w>20</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

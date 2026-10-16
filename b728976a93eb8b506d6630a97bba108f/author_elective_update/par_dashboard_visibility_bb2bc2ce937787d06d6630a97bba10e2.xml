@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="DELETE">
+        <dashboard display_value="Security Case Management">0a2b42ce937787d06d6630a97bba1046</dashboard>
+        <experience display_value="Security Case Management">830b828ea17787d0cce602a1277797be</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 14:23:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb2bc2ce937787d06d6630a97bba10e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>par_dashboard_visibility_bb2bc2ce937787d06d6630a97bba10e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 14:23:42</sys_updated_on>
+    </par_dashboard_visibility>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</application>
+        <file_path/>
+        <instance_id>3a3755321b4e861032182f8dee4bcb60</instance_id>
+        <instance_name>dev268614</instance_name>
+        <name>par_dashboard_visibility_bb2bc2ce937787d06d6630a97bba10e2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Security Case Management">0a2b42ce937787d06d6630a97bba1046</dashboard>
+        <experience display_value="Security Case Management">830b828ea17787d0cce602a1277797be</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-09 14:23:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb2bc2ce937787d06d6630a97bba10e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>par_dashboard_visibility_bb2bc2ce937787d06d6630a97bba10e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-09 14:23:42</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>]]></payload>
+        <payload_hash>-1964467603</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ec0ce6bac37343100e4f50e1b40131a2</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 00:43:21</sys_created_on>
+        <sys_id>583c6efac37343100e4f50e1b4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a12d906b9c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 00:43:21</sys_updated_on>
+        <type>PAR Dashboard Visibility</type>
+        <update_guid>183c6efa117343101cfc3e949104ee66</update_guid>
+        <update_guid_history>183c6efa117343101cfc3e949104ee66:-1964467603</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3b1dcf0bc33fc3100e4f50e1b401312c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-12 21:45:43</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_visibility">par_dashboard_visibility</sys_db_object>
+        <sys_id>259797054da9435c9113ecf6cd91c6a4</sys_id>
+        <sys_metadata>bb2bc2ce937787d06d6630a97bba10e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_scope_delete display_value="">0b8eb1c3c9344f9e97012ded93406264</sys_scope_delete>
+        <sys_update_name>par_dashboard_visibility_bb2bc2ce937787d06d6630a97bba10e2</sys_update_name>
+        <sys_update_version display_value="par_dashboard_visibility_bb2bc2ce937787d06d6630a97bba10e2">583c6efac37343100e4f50e1b4013166</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-12 21:45:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators">
+    <pa_job_indicators action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <collect>1</collect>
+        <collect_indicator>true</collect_indicator>
+        <display>[PA Security Case] Daily Data Collection - Security Case SLA Completed</display>
+        <indicator display_value="Security Case SLA Completed">bd3434f7c3734b100e4f50e1b4013193</indicator>
+        <job display_value="[PA Security Case] Daily Data Collection">f1a0c5f3c3f34b100e4f50e1b40131d5</job>
+        <sys_class_name>pa_job_indicators</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-14 19:28:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bed049b3c3f34b100e4f50e1b4013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security Case SLA Completed.[PA Security Case] Daily Data Collection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Security Case Management" source="x_2241073_securi_0">b728976a93eb8b506d6630a97bba108f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Security Case Management">b728976a93eb8b506d6630a97bba108f</sys_scope>
+        <sys_update_name>pa_job_indicators_bed049b3c3f34b100e4f50e1b4013181</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-14 19:28:20</sys_updated_on>
+    </pa_job_indicators>
+</record_update>
